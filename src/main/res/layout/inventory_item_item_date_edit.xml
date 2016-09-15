@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="0dp"
+    android:paddingLeft="15dp"
+    android:paddingTop="15dp"
+    android:paddingRight="15dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NOME"
+        android:id="@+id/inventory_item_date_name"
+        android:textSize="11dp"
+        android:textColor="#666"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="3dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="2dp">
+
+        <EditText
+            android:layout_width="30dp"
+            android:layout_height="20dp"
+            android:id="@+id/inventory_item_date_day"
+            android:textSize="15dp"
+            android:textColor="#222"
+            android:singleLine="true"
+            android:gravity="bottom|center_horizontal"
+            android:editable="false"
+            android:background="#fff"
+            android:text="-" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="/"
+            android:id="@+id/textView"
+            android:textSize="15dp"
+            android:textColor="#666"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="0dp" />
+
+        <EditText
+            android:layout_width="30dp"
+            android:layout_height="20dp"
+            android:id="@+id/inventory_item_date_month"
+            android:textSize="15dp"
+            android:textColor="#222"
+            android:singleLine="true"
+            android:gravity="bottom|center_horizontal"
+            android:editable="false"
+            android:background="#fff"
+            android:text="-" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="/"
+            android:id="@+id/textView2"
+            android:textSize="15dp"
+            android:textColor="#666"
+            android:layout_gravity="bottom" />
+
+        <EditText
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            android:id="@+id/inventory_item_date_year"
+            android:textSize="15dp"
+            android:textColor="#222"
+            android:singleLine="true"
+            android:gravity="bottom|center_horizontal"
+            android:editable="false"
+            android:background="#fff"
+            android:text="-" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="m"
+            android:id="@+id/inventory_item_text_extra"
+            android:layout_marginLeft="5dp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#ccc"
+        android:layout_marginTop="5dp"></FrameLayout>
+
+</LinearLayout>

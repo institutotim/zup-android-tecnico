@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/case_item_cell_selecting"
+    android:keepScreenOn="true">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/divider_color"
+        android:elevation="@dimen/report_list_item_margin_between">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/textview_empty"
+            android:background="@drawable/button_toolbar_light"
+            android:drawableLeft="@drawable/ic_action_accept_blue"
+            android:onClick="finishEditing"
+            android:paddingLeft="@dimen/report_card_padding_item_left"
+            android:paddingRight="@dimen/report_list_item_padding"
+            android:text="@string/done"
+            android:textAllCaps="true" />
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:id="@+id/loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/loading_form_message"
+            android:textColor="@color/tabtext"
+            android:textSize="@dimen/report_list_item_title" />
+
+        <ProgressBar
+            style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="@dimen/loading_bar_width"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/inventory_padding"
+            android:indeterminate="true" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/inventory_item_create_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar">
+
+        <LinearLayout
+            android:id="@+id/inventory_item_create_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="@style/ReportCardContainer"
+            android:orientation="vertical" />
+    </ScrollView>
+</RelativeLayout>

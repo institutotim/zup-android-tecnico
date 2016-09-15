@@ -1,0 +1,74 @@
+Scenarios
+
+                        ========= User ==============
+
+    Scenario 1: As a logged user I can see my info                                                                                  OK
+
+    Scenario 1: As a logged user I can logout                                                                                       OK
+
+
+                        ========= Reports ===========
+
+    Scenario 1: As a logged user with permissions to see Reports List I can go to the ReportsList Activity                          OK
+
+    Scenario 2: As a logged user with permissions to see Reports List I can go see the reports list in a map                        OK
+
+    Scenario 3: As a logged user with permissions to see Reports List I can search for a report                                     OK
+
+    Scenario 4: As a logged user with permissions to see Reports List I can see a reports                                           OK
+
+    Scenario 5: As a logged user with permissions to create a Report I can create a Report                                          OK
+
+    Scenario 6: As a logged user with permissions to edit a Report I can edit a Report                                              OK
+
+    Scenario 7: As a logged user with permissions to delete a Report I can delete a Report                                          OK
+
+    Scenario 8: As a logged user with permissions to see Reports List I can order the List                                          OK 
+
+    Scenario 9: As a logged user with permissions to see Reports List I can filter the list by status                               OK 
+
+    Scenario 10: As a logged user with permissions to see Reports List I can filter the list by category                            OK  
+
+    Scenario 11: As a logged user with permissions to see Reports List I can filter the list by reports requested by User           OK  
+
+    Scenario 12: As a logged user with permissions to see Reports List I can filter the list by reports created by user             OK
+
+    Scenario 12: As a logged user with permissions to see Reports List I can filter the list by reports related to me               OK
+
+    Scenario 13: As a logged user with permissions to see Reports List I can filter the list by reports related to my group         OK 
+
+    Scenario 14: As a logged user with permissions to see Reports List I can filter the list by a date range
+
+                        ========= Inventory ===========
+
+    Scenario 1: As a logged user with permissions to see Inventory List I can go to the InventoryList Activity                      OK
+
+    Scenario 2: As a logged user with permissions to see Inventory List I can go see the inventory list in a map                    OK
+
+    Scenario 3: As a logged user with permissions to see Inventory List I can search for a inventory item                           OK
+
+    Scenario 4: As a logged user with permissions to see Inventory List I can see a inventory item                                  OK
+
+    Scenario 5: As a logged user with permissions to create a Inventory I can create a inventory item                               OK
+
+    Scenario 6: As a logged user with permissions to edit a Inventory I can edit a inventory item                                   OK
+
+    Scenario 7: As a logged user with permissions to delete a Inventory I can delete a inventory item                               OK
+
+    Scenario 8: As a logged user with permissions to see Inventory List I can order the list                                        OK
+
+    Scenario 9: As a logged user with permissions to see Inventory List I can filter the list by category                           OK                  
+
+    Scenario 10: As a logged user with permissions to see Inventory List I can filter the list by status                            OK
+
+    Scenario 11: As a logged user with permissions to see Inventory List I can filter the list by a date range
+
+    Scenario 12: As a logged user with permissions to see Inventory List I can filter the list by inventory related to user         OK
+
+                        ========= Sync ===========    
+
+    Scenario 1: As a logged user with sync pending I can go to Sync Activity                                                        OK
+
+    Scenario 5: As a logged user with sync successfull I can clear successful sync list                                             OK
+
+

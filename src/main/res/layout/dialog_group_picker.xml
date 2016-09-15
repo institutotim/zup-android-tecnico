@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/report_item_default">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/select_group"
+            android:id="@+id/textView31"
+            android:textSize="@dimen/activity_vertical_margin"
+            android:textColor="@color/comment_item_text"
+            android:layout_marginLeft="@dimen/report_card_padding_y"
+            android:layout_centerVertical="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/confirm_title"
+            android:textAllCaps="true"
+            android:id="@+id/confirm"
+            android:layout_alignParentRight="true"
+            android:textColor="@drawable/button_dialog_title"
+            android:padding="@dimen/report_card_padding_y"
+            android:layout_alignParentBottom="false"
+            android:layout_marginTop="@dimen/textview_padding"
+            android:textStyle="bold"
+            android:visibility="visible"
+            android:clickable="true" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divider_height"
+        android:background="@color/divider_color" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divider_height"
+        android:background="@color/divider_color" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/header_multiselection_clear"
+        android:paddingTop="@dimen/report_list_item_padding"
+        android:paddingBottom="@dimen/report_list_item_padding"
+        android:paddingLeft="@dimen/clear_filter_padding"
+        android:textColor="@drawable/button_dialog_title"
+        android:visibility="gone"/>
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView"
+        android:paddingLeft="@dimen/report_card_padding_y"
+        android:paddingRight="@dimen/report_card_padding_y" />
+</LinearLayout>

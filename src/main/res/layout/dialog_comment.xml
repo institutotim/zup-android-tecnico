@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Resposta"
+            android:id="@+id/textView31"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:layout_marginLeft="20dp"
+            android:layout_centerVertical="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ENVIAR"
+            android:id="@+id/confirm"
+            android:layout_alignParentRight="true"
+            android:textColor="@drawable/button_dialog_title"
+            android:padding="20dp"
+            android:layout_alignParentBottom="false"
+            android:layout_marginTop="3dp"
+            android:textStyle="bold"
+            android:visibility="visible"
+            android:clickable="true" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#eee" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/comment_type"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:background="@drawable/report_item_background"
+            android:id="@+id/comment_type_private_select">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Privada"
+                android:id="@+id/textView41"
+                android:textColor="#000"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pode ser visualizada apenas pelo solicitante"
+                android:id="@+id/textView44"
+                android:layout_below="@+id/textView41"
+                android:textColor="#aaa"
+                android:textSize="14dp"
+                android:layout_toLeftOf="@+id/comment_type_private"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="20dp"
+                android:layout_alignParentLeft="true" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/comment_type_private"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:clickable="false" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#eee" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:background="@drawable/report_item_background"
+            android:id="@+id/comment_type_public_select">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pública"
+                android:id="@+id/textView45"
+                android:textColor="#000"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pode ser visualizada por todos os usuários"
+                android:id="@+id/textView46"
+                android:layout_below="@+id/textView45"
+                android:textColor="#aaa"
+                android:textSize="14dp"
+                android:layout_toLeftOf="@+id/comment_type_public"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="20dp"
+                android:layout_alignParentLeft="true" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/comment_type_public"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:clickable="false" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#eee" />
+    </RadioGroup>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/comment_text"
+        android:background="#fff"
+        android:hint="Escreva uma resposta"
+        android:gravity="top|left"
+        android:padding="20dp" />
+
+</LinearLayout>

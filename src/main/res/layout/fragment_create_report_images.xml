@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/offline_warning_ripple">
+
+    <com.ntxdev.zuptecnico.ui.ScrollLessListView
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/report_images_container"
+            android:paddingLeft="@dimen/report_card_padding_item_left"
+            android:paddingRight="@dimen/activity_vertical_margin"
+            android:layout_marginBottom="@dimen/report_card_padding_y"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_images_title"
+        android:id="@+id/report_addimage"
+        android:layout_below="@+id/choose_assigner"
+        android:layout_alignLeft="@+id/choose_assigner"
+        android:textSize="@dimen/activity_vertical_margin"
+        android:textColor="@color/sidebar_selected"
+        android:layout_marginLeft="@dimen/margin_map_warning"
+        android:paddingLeft="@dimen/report_card_padding_item_left"
+        android:paddingTop="@dimen/report_card_padding_item_left"
+        android:paddingRight="@dimen/report_card_padding_item_left" />
+</LinearLayout>

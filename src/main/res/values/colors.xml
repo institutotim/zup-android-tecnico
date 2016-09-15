@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="zupblue">#2ab4dc</color>
+    <color name="zupblue_half">#7f2ab4dc</color>
+    <color name="zupblue_light">#4FBCDB</color>
+    <color name="tabhostbg">#dddddd</color>
+    <color name="tabborder">#bbbbbb</color>
+    <color name="tabtext">#666666</color>
+    <color name="warning_many_map">#dd000000</color>
+
+    <color name="halfwhite">#55ffffff</color>
+    <color name="toolbar_button_light">#00ffffff</color>
+    <color name="toolbar_button_light_pressed">#22000000</color>
+
+    <color name="sidebar_selected">#999999</color>
+    <color name="sidebar_notselected">#f2f2f2</color>
+    <color name="sidebar_selecting">#ddd</color>
+
+    <color name="case_item_cell_notselected">#0fff</color>
+    <color name="case_item_cell_notselected_new">#fff</color>
+    <color name="case_item_cell_selecting">#ddd</color>
+
+    <color name="document_list_default">#f2f2f2</color>
+    <color name="document_list_pending">#ffffff</color>
+    <color name="document_list_selecting">#ddd</color>
+    <color name="document_list_pending_selecting">#ccc</color>
+
+    <color name="report_item_selecting">#ddd</color>
+    <color name="report_item_default">#fff</color>
+    <color name="divider_color">#eee</color>
+    <color name="report_item_text_default">#222</color>
+
+    <color name="common_signin_btn_default_background">#7f050008</color>
+
+    <color name="pending_action_color">#ff666666</color>
+    <color name="running_action_color">#ffffac2d</color>
+    <color name="completed_action_color">#ff78c953</color>
+    <color name="error_action_color">#ffff6049</color>
+
+    <color name="waiting_sync_action_color">#999999</color>
+
+    <color name="tab_pressed">#cccccc</color>
+    <color name="tab_background">#dddddd</color>
+
+    <color name="editscreen_button_selecting">#ddd</color>
+    <color name="editscreen_button">#fff</color>
+    <color name="pickmap_invalid_bg">#ff5544</color>
+
+    <color name="sidebar_item_bg">#2ab4dc</color>
+    <color name="sidebar_item_bg_pressed">#4FBCDB</color>
+    <color name="field_label_error">#f00</color>
+    <color name="field_label_color">#aaa</color>
+
+    <color name="fake_comment_bg">#ffc80e</color>
+    <color name="comment_item_text">#000</color>
+    <color name="comment_item_subtext">#999</color>
+
+    <color name="offline_warning_normal">#ddd</color>
+    <color name="offline_warning_pressed">#ccc</color>
+    <color name="offline_warning_ripple">#fff</color>
+    <color name="offline_warning_text">#666</color>
+    <color name="pick_map_location_text">#000</color>
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:background="@drawable/report_item_background">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fragment_document_stateicon"
+        android:src="@drawable/documentos_lista_status_icon_sync"
+        android:focusableInTouchMode="true"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+        android:layout_marginTop="@dimen/report_list_item_padding" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fragment_document_title"
+        android:layout_alignTop="@id/fragment_document_stateicon"
+        android:layout_toRightOf="@id/fragment_document_stateicon"
+        android:layout_toEndOf="@id/fragment_document_stateicon"
+        android:layout_marginLeft="@dimen/report_list_item_title"
+        android:textSize="@dimen/report_card_title_property_text_size"
+        android:textColor="@color/report_item_text_default" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fragment_document_type"
+        android:textSize="@dimen/report_card_title_property_text_size"
+        android:layout_alignLeft="@+id/fragment_document_title"
+        android:textColor="@color/report_item_text_default"
+        android:layout_below="@+id/fragment_document_title" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fragment_document_desc"
+        android:layout_alignLeft="@+id/fragment_document_type"
+        android:textSize="@dimen/report_card_title_property_text_size"
+        android:layout_below="@+id/fragment_document_type"
+        android:textColor="@color/offline_warning_text" />
+
+    <ImageView
+        android:id="@+id/download_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/fragment_document_title"
+        android:src="@drawable/ic_cloud_download_black_24dp"
+        android:alpha="0.3"
+        android:layout_marginRight="@dimen/report_list_item_padding"
+        />
+
+    <FrameLayout
+        android:id="@+id/fragment_divider"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divider_height"
+        android:layout_alignParentBottom="true"
+        android:background="@color/offline_warning_pressed"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fragment_document_statedesc"
+        android:layout_below="@id/fragment_document_desc"
+        android:layout_alignRight="@id/download_icon"
+        android:layout_toRightOf="@id/fragment_document_desc"
+        android:gravity="right"
+        android:layout_alignBaseline="@id/fragment_document_desc"
+        android:textSize="@dimen/report_card_label_property_text_size"
+        android:textColor="@color/common_signin_btn_default_background"
+         />
+  </RelativeLayout>

@@ -1,0 +1,88 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ntxdev.zuptecnico.activities.inventory.InventoryListActivity"
+    android:keepScreenOn="true"
+    tools:ignore="MergeRootFrame">
+
+    <RelativeLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/offline_warning"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:text="@string/report_list_offline"
+                android:theme="@style/OfflineWarning"
+                android:visibility="gone" />
+
+            <ListView
+                android:id="@+id/items_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/loading_message"
+                android:textColor="@color/tabtext"
+                android:textSize="@dimen/report_list_item_title" />
+
+            <ProgressBar
+                style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
+                android:layout_width="@dimen/loading_bar_width"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="@dimen/inventory_padding"
+                android:indeterminate="true" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/inventories_map_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/report_item_default"
+            android:visibility="gone"/>
+
+        <android.support.design.widget.FloatingActionButton
+            xmlns:ntxdev="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/inventory_create"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="@dimen/report_list_item_padding"
+            android:onClick="showCreateDialog"
+            android:src="@drawable/ic_action_new"
+            ntxdev:backgroundTint="@color/zupblue"
+            ntxdev:borderWidth="@dimen/textview_empty" />
+
+    </RelativeLayout>
+
+    <include
+        layout="@layout/sidebar"
+        android:layout_width="@dimen/sidebar_width"
+        android:layout_height="match_parent"
+        android:layout_gravity="start" />
+</android.support.v4.widget.DrawerLayout>

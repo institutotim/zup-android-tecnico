@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/report_item_default"
+    android:keepScreenOn="true"
+    android:id="@+id/location_picker_container">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pick_report_location_title"
+            android:id="@+id/pick_report_location_title"
+            android:textSize="@dimen/report_card_padding_y"
+            android:textColor="@color/pick_map_location_text"
+            android:layout_marginLeft="@dimen/report_card_padding_y"
+            android:layout_marginTop="@dimen/report_card_padding_y" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pick_report_location_hint"
+            android:textSize="@dimen/report_card_title_property_text_size"
+            android:textColor="@color/pick_map_location_text"
+            android:paddingLeft="@dimen/report_card_padding_y"
+            android:paddingRight="@dimen/report_card_padding_y"
+            android:paddingBottom="@dimen/report_card_padding_y"
+            android:layout_marginBottom="@dimen/report_list_item_margin_between"
+            android:layout_below="@+id/pick_report_location_title"
+            android:layout_marginTop="@dimen/report_list_item_margin_between"
+            android:layout_alignParentBottom="false" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/confirm_title"
+            android:textAllCaps="true"
+            android:id="@+id/confirm"
+            android:layout_alignParentRight="true"
+            android:textColor="@drawable/button_dialog_title"
+            android:padding="@dimen/report_card_padding_y"
+            android:layout_alignParentBottom="false"
+            android:layout_marginTop="@dimen/report_list_item_margin_between"
+            android:textStyle="bold"
+            android:visibility="visible"
+            android:clickable="true" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divider_height"
+        android:background="@color/divider_color"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/map_location_offline_warning"
+        android:id="@+id/offline_warning"
+        android:theme="@style/OfflineWarning"
+        android:visibility="gone"
+        android:clickable="true" />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragment_container">
+
+    </FrameLayout>
+
+</LinearLayout>

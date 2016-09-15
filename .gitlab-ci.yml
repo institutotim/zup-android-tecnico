@@ -1,0 +1,8 @@
+stages:
+    - build
+
+run_script:
+    stage: build
+    script:
+        - chmod +x build_and_test.sh
+        - ./build_and_test.sh

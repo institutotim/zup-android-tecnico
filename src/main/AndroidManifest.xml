@@ -88,7 +88,7 @@
 
     <meta-data
         android:name="com.google.android.maps.v2.API_KEY"
-        android:value=""/>
+        android:value="AIzaSyDfTNtL1I0r7MLSa3wW-tYcbcTHmNl2an4"/>
 
     <activity
         android:name="com.ntxdev.zuptecnico.FullScreenImageActivity"
@@ -155,9 +155,7 @@
 
     <activity android:name="com.theartofdev.edmodo.cropper.CropImageActivity"/>
 
-    <meta-data
-        android:name="com.crashlytics.ApiKey"
-        android:value=""/>
+
 
   </application>
 

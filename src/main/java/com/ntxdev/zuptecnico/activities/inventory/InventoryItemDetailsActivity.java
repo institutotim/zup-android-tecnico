@@ -17,6 +17,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+
 import com.ntxdev.zuptecnico.R;
 import com.ntxdev.zuptecnico.ZupApplication;
 import com.ntxdev.zuptecnico.api.Zup;
@@ -30,8 +31,10 @@ import com.ntxdev.zuptecnico.fragments.inventory.InventoryItemSectionFragment;
 import com.ntxdev.zuptecnico.fragments.reports.ReportItemCasesFragment;
 import com.ntxdev.zuptecnico.fragments.reports.ReportItemMapFragment;
 import com.ntxdev.zuptecnico.ui.UIHelper;
+
 import java.util.ArrayList;
 import java.util.Arrays;
+
 import retrofit.RetrofitError;
 
 public class InventoryItemDetailsActivity extends AppCompatActivity {
@@ -69,7 +72,7 @@ public class InventoryItemDetailsActivity extends AppCompatActivity {
 
     LocalBroadcastManager manager = LocalBroadcastManager.getInstance(ZupApplication.getContext());
     manager.registerReceiver(editedReceiver,
-        new IntentFilter(EditInventoryItemSyncAction.ITEM_EDITED));
+            new IntentFilter(EditInventoryItemSyncAction.ITEM_EDITED));
   }
 
   private void setItem(InventoryItem item) {
@@ -97,12 +100,12 @@ public class InventoryItemDetailsActivity extends AppCompatActivity {
       }
 
       menu.findItem(R.id.action_items_edit)
-          .setVisible(Zup.getInstance().getAccess().canEditInventoryItem(item.inventory_category_id)
-              && !isFakeCreate);
+              .setVisible(Zup.getInstance().getAccess().canEditInventoryItem(item.inventory_category_id)
+                      && !isFakeCreate);
 
       menu.findItem(R.id.action_items_discard)
-          .setVisible(
-              Zup.getInstance().getAccess().canDeleteInventoryItem(item.inventory_category_id));
+              .setVisible(
+                      Zup.getInstance().getAccess().canDeleteInventoryItem(item.inventory_category_id));
     }
   }
 
@@ -116,12 +119,12 @@ public class InventoryItemDetailsActivity extends AppCompatActivity {
 
   void edit() {
     if (!isFakeCreate && Zup.getInstance()
-        .getSyncActionService()
-        .hasSyncActionRelatedToInventoryItem(this.item.id)) {
+            .getSyncActionService()
+            .hasSyncActionRelatedToInventoryItem(this.item.id)) {
       AlertDialog.Builder dialogBuilder = new AlertDialog.Builder(this);
       dialogBuilder.setTitle("Ops!");
       dialogBuilder.setMessage(
-          "Existe uma sincronização pendente para este item. É necessário concluí-la antes de modificá-lo.");
+              "Existe uma sincronização pendente para este item. É necessário concluí-la antes de modificá-lo.");
       dialogBuilder.setCancelable(true);
       dialogBuilder.setNegativeButton("Fechar", null);
       dialogBuilder.show();
@@ -177,8 +180,8 @@ public class InventoryItemDetailsActivity extends AppCompatActivity {
 
   private void deleteItem() {
     Zup.getInstance()
-        .getSyncActionService()
-        .addSyncAction(new DeleteInventoryItemSyncAction(item.inventory_category_id, item.id));
+            .getSyncActionService()
+            .addSyncAction(new DeleteInventoryItemSyncAction(item.inventory_category_id, item.id));
     Zup.getInstance().sync();
     finishWithResetSignal();
   }
@@ -211,8 +214,8 @@ public class InventoryItemDetailsActivity extends AppCompatActivity {
 
     if (category == null) {
       category = Zup.getInstance()
-          .getInventoryCategoryService()
-          .getInventoryCategory(item.inventory_category_id);
+              .getInventoryCategoryService()
+              .getInventoryCategory(item.inventory_category_id);
     }
 
     if (item != null) {
@@ -225,9 +228,9 @@ public class InventoryItemDetailsActivity extends AppCompatActivity {
     FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
 
     if (item != null
-        && item.relatedEntities != null
-        && item.relatedEntities.cases != null
-        && item.relatedEntities.cases.length > 0) {
+            && item.relatedEntities != null
+            && item.relatedEntities.cases != null
+            && item.relatedEntities.cases.length > 0) {
       ReportItemCasesFragment relatedCases = new ReportItemCasesFragment();
       Bundle casesBundle = new Bundle();
       casesBundle.putParcelableArray("cases", item.relatedEntities.cases);
@@ -308,7 +311,7 @@ public class InventoryItemDetailsActivity extends AppCompatActivity {
     @Override protected InventoryItem doInBackground(Void... voids) {
       try {
         SingleInventoryItemCollection result =
-            Zup.getInstance().getService().getInventoryItem(catId, itemId);
+                Zup.getInstance().getService().getInventoryItem(catId, itemId);
         if (result == null) return null;
 
         return result.item;
@@ -321,7 +324,7 @@ public class InventoryItemDetailsActivity extends AppCompatActivity {
     @Override protected void onPostExecute(InventoryItem inventoryItem) {
       if (inventoryItem == null) {
         ZupApplication.toast(findViewById(android.R.id.content), R.string.error_loading_item)
-            .show();
+                .show();
       } else {
         setItem(inventoryItem);
       }

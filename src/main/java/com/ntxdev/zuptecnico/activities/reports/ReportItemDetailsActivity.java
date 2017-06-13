@@ -154,13 +154,7 @@ public class ReportItemDetailsActivity extends AppCompatActivity
           bundle = new Bundle();
         }
         bundle.putParcelable("item", item);
-        <<<<<<<HEAD =======
-        if (item.relatedEntities != null
-            && item.relatedEntities.cases != null
-            && item.relatedEntities.cases.length > 0) {
-          bundle.putParcelableArray("cases", item.relatedEntities.cases);
-        }
-        >>>>>>>unicef - fix refreshData();
+
       }
     }, new IntentFilter(ChangeReportResponsableUserSyncAction.REPORT_RESPONSABLE_USER_ASSIGNED));
     manager.registerReceiver(changedResponsableGroupReceiver = new BroadcastReceiver() {
@@ -170,13 +164,7 @@ public class ReportItemDetailsActivity extends AppCompatActivity
           bundle = new Bundle();
         }
         bundle.putParcelable("item", item);
-        <<<<<<<HEAD =======
-        if (item.relatedEntities != null
-            && item.relatedEntities.cases != null
-            && item.relatedEntities.cases.length > 0) {
-          bundle.putParcelableArray("cases", item.relatedEntities.cases);
-        }
-        >>>>>>>unicef - fix refreshData();
+
       }
     }, new IntentFilter(ChangeReportResponsableGroupSyncAction.REPORT_RESPONSABLE_GROUP_ASSIGNED));
   }
@@ -187,13 +175,7 @@ public class ReportItemDetailsActivity extends AppCompatActivity
     }
     bundle.putParcelable("item", item);
     bundle.putParcelable("user", item.user);
-    <<<<<<<HEAD =======
-    if (item.relatedEntities != null
-        && item.relatedEntities.cases != null
-        && item.relatedEntities.cases.length > 0) {
-      bundle.putParcelableArray("cases", item.relatedEntities.cases);
-    }
-    >>>>>>>unicef - fix itemLoaded();
+
     LocalBroadcastManager manager = LocalBroadcastManager.getInstance(ZupApplication.getContext());
     manager.unregisterReceiver(editedReceiver);
   }
@@ -214,21 +196,7 @@ public class ReportItemDetailsActivity extends AppCompatActivity
                       if (reportNotification.notifications[index].deadlineInDays != 0) {
                         notificationItems.add(reportNotification.notifications[index]);
                       }
-                      <<<<<<<HEAD
-                    } if (notificationItems.size() > 0) {
-                      ReportNotificationCollection.ReportNotificationItem[] notificationsToShow =
-                          new ReportNotificationCollection.ReportNotificationItem[notificationItems.size()];
-                      notificationsToShow = notificationItems.toArray(notificationsToShow);
-                      bundle.putParcelableArray("notifications", notificationsToShow);
                     }
-                    =======
-                  } if (notificationItems.size() > 0) {
-                    ReportNotificationCollection.ReportNotificationItem[] notificationsToShow =
-                        new ReportNotificationCollection.ReportNotificationItem[notificationItems.size()];
-                    notificationsToShow = notificationItems.toArray(notificationsToShow);
-                    bundle.putParcelableArray("notifications", notificationsToShow);
-                  }
-                  >>>>>>>unicef - fix
                 }
               }
 

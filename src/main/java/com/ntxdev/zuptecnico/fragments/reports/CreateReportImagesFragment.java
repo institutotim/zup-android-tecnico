@@ -1,13 +1,16 @@
 package com.ntxdev.zuptecnico.fragments.reports;
 
+import android.Manifest;
 import android.app.Activity;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.AlertDialog;
 import android.text.Editable;
@@ -20,6 +23,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.TextView;
+
 import com.crashlytics.android.Crashlytics;
 import com.kbeanie.multipicker.api.CameraImagePicker;
 import com.kbeanie.multipicker.api.ImagePicker;
@@ -33,6 +37,7 @@ import com.ntxdev.zuptecnico.entities.ReportItem;
 import com.ntxdev.zuptecnico.ui.WebImageView;
 import com.squareup.picasso.Picasso;
 import com.theartofdev.edmodo.cropper.CropImage;
+
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.util.ArrayList;
@@ -140,6 +145,20 @@ public class CreateReportImagesFragment extends Fragment implements ImagePickerC
 
     mCameraImagePicker = new CameraImagePicker(this);
     mCameraImagePicker.setImagePickerCallback(this);
+    setPermission();
+  }
+
+  private void setPermission() {
+    int permission = ActivityCompat.checkSelfPermission(getActivity(), Manifest.permission.WRITE_EXTERNAL_STORAGE);
+    if (permission != PackageManager.PERMISSION_GRANTED) {
+      // We don't have permission so prompt the user
+      ActivityCompat.requestPermissions(
+        getActivity(),
+        new String[]{Manifest.permission.READ_EXTERNAL_STORAGE,
+          Manifest.permission.WRITE_EXTERNAL_STORAGE},
+        1
+      );
+    }
   }
 
   private void onError(Throwable e) {

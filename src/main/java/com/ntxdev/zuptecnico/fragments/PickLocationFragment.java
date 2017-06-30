@@ -161,6 +161,7 @@ public class PickLocationFragment extends Fragment
       map.animateCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(latitude, longitude),
           Constants.MAP_DEFAULT_ZOOM));
     }
+    map.setMapType(GoogleMap.MAP_TYPE_NONE);
     setupMap();
   }
 
@@ -327,6 +328,7 @@ public class PickLocationFragment extends Fragment
       map.setMyLocationEnabled(true);
     }
     map.setOnCameraIdleListener(this);
+    map.setMapType(GoogleMap.MAP_TYPE_NONE);
     if (getArguments() != null && getArguments().get("address") != null) {
       Address address = updateViewWithData();
       valid = true;

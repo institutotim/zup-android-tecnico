@@ -232,8 +232,8 @@ public class PickLocationFragment extends Fragment
         updateEditTextListeners(tvAddress, tvNumber, tvNeighborhood, tvZipCode);
       } else {
         updateViewWithData();
-        mapFragment.getView().setVisibility(View.GONE);
-        view.findViewById(R.id.address_marker).setVisibility(View.GONE);
+        mapFragment.getView().setVisibility(View.VISIBLE);
+        view.findViewById(R.id.address_marker).setVisibility(View.VISIBLE);
       }
     }
   }

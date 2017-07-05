@@ -6,7 +6,9 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.graphics.PorterDuff;
+import android.location.LocationManager;
 import android.os.Bundle;
+import android.provider.Settings;
 import android.support.design.widget.Snackbar;
 import android.support.v4.content.ContextCompat;
 import android.support.v4.content.LocalBroadcastManager;
@@ -23,7 +25,6 @@ import com.ntxdev.zuptecnico.R;
 import com.ntxdev.zuptecnico.SyncActivity;
 import com.ntxdev.zuptecnico.ZupApplication;
 import com.ntxdev.zuptecnico.activities.RootActivity;
-import com.ntxdev.zuptecnico.adapters.InventoryItemsAdapter;
 import com.ntxdev.zuptecnico.adapters.OfflineReportsAdapter;
 import com.ntxdev.zuptecnico.adapters.ReportsAdapter;
 import com.ntxdev.zuptecnico.api.Zup;
@@ -85,6 +86,16 @@ public class ReportsListActivity extends RootActivity implements AdapterView.OnI
 
         boolean canCreate = Zup.getInstance().getAccess().canCreateReportItem();
         findViewById(R.id.report_create_button).setVisibility(canCreate ? View.VISIBLE : View.GONE);
+
+        turnsGpsOn();
+    }
+
+    public void turnsGpsOn() {
+        LocationManager manager = (LocationManager)getSystemService(Context.LOCATION_SERVICE);
+        if(!manager.isProviderEnabled(LocationManager.GPS_PROVIDER)) {
+            Intent intent = new Intent(Settings.ACTION_LOCATION_SOURCE_SETTINGS);
+            startActivity(intent);
+        }
     }
 
     @Override

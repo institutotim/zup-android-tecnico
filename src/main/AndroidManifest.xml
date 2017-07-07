@@ -90,7 +90,7 @@
 
     <meta-data
         android:name="com.google.android.maps.v2.API_KEY"
-        android:value="AIzaSyDfTNtL1I0r7MLSa3wW-tYcbcTHmNl2an4"/>
+        android:value="AIzaSyD4yVDMBChSpTBsc-XqBXhyLfeZFq-M_zw"/>
 
     <activity
         android:name="com.ntxdev.zuptecnico.FullScreenImageActivity"

@@ -32,11 +32,7 @@ public class LoginActivity extends AppCompatActivity implements Callback<Session
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         CrashlyticsCore core = new CrashlyticsCore.Builder().disabled(BuildConfig.DEBUG).build();
-        if (!BuildConfig.DEBUG) {
-            Fabric.with(this, new Crashlytics.Builder().core(core).build(), new Crashlytics());
-        } else {
-            Fabric.with(this, new Crashlytics.Builder().core(core).build());
-        }
+        Fabric.with(this, new Crashlytics.Builder().core(core).build());
         setContentView(R.layout.activity_login);
         Zup.getInstance().initStorage(this.getApplicationContext());
         boolean isExpired = getIntent().getBooleanExtra(EXPIRED_TOKEN, false);

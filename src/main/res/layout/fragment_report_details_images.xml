@@ -24,7 +24,7 @@
                 android:layout_marginTop="@dimen/report_card_padding_y"
                 android:text="@string/image_title" />
 
-            <com.ntxdev.zuptecnico.ui.FlowLayout
+            <com.particity.zuptecnico.ui.FlowLayout
                 android:id="@+id/imageContainer"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"

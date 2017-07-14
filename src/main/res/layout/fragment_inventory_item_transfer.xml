@@ -6,7 +6,7 @@
     android:paddingRight="0dp"
     android:paddingTop="16dp"
     android:paddingBottom="0dp"
-    tools:context="com.ntxdev.zup.DocumentsActivity$PlaceholderFragment"
+    tools:context="com.particity.zup.DocumentsActivity$PlaceholderFragment"
     android:background="#fff">
 
     <TextView

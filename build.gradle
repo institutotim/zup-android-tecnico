@@ -7,10 +7,12 @@ buildscript {
 
   dependencies {
     classpath 'com.android.tools.build:gradle:2.3.2'
+        classpath 'io.fabric.tools:gradle:1.+'
   }
 }
 
 apply plugin: 'com.android.application'
+apply plugin: 'io.fabric'
 apply from: 'config/quality.gradle'
 
 Properties props = new Properties()
@@ -32,11 +34,11 @@ android {
   defaultConfig {
     minSdkVersion 14
     targetSdkVersion 24
-    applicationId 'com.cognita.zuptecnico'
+    applicationId 'com.particity.zuptecnico'
     multiDexEnabled true
 
-    versionCode props['NUMBER'].toInteger()
-    versionName props['VERSION']
+    versionCode 10000
+    versionName '1.0'
 
     buildConfigField 'boolean', 'CASE_ENABLED', 'false'
     buildConfigField 'boolean', 'REPORT_ENABLED', 'true'
@@ -46,9 +48,6 @@ android {
   buildTypes {
     release {
       proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
-    }
-    debug {
-      ext.enableCrashlytics = false
     }
   }
   packagingOptions {
@@ -63,7 +62,7 @@ dependencies {
     exclude module: 'gson'
   }
   compile 'com.obsez.android.lib.filechooser:filechooser:1.1.2'
-  compile('com.crashlytics.sdk.android:crashlytics:2.5.5@aar') {
+  compile('com.crashlytics.sdk.android:crashlytics:2.6.8@aar') {
     transitive = true;
   }
   testCompile 'junit:junit:4.12'

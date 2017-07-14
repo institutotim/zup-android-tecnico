@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.ntxdev.zuptecnico">
+    package="com.particity.zuptecnico">
 
   <uses-permission android:name="android.permission.INTERNET"/>
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
@@ -17,7 +17,7 @@
   <uses-sdk tools:overrideLibrary="com.appyvet.rangebar"/>
 
   <application
-      android:name="com.ntxdev.zuptecnico.ZupApplication"
+      android:name="com.particity.zuptecnico.ZupApplication"
       android:allowBackup="true"
       android:icon="@mipmap/ic_launcher"
       android:label="@string/app_name"
@@ -29,7 +29,7 @@
         android:value="@integer/google_play_services_version"/>
 
     <activity
-        android:name="com.ntxdev.zuptecnico.LoginActivity"
+        android:name="com.particity.zuptecnico.LoginActivity"
         android:label="@string/app_name"
         android:theme="@style/AppTheme.NoActionBar">
       <intent-filter>
@@ -42,40 +42,40 @@
         android:name="eu.janmuller.android.simplecropimage.CropImage"
         android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
     <activity
-        android:name=".ForgotPasswordActivity"
+        android:name="com.particity.zuptecnico.ForgotPasswordActivity"
         android:label="@string/title_activity_documents"
         android:theme="@style/AppTheme.NoActionBar">
     </activity>
     <activity
-        android:name=".activities.cases.CasesListActivity"
+        android:name="com.particity.zuptecnico.activities.cases.CasesListActivity"
         android:label="@string/title_activity_documents">
     </activity>
     <activity
-        android:name=".activities.cases.CaseHistoryActivity"
+        android:name="com.particity.zuptecnico.activities.cases.CaseHistoryActivity"
         android:label="@string/title_activity_pick_map_location">
     </activity>
     <activity
-        android:name="com.ntxdev.zuptecnico.activities.inventory.InventoryListActivity"
+        android:name="com.particity.zuptecnico.activities.inventory.InventoryListActivity"
         android:label="@string/title_activity_documents">
     </activity>
     <activity
-        android:name="com.ntxdev.zuptecnico.ProfileActivity"
+        android:name="com.particity.zuptecnico.ProfileActivity"
         android:label="@string/title_activity_profile">
     </activity>
     <activity
-        android:name=".activities.inventory.InventoryItemDetailsActivity"
+        android:name="com.particity.zuptecnico.activities.inventory.InventoryItemDetailsActivity"
         android:label="@string/title_activity_profile">
     </activity>
     <activity
-        android:name=".activities.reports.FilterReportsActivity"
+        android:name="com.particity.zuptecnico.activities.reports.FilterReportsActivity"
         android:label="@string/title_activity_profile">
     </activity>
     <activity
-        android:name=".activities.inventory.FilterInventoryItemsActivity"
+        android:name="com.particity.zuptecnico.activities.inventory.FilterInventoryItemsActivity"
         android:label="@string/title_activity_profile">
     </activity>
     <activity
-        android:name=".activities.inventory.CreateInventoryItemActivity"
+        android:name="com.particity.zuptecnico.activities.inventory.CreateInventoryItemActivity"
         android:configChanges="orientation|keyboardHidden|screenSize"
         android:label="@string/title_activity_profile"
         android:theme="@style/AppTheme.NoActionBar"
@@ -88,36 +88,36 @@
 
     <meta-data
         android:name="com.google.android.maps.v2.API_KEY"
-        android:value="AIzaSyDfTNtL1I0r7MLSa3wW-tYcbcTHmNl2an4"/>
+        android:value="AIzaSyD4yVDMBChSpTBsc-XqBXhyLfeZFq-M_zw"/>
 
     <activity
-        android:name="com.ntxdev.zuptecnico.FullScreenImageActivity"
+        android:name="com.particity.zuptecnico.FullScreenImageActivity"
         android:label="@string/title_activity_pick_map_location"
         android:theme="@style/AppTheme.NoActionBar">
     </activity>
 
     <activity
-        android:name=".activities.cases.CaseItemDetailsActivity"
+        android:name="com.particity.zuptecnico.activities.cases.CaseItemDetailsActivity"
         android:label="@string/title_activity_pick_map_location">
     </activity>
 
     <activity
-        android:name=".activities.cases.CaseItemFormDetailsActivity"
+        android:name="com.particity.zuptecnico.activities.cases.CaseItemFormDetailsActivity"
         android:label="@string/title_activity_pick_map_location">
     </activity>
 
     <activity
-        android:name=".activities.cases.SearchCasesActivity"
+        android:name="com.particity.zuptecnico.activities.cases.SearchCasesActivity"
         android:label="@string/title_activity_pick_map_location">
     </activity>
 
     <activity
-        android:name=".activities.inventory.SearchInventoryByQueryActivity"
+        android:name="com.particity.zuptecnico.activities.inventory.SearchInventoryByQueryActivity"
         android:label="@string/title_activity_pick_map_location">
     </activity>
 
     <activity
-        android:name=".activities.cases.ViewCaseStepFormActivity"
+        android:name="com.particity.zuptecnico.activities.cases.ViewCaseStepFormActivity"
         android:configChanges="orientation|keyboardHidden|screenSize"
         android:label="@string/title_activity_pick_map_location"
         android:theme="@style/AppTheme.NoActionBar"
@@ -125,29 +125,29 @@
     </activity>
 
     <activity
-        android:name="com.ntxdev.zuptecnico.SyncActivity"
+        android:name="com.particity.zuptecnico.SyncActivity"
         android:label="@string/title_activity_pick_map_location">
     </activity>
 
     <activity
-        android:name="com.ntxdev.zuptecnico.LoadingDataActivity"
+        android:name="com.particity.zuptecnico.LoadingDataActivity"
         android:label="@string/title_activity_pick_map_location"
         android:theme="@style/AppTheme.NoActionBar">
     </activity>
 
     <activity
-        android:name=".activities.reports.ReportsListActivity"
+        android:name="com.particity.zuptecnico.activities.reports.ReportsListActivity"
         android:label="@string/activity_title_reports"/>
     <activity
-        android:name=".activities.reports.SearchReportByProtocolActivity"
+        android:name="com.particity.zuptecnico.activities.reports.SearchReportByProtocolActivity"
         android:label="@string/activity_title_reports"/>
 
     <activity
-        android:name=".activities.reports.ReportItemDetailsActivity"
+        android:name="com.particity.zuptecnico.activities.reports.ReportItemDetailsActivity"
         android:label="@string/activity_title_report_item"/>
 
     <activity
-        android:name=".activities.reports.CreateReportItemActivity"
+        android:name="com.particity.zuptecnico.activities.reports.CreateReportItemActivity"
         android:configChanges="orientation|keyboardHidden|screenSize"
         android:label="@string/activity_title_create_report_item"
         android:theme="@style/AppTheme.NoActionBar"
@@ -157,6 +157,9 @@
 
 
 
-  </application>
+      <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="006930176e97a2cd66938b247c84d076712cd7c1" />
+    </application>
 
 </manifest>

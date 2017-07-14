@@ -1,6 +1,6 @@
-package com.ntxdev.zuptecnico.entities.responses;
+package com.particity.zuptecnico.entities.responses;
 
-import com.ntxdev.zuptecnico.entities.ReportItem;
+import com.particity.zuptecnico.entities.ReportItem;
 
 /**
  * Created by igorlira on 7/28/15.

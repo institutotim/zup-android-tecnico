@@ -1,13 +1,13 @@
-package com.ntxdev.zuptecnico.api.sync;
+package com.particity.zuptecnico.api.sync;
 
 import android.content.Intent;
 import android.os.Parcel;
 
 import com.crashlytics.android.Crashlytics;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.ntxdev.zuptecnico.R;
-import com.ntxdev.zuptecnico.ZupApplication;
-import com.ntxdev.zuptecnico.api.Zup;
+import com.particity.zuptecnico.R;
+import com.particity.zuptecnico.ZupApplication;
+import com.particity.zuptecnico.api.Zup;
 
 import org.json.JSONException;
 import org.json.JSONObject;

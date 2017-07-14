@@ -1,17 +1,14 @@
-package com.ntxdev.zuptecnico.adapters;
+package com.particity.zuptecnico.adapters;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
-import android.util.SparseArray;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.ntxdev.zuptecnico.R;
-import com.ntxdev.zuptecnico.api.Zup;
-import com.ntxdev.zuptecnico.entities.ReportItem;
-
-import java.util.ArrayList;
+import com.particity.zuptecnico.R;
+import com.particity.zuptecnico.api.Zup;
+import com.particity.zuptecnico.entities.ReportItem;
 
 /**
  * Created by Igor on 8/3/2015.

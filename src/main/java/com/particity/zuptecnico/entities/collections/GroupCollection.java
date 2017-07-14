@@ -1,6 +1,6 @@
-package com.ntxdev.zuptecnico.entities.collections;
+package com.particity.zuptecnico.entities.collections;
 
-import com.ntxdev.zuptecnico.entities.Group;
+import com.particity.zuptecnico.entities.Group;
 
 public class GroupCollection {
     public Group[] groups;

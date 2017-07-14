@@ -1,7 +1,7 @@
-package com.ntxdev.zuptecnico.entities.collections;
+package com.particity.zuptecnico.entities.collections;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import com.ntxdev.zuptecnico.entities.User;
+import com.particity.zuptecnico.entities.User;
 
 /**
  * Created by igorlira on 8/8/14.

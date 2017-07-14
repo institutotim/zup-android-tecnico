@@ -1,4 +1,4 @@
-package com.ntxdev.zuptecnico.entities.originalcase;
+package com.particity.zuptecnico.entities.originalcase;
 
 import android.os.Parcel;
 import android.os.Parcelable;
@@ -8,9 +8,9 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonSetter;
-import com.ntxdev.zuptecnico.api.Zup;
-import com.ntxdev.zuptecnico.entities.Flow;
-import com.ntxdev.zuptecnico.entities.User;
+import com.particity.zuptecnico.api.Zup;
+import com.particity.zuptecnico.entities.Flow;
+import com.particity.zuptecnico.entities.User;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class CaseOriginal implements Parcelable {

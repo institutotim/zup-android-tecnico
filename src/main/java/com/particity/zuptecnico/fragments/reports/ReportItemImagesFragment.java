@@ -1,4 +1,4 @@
-package com.ntxdev.zuptecnico.fragments.reports;
+package com.particity.zuptecnico.fragments.reports;
 
 import android.content.Intent;
 import android.graphics.Bitmap;
@@ -12,12 +12,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
-import com.ntxdev.zuptecnico.FullScreenImageActivity;
-import com.ntxdev.zuptecnico.R;
-import com.ntxdev.zuptecnico.entities.InventoryItemImage;
-import com.ntxdev.zuptecnico.entities.ReportItem;
-import com.ntxdev.zuptecnico.ui.WebImageView;
-import com.ntxdev.zuptecnico.util.Utilities;
+import com.particity.zuptecnico.FullScreenImageActivity;
+import com.particity.zuptecnico.R;
+import com.particity.zuptecnico.entities.InventoryItemImage;
+import com.particity.zuptecnico.entities.ReportItem;
+import com.particity.zuptecnico.ui.WebImageView;
+import com.particity.zuptecnico.util.Utilities;
 import java.util.ArrayList;
 
 public class ReportItemImagesFragment extends Fragment implements View.OnClickListener {

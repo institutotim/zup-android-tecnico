@@ -1,4 +1,4 @@
-package com.ntxdev.zuptecnico.storage;
+package com.particity.zuptecnico.storage;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;

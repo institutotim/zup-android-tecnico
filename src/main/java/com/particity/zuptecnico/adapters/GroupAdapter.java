@@ -1,4 +1,4 @@
-package com.ntxdev.zuptecnico.adapters;
+package com.particity.zuptecnico.adapters;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -7,14 +7,13 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
-import com.ntxdev.zuptecnico.R;
-import com.ntxdev.zuptecnico.api.Zup;
-import com.ntxdev.zuptecnico.entities.Flow;
-import com.ntxdev.zuptecnico.entities.Group;
-import com.ntxdev.zuptecnico.entities.ReportCategory;
+import com.particity.zuptecnico.R;
+import com.particity.zuptecnico.api.Zup;
+import com.particity.zuptecnico.entities.Flow;
+import com.particity.zuptecnico.entities.Group;
+import com.particity.zuptecnico.entities.ReportCategory;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Hashtable;
 import java.util.List;
 

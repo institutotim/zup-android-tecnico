@@ -1,4 +1,4 @@
-package com.ntxdev.zuptecnico.entities.collections;
+package com.particity.zuptecnico.entities.collections;
 
 public class CaseHistoryCollection {
     public CaseHistoryItem[] histories;

@@ -1,4 +1,4 @@
-package com.ntxdev.zuptecnico.fragments.inventory;
+package com.particity.zuptecnico.fragments.inventory;
 
 import android.app.DatePickerDialog;
 import android.content.DialogInterface;
@@ -15,22 +15,18 @@ import android.view.ViewGroup;
 import android.widget.DatePicker;
 import android.widget.TextView;
 
-import com.ntxdev.zuptecnico.R;
-import com.ntxdev.zuptecnico.api.Zup;
-import com.ntxdev.zuptecnico.entities.InventoryCategory;
-import com.ntxdev.zuptecnico.entities.InventoryCategoryStatus;
-import com.ntxdev.zuptecnico.entities.User;
-import com.ntxdev.zuptecnico.fragments.UserMultiSelectPickerDialog;
-
-import org.json.JSONException;
-import org.json.JSONObject;
+import com.particity.zuptecnico.R;
+import com.particity.zuptecnico.api.Zup;
+import com.particity.zuptecnico.entities.InventoryCategory;
+import com.particity.zuptecnico.entities.InventoryCategoryStatus;
+import com.particity.zuptecnico.entities.User;
+import com.particity.zuptecnico.fragments.UserMultiSelectPickerDialog;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Calendar;
 import java.util.HashMap;
-import java.util.Iterator;
 import java.util.List;
 import java.util.Locale;
 

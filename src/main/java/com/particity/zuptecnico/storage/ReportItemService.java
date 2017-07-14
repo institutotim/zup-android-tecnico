@@ -1,9 +1,9 @@
-package com.ntxdev.zuptecnico.storage;
+package com.particity.zuptecnico.storage;
 
-import com.ntxdev.zuptecnico.api.Zup;
-import com.ntxdev.zuptecnico.entities.ReportHistoryItem;
-import com.ntxdev.zuptecnico.entities.ReportItem;
-import com.ntxdev.zuptecnico.entities.collections.ReportHistoryItemCollection;
+import com.particity.zuptecnico.api.Zup;
+import com.particity.zuptecnico.entities.ReportHistoryItem;
+import com.particity.zuptecnico.entities.ReportItem;
+import com.particity.zuptecnico.entities.collections.ReportHistoryItemCollection;
 
 import java.util.ArrayList;
 import java.util.List;

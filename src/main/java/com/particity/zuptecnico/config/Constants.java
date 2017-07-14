@@ -1,4 +1,4 @@
-package com.ntxdev.zuptecnico.config;
+package com.particity.zuptecnico.config;
 
 /**
  * Created by antonio on 4/6/17.

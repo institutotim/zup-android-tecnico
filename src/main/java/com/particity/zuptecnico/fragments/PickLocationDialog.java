@@ -1,4 +1,4 @@
-package com.ntxdev.zuptecnico.fragments;
+package com.particity.zuptecnico.fragments;
 
 import android.content.DialogInterface;
 import android.location.Address;
@@ -10,9 +10,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.Window;
 
-import com.ntxdev.zuptecnico.R;
-import com.ntxdev.zuptecnico.ZupApplication;
-import com.ntxdev.zuptecnico.util.Utilities;
+import com.particity.zuptecnico.R;
+import com.particity.zuptecnico.ZupApplication;
+import com.particity.zuptecnico.util.Utilities;
 
 public class PickLocationDialog extends DialogFragment
         implements PickLocationFragment.OnLocationValidatedListener {

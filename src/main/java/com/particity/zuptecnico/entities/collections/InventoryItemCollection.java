@@ -1,9 +1,8 @@
-package com.ntxdev.zuptecnico.entities.collections;
+package com.particity.zuptecnico.entities.collections;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import com.ntxdev.zuptecnico.entities.InventoryItem;
-import com.ntxdev.zuptecnico.entities.MapCluster;
+import com.particity.zuptecnico.entities.InventoryItem;
+import com.particity.zuptecnico.entities.MapCluster;
 
 /**
  * Created by igorlira on 3/3/14.

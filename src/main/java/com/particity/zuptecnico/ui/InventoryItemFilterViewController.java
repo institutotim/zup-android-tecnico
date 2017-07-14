@@ -1,21 +1,17 @@
-package com.ntxdev.zuptecnico.ui;
+package com.particity.zuptecnico.ui;
 
 import android.app.Activity;
 import android.support.v7.app.AlertDialog;
-import android.content.DialogInterface;
 import android.text.InputType;
-import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.LinearLayout;
-import android.widget.PopupMenu;
 import android.widget.TextView;
 
-import com.ntxdev.zuptecnico.R;
-import com.ntxdev.zuptecnico.entities.InventoryCategory;
-import com.ntxdev.zuptecnico.entities.InventoryItem;
+import com.particity.zuptecnico.R;
+import com.particity.zuptecnico.entities.InventoryCategory;
 
 /**
  * Created by igorlira on 3/15/15.

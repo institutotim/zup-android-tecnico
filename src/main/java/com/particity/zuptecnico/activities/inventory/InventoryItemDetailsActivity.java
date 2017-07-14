@@ -1,4 +1,4 @@
-package com.ntxdev.zuptecnico.activities.inventory;
+package com.particity.zuptecnico.activities.inventory;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -18,19 +18,19 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.ntxdev.zuptecnico.R;
-import com.ntxdev.zuptecnico.ZupApplication;
-import com.ntxdev.zuptecnico.api.Zup;
-import com.ntxdev.zuptecnico.api.sync.DeleteInventoryItemSyncAction;
-import com.ntxdev.zuptecnico.api.sync.EditInventoryItemSyncAction;
-import com.ntxdev.zuptecnico.entities.InventoryCategory;
-import com.ntxdev.zuptecnico.entities.InventoryItem;
-import com.ntxdev.zuptecnico.entities.collections.SingleInventoryItemCollection;
-import com.ntxdev.zuptecnico.fragments.inventory.InventoryItemGeneralInfoFragment;
-import com.ntxdev.zuptecnico.fragments.inventory.InventoryItemSectionFragment;
-import com.ntxdev.zuptecnico.fragments.reports.ReportItemCasesFragment;
-import com.ntxdev.zuptecnico.fragments.reports.ReportItemMapFragment;
-import com.ntxdev.zuptecnico.ui.UIHelper;
+import com.particity.zuptecnico.R;
+import com.particity.zuptecnico.ZupApplication;
+import com.particity.zuptecnico.api.Zup;
+import com.particity.zuptecnico.api.sync.DeleteInventoryItemSyncAction;
+import com.particity.zuptecnico.api.sync.EditInventoryItemSyncAction;
+import com.particity.zuptecnico.entities.InventoryCategory;
+import com.particity.zuptecnico.entities.InventoryItem;
+import com.particity.zuptecnico.entities.collections.SingleInventoryItemCollection;
+import com.particity.zuptecnico.fragments.inventory.InventoryItemGeneralInfoFragment;
+import com.particity.zuptecnico.fragments.inventory.InventoryItemSectionFragment;
+import com.particity.zuptecnico.fragments.reports.ReportItemCasesFragment;
+import com.particity.zuptecnico.fragments.reports.ReportItemMapFragment;
+import com.particity.zuptecnico.ui.UIHelper;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -1,16 +1,16 @@
-package com.ntxdev.zuptecnico.api.sync;
+package com.particity.zuptecnico.api.sync;
 
 import android.content.Intent;
 import android.os.Parcel;
 import com.crashlytics.android.Crashlytics;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.ntxdev.zuptecnico.api.Zup;
-import com.ntxdev.zuptecnico.api.errors.SyncErrors;
-import com.ntxdev.zuptecnico.entities.InventoryCategory;
-import com.ntxdev.zuptecnico.entities.InventoryItem;
-import com.ntxdev.zuptecnico.entities.requests.PublishInventoryItemRequest;
-import com.ntxdev.zuptecnico.entities.responses.EditInventoryItemErrorResponse;
-import com.ntxdev.zuptecnico.entities.responses.EditInventoryItemResponse;
+import com.particity.zuptecnico.api.Zup;
+import com.particity.zuptecnico.api.errors.SyncErrors;
+import com.particity.zuptecnico.entities.InventoryCategory;
+import com.particity.zuptecnico.entities.InventoryItem;
+import com.particity.zuptecnico.entities.requests.PublishInventoryItemRequest;
+import com.particity.zuptecnico.entities.responses.EditInventoryItemErrorResponse;
+import com.particity.zuptecnico.entities.responses.EditInventoryItemResponse;
 import java.io.IOException;
 import java.util.Hashtable;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.ntxdev.zuptecnico.activities.inventory;
+package com.particity.zuptecnico.activities.inventory;
 
 import android.annotation.TargetApi;
 import android.os.Build;
@@ -7,10 +7,9 @@ import android.support.v7.widget.SearchView;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.ntxdev.zuptecnico.R;
-import com.ntxdev.zuptecnico.config.InternalConstants;
-import com.ntxdev.zuptecnico.ui.UIHelper;
-import com.ntxdev.zuptecnico.util.QueryChecker;
+import com.particity.zuptecnico.R;
+import com.particity.zuptecnico.ui.UIHelper;
+import com.particity.zuptecnico.util.QueryChecker;
 
 /**
  * Created by Renan on 06/01/2016.

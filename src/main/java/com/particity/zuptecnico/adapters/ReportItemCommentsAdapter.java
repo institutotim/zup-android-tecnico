@@ -1,4 +1,4 @@
-package com.ntxdev.zuptecnico.adapters;
+package com.particity.zuptecnico.adapters;
 
 import android.content.Context;
 import android.os.Build;
@@ -11,11 +11,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
-import com.ntxdev.zuptecnico.R;
-import com.ntxdev.zuptecnico.entities.ReportItem;
-import com.ntxdev.zuptecnico.util.Utilities;
+import com.particity.zuptecnico.R;
+import com.particity.zuptecnico.entities.ReportItem;
+import com.particity.zuptecnico.util.Utilities;
 import in.uncod.android.bypass.Bypass;
-import java.util.ArrayList;
+
 import java.util.HashSet;
 import java.util.Set;
 import java.util.regex.Matcher;

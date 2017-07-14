@@ -1,16 +1,12 @@
-package com.ntxdev.zuptecnico.tasks;
+package com.particity.zuptecnico.tasks;
 
 import android.os.AsyncTask;
 import android.widget.TextView;
 
-import com.ntxdev.zuptecnico.R;
-import com.ntxdev.zuptecnico.api.Zup;
-import com.ntxdev.zuptecnico.entities.InventoryItem;
-import com.ntxdev.zuptecnico.entities.collections.SingleInventoryItemCollection;
-import com.ntxdev.zuptecnico.util.ItemsAdapterListener;
-
-import java.util.ArrayList;
-import java.util.List;
+import com.particity.zuptecnico.R;
+import com.particity.zuptecnico.api.Zup;
+import com.particity.zuptecnico.entities.InventoryItem;
+import com.particity.zuptecnico.entities.collections.SingleInventoryItemCollection;
 
 /**
  * Created by Renan on 06/02/2016.

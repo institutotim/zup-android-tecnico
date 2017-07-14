@@ -1,8 +1,8 @@
-package com.ntxdev.zuptecnico.storage;
+package com.particity.zuptecnico.storage;
 
 import android.graphics.Bitmap;
 
-import com.ntxdev.zuptecnico.entities.ReportCategory;
+import com.particity.zuptecnico.entities.ReportCategory;
 
 import java.util.ArrayList;
 import java.util.List;

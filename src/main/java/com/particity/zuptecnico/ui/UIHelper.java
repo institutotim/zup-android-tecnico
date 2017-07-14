@@ -1,4 +1,4 @@
-package com.ntxdev.zuptecnico.ui;
+package com.particity.zuptecnico.ui;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -13,9 +13,9 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.ntxdev.zuptecnico.R;
-import com.ntxdev.zuptecnico.activities.RootActivity;
-import com.ntxdev.zuptecnico.api.sync.SyncAction;
+import com.particity.zuptecnico.R;
+import com.particity.zuptecnico.activities.RootActivity;
+import com.particity.zuptecnico.api.sync.SyncAction;
 
 public class UIHelper {
     public interface UpdateDrawerStatus {

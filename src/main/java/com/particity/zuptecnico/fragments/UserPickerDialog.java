@@ -1,4 +1,4 @@
-package com.ntxdev.zuptecnico.fragments;
+package com.particity.zuptecnico.fragments;
 
 import android.content.Context;
 import android.content.DialogInterface;
@@ -17,10 +17,9 @@ import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.esotericsoftware.reflectasm.shaded.org.objectweb.asm.Type;
-import com.ntxdev.zuptecnico.R;
-import com.ntxdev.zuptecnico.adapters.UsersAdapter;
-import com.ntxdev.zuptecnico.entities.User;
+import com.particity.zuptecnico.R;
+import com.particity.zuptecnico.adapters.UsersAdapter;
+import com.particity.zuptecnico.entities.User;
 
 /**
  * Created by igorlira on 7/23/15.

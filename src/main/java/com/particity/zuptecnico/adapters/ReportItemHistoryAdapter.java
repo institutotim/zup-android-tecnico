@@ -1,7 +1,6 @@
-package com.ntxdev.zuptecnico.adapters;
+package com.particity.zuptecnico.adapters;
 
 import android.content.Context;
-import android.os.Build;
 import android.text.Html;
 import android.util.SparseArray;
 import android.view.LayoutInflater;
@@ -11,12 +10,12 @@ import android.widget.BaseAdapter;
 import android.widget.TextView;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.ntxdev.zuptecnico.R;
-import com.ntxdev.zuptecnico.api.Zup;
-import com.ntxdev.zuptecnico.entities.ReportHistoryItem;
-import com.ntxdev.zuptecnico.entities.ReportItem;
-import com.ntxdev.zuptecnico.entities.collections.ReportHistoryItemCollection;
-import com.ntxdev.zuptecnico.util.Utilities;
+import com.particity.zuptecnico.R;
+import com.particity.zuptecnico.api.Zup;
+import com.particity.zuptecnico.entities.ReportHistoryItem;
+import com.particity.zuptecnico.entities.ReportItem;
+import com.particity.zuptecnico.entities.collections.ReportHistoryItemCollection;
+import com.particity.zuptecnico.util.Utilities;
 
 import java.util.ArrayList;
 import java.util.List;

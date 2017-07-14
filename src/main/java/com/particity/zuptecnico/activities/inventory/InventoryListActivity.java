@@ -1,4 +1,4 @@
-package com.ntxdev.zuptecnico.activities.inventory;
+package com.particity.zuptecnico.activities.inventory;
 
 import android.app.ProgressDialog;
 import android.content.BroadcastReceiver;
@@ -21,22 +21,22 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.ntxdev.zuptecnico.R;
-import com.ntxdev.zuptecnico.ZupApplication;
-import com.ntxdev.zuptecnico.activities.RootActivity;
-import com.ntxdev.zuptecnico.adapters.InventoryItemsAdapter;
-import com.ntxdev.zuptecnico.adapters.OfflineInventoryAdapter;
-import com.ntxdev.zuptecnico.api.Zup;
-import com.ntxdev.zuptecnico.api.sync.EditInventoryItemSyncAction;
-import com.ntxdev.zuptecnico.api.sync.PublishInventoryItemSyncAction;
-import com.ntxdev.zuptecnico.entities.InventoryCategory;
-import com.ntxdev.zuptecnico.entities.InventoryItem;
-import com.ntxdev.zuptecnico.fragments.inventory.FilterInventoryFragment;
-import com.ntxdev.zuptecnico.fragments.inventory.InventoriesMapFragment;
-import com.ntxdev.zuptecnico.tasks.InventoryItemDownloader;
-import com.ntxdev.zuptecnico.ui.UIHelper;
-import com.ntxdev.zuptecnico.util.ItemsAdapterListener;
-import com.ntxdev.zuptecnico.util.ViewUtils;
+import com.particity.zuptecnico.R;
+import com.particity.zuptecnico.ZupApplication;
+import com.particity.zuptecnico.activities.RootActivity;
+import com.particity.zuptecnico.adapters.InventoryItemsAdapter;
+import com.particity.zuptecnico.adapters.OfflineInventoryAdapter;
+import com.particity.zuptecnico.api.Zup;
+import com.particity.zuptecnico.api.sync.EditInventoryItemSyncAction;
+import com.particity.zuptecnico.api.sync.PublishInventoryItemSyncAction;
+import com.particity.zuptecnico.entities.InventoryCategory;
+import com.particity.zuptecnico.entities.InventoryItem;
+import com.particity.zuptecnico.fragments.inventory.FilterInventoryFragment;
+import com.particity.zuptecnico.fragments.inventory.InventoriesMapFragment;
+import com.particity.zuptecnico.tasks.InventoryItemDownloader;
+import com.particity.zuptecnico.ui.UIHelper;
+import com.particity.zuptecnico.util.ItemsAdapterListener;
+import com.particity.zuptecnico.util.ViewUtils;
 
 import java.util.ArrayList;
 import java.util.List;

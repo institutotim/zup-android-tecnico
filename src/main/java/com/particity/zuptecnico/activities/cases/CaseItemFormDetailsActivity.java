@@ -1,4 +1,4 @@
-package com.ntxdev.zuptecnico.activities.cases;
+package com.particity.zuptecnico.activities.cases;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,11 +8,11 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import com.ntxdev.zuptecnico.R;
-import com.ntxdev.zuptecnico.api.Zup;
-import com.ntxdev.zuptecnico.entities.Case;
-import com.ntxdev.zuptecnico.fragments.cases.CaseFormViewFragment;
-import com.ntxdev.zuptecnico.ui.UIHelper;
+import com.particity.zuptecnico.R;
+import com.particity.zuptecnico.api.Zup;
+import com.particity.zuptecnico.entities.Case;
+import com.particity.zuptecnico.fragments.cases.CaseFormViewFragment;
+import com.particity.zuptecnico.ui.UIHelper;
 
 /**
  * Created by Renan on 11/12/2015.

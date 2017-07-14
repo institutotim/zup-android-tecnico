@@ -1,4 +1,4 @@
-package com.ntxdev.zuptecnico.adapters;
+package com.particity.zuptecnico.adapters;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -6,7 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
-import com.ntxdev.zuptecnico.entities.Namespace;
+import com.particity.zuptecnico.entities.Namespace;
 
 /**
  * Created by Renan on 31/08/2016.

@@ -1,4 +1,4 @@
-package com.ntxdev.zuptecnico.fragments.inventory;
+package com.particity.zuptecnico.fragments.inventory;
 
 import android.graphics.Bitmap;
 import android.location.Location;
@@ -23,16 +23,16 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.maps.model.VisibleRegion;
-import com.ntxdev.zuptecnico.R;
-import com.ntxdev.zuptecnico.api.Zup;
-import com.ntxdev.zuptecnico.config.Constants;
-import com.ntxdev.zuptecnico.entities.InventoryCategory;
-import com.ntxdev.zuptecnico.entities.InventoryItem;
-import com.ntxdev.zuptecnico.entities.MapCluster;
-import com.ntxdev.zuptecnico.entities.collections.InventoryItemCollection;
-import com.ntxdev.zuptecnico.ui.PicassoMarker;
-import com.ntxdev.zuptecnico.util.BitmapUtil;
-import com.ntxdev.zuptecnico.util.GeoUtils;
+import com.particity.zuptecnico.R;
+import com.particity.zuptecnico.api.Zup;
+import com.particity.zuptecnico.config.Constants;
+import com.particity.zuptecnico.entities.InventoryCategory;
+import com.particity.zuptecnico.entities.InventoryItem;
+import com.particity.zuptecnico.entities.MapCluster;
+import com.particity.zuptecnico.entities.collections.InventoryItemCollection;
+import com.particity.zuptecnico.ui.PicassoMarker;
+import com.particity.zuptecnico.util.BitmapUtil;
+import com.particity.zuptecnico.util.GeoUtils;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;

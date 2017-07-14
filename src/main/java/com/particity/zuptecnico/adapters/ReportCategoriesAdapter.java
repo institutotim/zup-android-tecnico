@@ -1,4 +1,4 @@
-package com.ntxdev.zuptecnico.adapters;
+package com.particity.zuptecnico.adapters;
 
 import android.util.SparseArray;
 import android.view.LayoutInflater;
@@ -7,10 +7,10 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
-import com.ntxdev.zuptecnico.R;
-import com.ntxdev.zuptecnico.api.Zup;
-import com.ntxdev.zuptecnico.entities.ReportCategory;
-import com.ntxdev.zuptecnico.ui.WebImageView;
+import com.particity.zuptecnico.R;
+import com.particity.zuptecnico.api.Zup;
+import com.particity.zuptecnico.entities.ReportCategory;
+import com.particity.zuptecnico.ui.WebImageView;
 
 import java.util.ArrayList;
 import java.util.List;

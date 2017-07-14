@@ -1,4 +1,4 @@
-package com.ntxdev.zuptecnico;
+package com.particity.zuptecnico;
 
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -9,17 +9,13 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import com.ntxdev.zuptecnico.activities.RootActivity;
-import com.ntxdev.zuptecnico.adapters.NamespaceAdapter;
-import com.ntxdev.zuptecnico.api.Zup;
-import com.ntxdev.zuptecnico.api.sync.SyncAction;
-import com.ntxdev.zuptecnico.entities.Namespace;
-import com.ntxdev.zuptecnico.entities.User;
-import com.ntxdev.zuptecnico.ui.UIHelper;
-
-import java.util.Iterator;
+import com.particity.zuptecnico.activities.RootActivity;
+import com.particity.zuptecnico.adapters.NamespaceAdapter;
+import com.particity.zuptecnico.api.Zup;
+import com.particity.zuptecnico.entities.Namespace;
+import com.particity.zuptecnico.entities.User;
+import com.particity.zuptecnico.ui.UIHelper;
 
 public class ProfileActivity extends RootActivity {
 

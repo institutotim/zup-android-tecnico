@@ -1,4 +1,4 @@
-package com.ntxdev.zuptecnico.adapters;
+package com.particity.zuptecnico.adapters;
 
 import android.content.Context;
 import android.content.Intent;
@@ -8,15 +8,13 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseExpandableListAdapter;
-import android.widget.Button;
-import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-import com.ntxdev.zuptecnico.R;
-import com.ntxdev.zuptecnico.activities.reports.ReportItemDetailsActivity;
-import com.ntxdev.zuptecnico.api.Zup;
-import com.ntxdev.zuptecnico.entities.ReportCategory;
-import com.ntxdev.zuptecnico.entities.ReportItem;
+import com.particity.zuptecnico.R;
+import com.particity.zuptecnico.activities.reports.ReportItemDetailsActivity;
+import com.particity.zuptecnico.api.Zup;
+import com.particity.zuptecnico.entities.ReportCategory;
+import com.particity.zuptecnico.entities.ReportItem;
 import java.util.List;
 
 /**

@@ -1,4 +1,4 @@
-package com.ntxdev.zuptecnico.api.sync;
+package com.particity.zuptecnico.api.sync;
 
 import android.os.Parcel;
 
@@ -13,7 +13,7 @@ import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.core.JsonToken;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.ntxdev.zuptecnico.entities.InventoryItem;
+import com.particity.zuptecnico.entities.InventoryItem;
 
 import org.json.JSONObject;
 

@@ -1,4 +1,4 @@
-package com.ntxdev.zuptecnico.entities;
+package com.particity.zuptecnico.entities;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 

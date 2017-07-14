@@ -1,4 +1,4 @@
-package com.ntxdev.zuptecnico.util;
+package com.particity.zuptecnico.util;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -20,10 +20,10 @@ import android.widget.RadioGroup;
 import android.widget.TextView;
 import br.com.rezende.mascaras.Mask;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.ntxdev.zuptecnico.R;
-import com.ntxdev.zuptecnico.entities.InventoryCategory;
-import com.ntxdev.zuptecnico.entities.InventoryItem;
-import com.ntxdev.zuptecnico.entities.InventoryItemImage;
+import com.particity.zuptecnico.R;
+import com.particity.zuptecnico.entities.InventoryCategory;
+import com.particity.zuptecnico.entities.InventoryItem;
+import com.particity.zuptecnico.entities.InventoryItemImage;
 import com.squareup.picasso.Picasso;
 import java.io.IOException;
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package com.ntxdev.zuptecnico.entities;
+package com.particity.zuptecnico.entities;
 
 import java.io.Serializable;
 import java.util.Map;

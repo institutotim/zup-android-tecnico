@@ -1,5 +1,7 @@
-package com.ntxdev.zuptecnico.activities.reports;
+package com.particity.zuptecnico.activities.reports;
 
+import android.Manifest;
+import android.content.pm.PackageManager;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -10,6 +12,7 @@ import android.location.LocationManager;
 import android.os.Bundle;
 import android.provider.Settings;
 import android.support.design.widget.Snackbar;
+import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v4.content.LocalBroadcastManager;
 import android.support.v7.app.AlertDialog;
@@ -21,22 +24,25 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.ntxdev.zuptecnico.R;
-import com.ntxdev.zuptecnico.SyncActivity;
-import com.ntxdev.zuptecnico.ZupApplication;
-import com.ntxdev.zuptecnico.activities.RootActivity;
-import com.ntxdev.zuptecnico.adapters.OfflineReportsAdapter;
-import com.ntxdev.zuptecnico.adapters.ReportsAdapter;
-import com.ntxdev.zuptecnico.api.Zup;
-import com.ntxdev.zuptecnico.api.sync.DeleteReportItemSyncAction;
-import com.ntxdev.zuptecnico.api.sync.EditReportItemSyncAction;
-import com.ntxdev.zuptecnico.api.sync.PublishReportItemSyncAction;
-import com.ntxdev.zuptecnico.entities.ReportItem;
-import com.ntxdev.zuptecnico.fragments.reports.FilterReportsFragment;
-import com.ntxdev.zuptecnico.fragments.reports.ReportCategorySelectorDialog;
-import com.ntxdev.zuptecnico.fragments.reports.ReportsMapFragment;
-import com.ntxdev.zuptecnico.ui.UIHelper;
-import com.ntxdev.zuptecnico.util.ItemsAdapterListener;
+import com.particity.zuptecnico.R;
+import com.particity.zuptecnico.SyncActivity;
+import com.particity.zuptecnico.ZupApplication;
+import com.particity.zuptecnico.activities.RootActivity;
+import com.particity.zuptecnico.adapters.OfflineReportsAdapter;
+import com.particity.zuptecnico.adapters.ReportsAdapter;
+import com.particity.zuptecnico.api.Zup;
+import com.particity.zuptecnico.api.sync.DeleteReportItemSyncAction;
+import com.particity.zuptecnico.api.sync.EditReportItemSyncAction;
+import com.particity.zuptecnico.api.sync.PublishReportItemSyncAction;
+import com.particity.zuptecnico.entities.ReportItem;
+import com.particity.zuptecnico.fragments.reports.FilterReportsFragment;
+import com.particity.zuptecnico.fragments.reports.ReportCategorySelectorDialog;
+import com.particity.zuptecnico.fragments.reports.ReportsMapFragment;
+import com.particity.zuptecnico.ui.UIHelper;
+import com.particity.zuptecnico.util.ItemsAdapterListener;
+
+
+
 
 public class ReportsListActivity extends RootActivity implements AdapterView.OnItemClickListener,
         ItemsAdapterListener, ReportsMapFragment.Listener {
@@ -56,6 +62,25 @@ public class ReportsListActivity extends RootActivity implements AdapterView.OnI
     private BroadcastReceiver editedReceiver;
     private BroadcastReceiver deletedReceiver;
     private BroadcastReceiver createdReceiver;
+
+    private void getPermissions() {
+    if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION)
+        != PackageManager.PERMISSION_GRANTED
+        && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION)
+        != PackageManager.PERMISSION_GRANTED) {
+      ActivityCompat.requestPermissions(this,
+          new String[] { Manifest.permission.ACCESS_FINE_LOCATION }, 231);
+      // TODO: Consider calling
+      //    ActivityCompat#requestPermissions
+      // here to request the missing permissions, and then overriding
+      //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
+      //                                          int[] grantResults)
+      // to handle the case where the user grants the permission. See the documentation
+      // for ActivityCompat#requestPermissions for more details.
+      return;
+    }
+    return;
+  }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -88,6 +113,7 @@ public class ReportsListActivity extends RootActivity implements AdapterView.OnI
         findViewById(R.id.report_create_button).setVisibility(canCreate ? View.VISIBLE : View.GONE);
 
         turnsGpsOn();
+        getPermissions();
     }
 
     public void turnsGpsOn() {
@@ -96,6 +122,7 @@ public class ReportsListActivity extends RootActivity implements AdapterView.OnI
             Intent intent = new Intent(Settings.ACTION_LOCATION_SOURCE_SETTINGS);
             startActivity(intent);
         }
+
     }
 
     @Override
@@ -424,6 +451,8 @@ public class ReportsListActivity extends RootActivity implements AdapterView.OnI
 
         loadPage();
     }
+
+
 
     @Override
     public void updateDrawerStatus() {

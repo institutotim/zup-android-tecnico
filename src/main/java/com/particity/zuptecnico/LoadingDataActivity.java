@@ -1,4 +1,4 @@
-package com.ntxdev.zuptecnico;
+package com.particity.zuptecnico;
 
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -12,23 +12,18 @@ import android.view.WindowManager;
 import android.widget.TextView;
 
 import com.crashlytics.android.Crashlytics;
-import com.ntxdev.zuptecnico.activities.RootActivity;
-import com.ntxdev.zuptecnico.activities.cases.CasesListActivity;
-import com.ntxdev.zuptecnico.activities.inventory.InventoryListActivity;
-import com.ntxdev.zuptecnico.activities.reports.ReportsListActivity;
-import com.ntxdev.zuptecnico.api.Zup;
-import com.ntxdev.zuptecnico.api.sync.SyncAction;
-import com.ntxdev.zuptecnico.entities.Flow;
-import com.ntxdev.zuptecnico.entities.Group;
-import com.ntxdev.zuptecnico.entities.collections.FlowCollection;
-import com.ntxdev.zuptecnico.entities.collections.GroupCollection;
-import com.ntxdev.zuptecnico.entities.collections.InventoryCategoryCollection;
-import com.ntxdev.zuptecnico.entities.collections.ReportCategoryCollection;
-import com.ntxdev.zuptecnico.entities.collections.SingleUserCollection;
-import com.ntxdev.zuptecnico.entities.responses.NamespaceCollection;
-import com.ntxdev.zuptecnico.util.Utilities;
-
-import java.util.Iterator;
+import com.particity.zuptecnico.activities.RootActivity;
+import com.particity.zuptecnico.activities.cases.CasesListActivity;
+import com.particity.zuptecnico.activities.inventory.InventoryListActivity;
+import com.particity.zuptecnico.activities.reports.ReportsListActivity;
+import com.particity.zuptecnico.api.Zup;
+import com.particity.zuptecnico.entities.Flow;
+import com.particity.zuptecnico.entities.collections.GroupCollection;
+import com.particity.zuptecnico.entities.collections.InventoryCategoryCollection;
+import com.particity.zuptecnico.entities.collections.ReportCategoryCollection;
+import com.particity.zuptecnico.entities.collections.SingleUserCollection;
+import com.particity.zuptecnico.entities.responses.NamespaceCollection;
+import com.particity.zuptecnico.util.Utilities;
 
 import retrofit.RetrofitError;
 

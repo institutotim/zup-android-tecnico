@@ -1,9 +1,7 @@
-package com.ntxdev.zuptecnico.entities;
+package com.particity.zuptecnico.entities;
 
 import android.content.Context;
 import android.graphics.Color;
-import android.graphics.ColorFilter;
-import android.graphics.ColorMatrixColorFilter;
 import android.graphics.PorterDuff;
 import android.graphics.drawable.Drawable;
 import android.support.v4.content.ContextCompat;
@@ -11,8 +9,8 @@ import android.widget.ImageView;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.ntxdev.zuptecnico.R;
-import com.ntxdev.zuptecnico.ui.WebImageView;
+import com.particity.zuptecnico.R;
+import com.particity.zuptecnico.ui.WebImageView;
 import com.squareup.picasso.NetworkPolicy;
 import com.squareup.picasso.Picasso;
 

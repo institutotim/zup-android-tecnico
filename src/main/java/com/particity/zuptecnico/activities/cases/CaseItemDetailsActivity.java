@@ -1,4 +1,4 @@
-package com.ntxdev.zuptecnico.activities.cases;
+package com.particity.zuptecnico.activities.cases;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -21,21 +21,21 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import android.widget.Toast;
-import com.ntxdev.zuptecnico.R;
-import com.ntxdev.zuptecnico.ZupApplication;
-import com.ntxdev.zuptecnico.adapters.CaseStepsAdapter;
-import com.ntxdev.zuptecnico.api.Zup;
-import com.ntxdev.zuptecnico.api.sync.DeleteCaseSyncAction;
-import com.ntxdev.zuptecnico.api.sync.FillCaseStepSyncAction;
-import com.ntxdev.zuptecnico.api.sync.FinishCaseSyncAction;
-import com.ntxdev.zuptecnico.api.sync.SyncAction;
-import com.ntxdev.zuptecnico.entities.Case;
-import com.ntxdev.zuptecnico.entities.Flow;
-import com.ntxdev.zuptecnico.entities.collections.SingleCaseCollection;
-import com.ntxdev.zuptecnico.fragments.cases.CaseItemStepsListFragment;
-import com.ntxdev.zuptecnico.fragments.cases.RelatedReportsSectionFragment;
-import com.ntxdev.zuptecnico.ui.UIHelper;
-import com.ntxdev.zuptecnico.util.Utilities;
+import com.particity.zuptecnico.R;
+import com.particity.zuptecnico.ZupApplication;
+import com.particity.zuptecnico.adapters.CaseStepsAdapter;
+import com.particity.zuptecnico.api.Zup;
+import com.particity.zuptecnico.api.sync.DeleteCaseSyncAction;
+import com.particity.zuptecnico.api.sync.FillCaseStepSyncAction;
+import com.particity.zuptecnico.api.sync.FinishCaseSyncAction;
+import com.particity.zuptecnico.api.sync.SyncAction;
+import com.particity.zuptecnico.entities.Case;
+import com.particity.zuptecnico.entities.Flow;
+import com.particity.zuptecnico.entities.collections.SingleCaseCollection;
+import com.particity.zuptecnico.fragments.cases.CaseItemStepsListFragment;
+import com.particity.zuptecnico.fragments.cases.RelatedReportsSectionFragment;
+import com.particity.zuptecnico.ui.UIHelper;
+import com.particity.zuptecnico.util.Utilities;
 
 import retrofit.Callback;
 import retrofit.RetrofitError;

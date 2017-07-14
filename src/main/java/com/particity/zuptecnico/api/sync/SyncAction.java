@@ -1,7 +1,6 @@
-package com.ntxdev.zuptecnico.api.sync;
+package com.particity.zuptecnico.api.sync;
 
 import android.content.ContentValues;
-import android.content.Context;
 import android.content.Intent;
 import android.database.Cursor;
 import android.os.Parcel;
@@ -15,8 +14,8 @@ import com.fasterxml.jackson.annotation.JsonSetter;
 import com.fasterxml.jackson.annotation.JsonSubTypes;
 import com.fasterxml.jackson.annotation.JsonTypeInfo;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.ntxdev.zuptecnico.ZupApplication;
-import com.ntxdev.zuptecnico.api.Zup;
+import com.particity.zuptecnico.ZupApplication;
+import com.particity.zuptecnico.api.Zup;
 
 import org.json.JSONObject;
 

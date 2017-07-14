@@ -1,4 +1,4 @@
-package com.ntxdev.zuptecnico.fragments.reports;
+package com.particity.zuptecnico.fragments.reports;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -9,20 +9,19 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import com.ntxdev.zuptecnico.R;
-import com.ntxdev.zuptecnico.ZupApplication;
-import com.ntxdev.zuptecnico.api.Zup;
-import com.ntxdev.zuptecnico.api.sync.ChangeReportResponsableGroupSyncAction;
-import com.ntxdev.zuptecnico.api.sync.ChangeReportResponsableUserSyncAction;
-import com.ntxdev.zuptecnico.entities.Group;
-import com.ntxdev.zuptecnico.entities.ReportCategory;
-import com.ntxdev.zuptecnico.entities.ReportItem;
-import com.ntxdev.zuptecnico.entities.User;
-import com.ntxdev.zuptecnico.fragments.GroupPickerDialog;
-import com.ntxdev.zuptecnico.fragments.UserPickerDialog;
-import com.ntxdev.zuptecnico.util.Utilities;
+import com.particity.zuptecnico.R;
+import com.particity.zuptecnico.ZupApplication;
+import com.particity.zuptecnico.api.Zup;
+import com.particity.zuptecnico.api.sync.ChangeReportResponsableGroupSyncAction;
+import com.particity.zuptecnico.api.sync.ChangeReportResponsableUserSyncAction;
+import com.particity.zuptecnico.entities.Group;
+import com.particity.zuptecnico.entities.ReportCategory;
+import com.particity.zuptecnico.entities.ReportItem;
+import com.particity.zuptecnico.entities.User;
+import com.particity.zuptecnico.fragments.GroupPickerDialog;
+import com.particity.zuptecnico.fragments.UserPickerDialog;
+import com.particity.zuptecnico.util.Utilities;
 
 /**
  * Created by igorlira on 7/18/15.

@@ -1,4 +1,4 @@
-package com.ntxdev.zuptecnico.util;
+package com.particity.zuptecnico.util;
 
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
@@ -11,12 +11,11 @@ import android.util.DisplayMetrics;
 
 import com.google.android.gms.maps.model.BitmapDescriptor;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
-import com.ntxdev.zuptecnico.api.Zup;
-import com.ntxdev.zuptecnico.entities.InventoryCategory;
-import com.ntxdev.zuptecnico.entities.MapCluster;
+import com.particity.zuptecnico.api.Zup;
+import com.particity.zuptecnico.entities.InventoryCategory;
+import com.particity.zuptecnico.entities.MapCluster;
 
 import java.io.ByteArrayOutputStream;
-import java.util.Dictionary;
 import java.util.Hashtable;
 
 /**

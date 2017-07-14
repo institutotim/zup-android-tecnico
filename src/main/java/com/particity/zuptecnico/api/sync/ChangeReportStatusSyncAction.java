@@ -1,12 +1,12 @@
-package com.ntxdev.zuptecnico.api.sync;
+package com.particity.zuptecnico.api.sync;
 
 import android.content.Intent;
 import android.os.Parcel;
 import com.crashlytics.android.Crashlytics;
-import com.ntxdev.zuptecnico.api.Zup;
-import com.ntxdev.zuptecnico.api.errors.SyncErrors;
-import com.ntxdev.zuptecnico.entities.collections.SingleReportItemCollection;
-import com.ntxdev.zuptecnico.entities.responses.PublishReportResponse;
+import com.particity.zuptecnico.api.Zup;
+import com.particity.zuptecnico.api.errors.SyncErrors;
+import com.particity.zuptecnico.entities.collections.SingleReportItemCollection;
+import com.particity.zuptecnico.entities.responses.PublishReportResponse;
 import java.util.List;
 import java.util.Map;
 import org.json.JSONException;

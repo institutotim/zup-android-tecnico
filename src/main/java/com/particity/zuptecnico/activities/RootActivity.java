@@ -1,4 +1,4 @@
-package com.ntxdev.zuptecnico.activities;
+package com.particity.zuptecnico.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,16 +8,16 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
-import com.ntxdev.zuptecnico.BuildConfig;
-import com.ntxdev.zuptecnico.ProfileActivity;
-import com.ntxdev.zuptecnico.R;
-import com.ntxdev.zuptecnico.SyncActivity;
-import com.ntxdev.zuptecnico.activities.cases.CasesListActivity;
-import com.ntxdev.zuptecnico.activities.inventory.InventoryListActivity;
-import com.ntxdev.zuptecnico.activities.reports.ReportsListActivity;
-import com.ntxdev.zuptecnico.api.Zup;
-import com.ntxdev.zuptecnico.entities.User;
-import com.ntxdev.zuptecnico.ui.UIHelper;
+import com.particity.zuptecnico.BuildConfig;
+import com.particity.zuptecnico.ProfileActivity;
+import com.particity.zuptecnico.R;
+import com.particity.zuptecnico.SyncActivity;
+import com.particity.zuptecnico.activities.cases.CasesListActivity;
+import com.particity.zuptecnico.activities.inventory.InventoryListActivity;
+import com.particity.zuptecnico.activities.reports.ReportsListActivity;
+import com.particity.zuptecnico.api.Zup;
+import com.particity.zuptecnico.entities.User;
+import com.particity.zuptecnico.ui.UIHelper;
 
 public abstract class RootActivity extends AppCompatActivity
     implements UIHelper.UpdateDrawerStatus {

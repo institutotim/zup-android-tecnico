@@ -1,10 +1,9 @@
-package com.ntxdev.zuptecnico.entities;
+package com.particity.zuptecnico.entities;
 
 import android.os.Parcel;
 import android.os.Parcelable;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import com.ntxdev.zuptecnico.entities.collections.CaseCollection;
 
 /**
  * Created by Renan on 02/03/2016.

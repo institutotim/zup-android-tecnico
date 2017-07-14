@@ -1,6 +1,5 @@
-package com.ntxdev.zuptecnico.util;
+package com.particity.zuptecnico.util;
 
-import android.app.Activity;
 import android.app.DatePickerDialog;
 import android.app.TimePickerDialog;
 import android.content.Context;
@@ -18,8 +17,8 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.TimePicker;
 
-import com.ntxdev.zuptecnico.R;
-import com.ntxdev.zuptecnico.entities.InventoryCategory;
+import com.particity.zuptecnico.R;
+import com.particity.zuptecnico.entities.InventoryCategory;
 
 import java.util.ArrayList;
 import java.util.Calendar;

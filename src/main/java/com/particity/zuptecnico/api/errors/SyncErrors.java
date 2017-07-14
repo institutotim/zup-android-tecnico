@@ -1,6 +1,4 @@
-package com.ntxdev.zuptecnico.api.errors;
-
-import com.crashlytics.android.Crashlytics;
+package com.particity.zuptecnico.api.errors;
 
 /**
  * Created by Renan on 10/03/2016.

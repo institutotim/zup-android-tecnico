@@ -1,7 +1,6 @@
-package com.ntxdev.zuptecnico.entities.collections;
+package com.particity.zuptecnico.entities.collections;
 
-import com.ntxdev.zuptecnico.entities.ReportCategory;
-import com.ntxdev.zuptecnico.entities.ReportItem;
+import com.particity.zuptecnico.entities.ReportCategory;
 
 /**
  * Created by igorlira on 7/18/15.

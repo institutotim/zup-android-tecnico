@@ -1,12 +1,12 @@
-package com.ntxdev.zuptecnico.activities.cases;
+package com.particity.zuptecnico.activities.cases;
 
 import android.os.Bundle;
 import android.support.v7.widget.SearchView;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.ntxdev.zuptecnico.R;
-import com.ntxdev.zuptecnico.ui.UIHelper;
+import com.particity.zuptecnico.R;
+import com.particity.zuptecnico.ui.UIHelper;
 
 public class SearchCasesActivity extends CasesListActivity {
     private String query;

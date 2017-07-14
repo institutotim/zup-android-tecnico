@@ -1,10 +1,10 @@
-package com.ntxdev.zuptecnico.tasks;
+package com.particity.zuptecnico.tasks;
 
 import android.os.AsyncTask;
 import android.widget.TextView;
 
-import com.ntxdev.zuptecnico.api.Zup;
-import com.ntxdev.zuptecnico.entities.User;
+import com.particity.zuptecnico.api.Zup;
+import com.particity.zuptecnico.entities.User;
 
 /**
  * Created by igorlira on 8/8/14.

@@ -1,4 +1,4 @@
-package com.ntxdev.zuptecnico.activities.inventory;
+package com.particity.zuptecnico.activities.inventory;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,9 +6,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.ntxdev.zuptecnico.R;
-import com.ntxdev.zuptecnico.fragments.inventory.FilterInventoryFragment;
-import com.ntxdev.zuptecnico.ui.UIHelper;
+import com.particity.zuptecnico.R;
+import com.particity.zuptecnico.fragments.inventory.FilterInventoryFragment;
+import com.particity.zuptecnico.ui.UIHelper;
 
 /**
  * Created by Renan on 21/08/2015.

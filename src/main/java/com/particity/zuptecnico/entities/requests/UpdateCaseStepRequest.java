@@ -1,7 +1,4 @@
-package com.ntxdev.zuptecnico.entities.requests;
-
-import android.os.Parcel;
-import android.os.Parcelable;
+package com.particity.zuptecnico.entities.requests;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;

@@ -1,4 +1,4 @@
-package com.ntxdev.zuptecnico.util;
+package com.particity.zuptecnico.util;
 
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -7,7 +7,7 @@ import android.util.DisplayMetrics;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.TextView;
 
-import com.ntxdev.zuptecnico.R;
+import com.particity.zuptecnico.R;
 
 public class ViewUtils {
 

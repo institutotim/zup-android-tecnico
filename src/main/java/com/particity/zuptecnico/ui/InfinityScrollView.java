@@ -1,4 +1,4 @@
-package com.ntxdev.zuptecnico.ui;
+package com.particity.zuptecnico.ui;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -6,7 +6,7 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.widget.ScrollView;
 
-import com.ntxdev.zuptecnico.R;
+import com.particity.zuptecnico.R;
 
 /**
  * Created by igorlira on 3/18/14.

@@ -1,8 +1,8 @@
-package com.ntxdev.zuptecnico.storage;
+package com.particity.zuptecnico.storage;
 
-import com.ntxdev.zuptecnico.entities.Case;
-import com.ntxdev.zuptecnico.entities.collections.CaseHistoryCollection;
-import com.ntxdev.zuptecnico.entities.collections.CaseHistoryItem;
+import com.particity.zuptecnico.entities.Case;
+import com.particity.zuptecnico.entities.collections.CaseHistoryCollection;
+import com.particity.zuptecnico.entities.collections.CaseHistoryItem;
 
 import java.util.ArrayList;
 import java.util.List;

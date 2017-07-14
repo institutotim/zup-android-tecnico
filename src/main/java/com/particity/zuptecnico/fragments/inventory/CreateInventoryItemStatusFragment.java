@@ -1,4 +1,4 @@
-package com.ntxdev.zuptecnico.fragments.inventory;
+package com.particity.zuptecnico.fragments.inventory;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -14,11 +14,11 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 
-import com.ntxdev.zuptecnico.R;
-import com.ntxdev.zuptecnico.entities.InventoryCategory;
-import com.ntxdev.zuptecnico.entities.InventoryCategoryStatus;
-import com.ntxdev.zuptecnico.entities.InventoryItem;
-import com.ntxdev.zuptecnico.util.Utilities;
+import com.particity.zuptecnico.R;
+import com.particity.zuptecnico.entities.InventoryCategory;
+import com.particity.zuptecnico.entities.InventoryCategoryStatus;
+import com.particity.zuptecnico.entities.InventoryItem;
+import com.particity.zuptecnico.util.Utilities;
 
 /**
  * Created by Renan on 14/01/2016.

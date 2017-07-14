@@ -1,4 +1,4 @@
-package com.ntxdev.zuptecnico.activities.inventory;
+package com.particity.zuptecnico.activities.inventory;
 
 import android.Manifest;
 import android.app.ProgressDialog;
@@ -13,24 +13,23 @@ import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Toast;
 
-import com.ntxdev.zuptecnico.R;
-import com.ntxdev.zuptecnico.ZupApplication;
-import com.ntxdev.zuptecnico.api.Zup;
-import com.ntxdev.zuptecnico.api.sync.EditInventoryItemSyncAction;
-import com.ntxdev.zuptecnico.api.sync.PublishInventoryItemSyncAction;
-import com.ntxdev.zuptecnico.api.sync.PublishOrEditInventorySyncAction;
-import com.ntxdev.zuptecnico.api.sync.SyncAction;
-import com.ntxdev.zuptecnico.entities.InventoryCategory;
-import com.ntxdev.zuptecnico.entities.InventoryCategoryStatus;
-import com.ntxdev.zuptecnico.entities.InventoryItem;
-import com.ntxdev.zuptecnico.fragments.inventory.CreateInventoryItemSectionFragment;
-import com.ntxdev.zuptecnico.fragments.inventory.CreateInventoryItemStatusFragment;
-import com.ntxdev.zuptecnico.fragments.inventory.CreateInventoryPublisher;
-import com.ntxdev.zuptecnico.ui.UIHelper;
-import com.ntxdev.zuptecnico.util.Utilities;
-import com.ntxdev.zuptecnico.util.ViewUtils;
+import com.particity.zuptecnico.R;
+import com.particity.zuptecnico.ZupApplication;
+import com.particity.zuptecnico.api.Zup;
+import com.particity.zuptecnico.api.sync.EditInventoryItemSyncAction;
+import com.particity.zuptecnico.api.sync.PublishInventoryItemSyncAction;
+import com.particity.zuptecnico.api.sync.PublishOrEditInventorySyncAction;
+import com.particity.zuptecnico.api.sync.SyncAction;
+import com.particity.zuptecnico.entities.InventoryCategory;
+import com.particity.zuptecnico.entities.InventoryCategoryStatus;
+import com.particity.zuptecnico.entities.InventoryItem;
+import com.particity.zuptecnico.fragments.inventory.CreateInventoryItemSectionFragment;
+import com.particity.zuptecnico.fragments.inventory.CreateInventoryItemStatusFragment;
+import com.particity.zuptecnico.fragments.inventory.CreateInventoryPublisher;
+import com.particity.zuptecnico.ui.UIHelper;
+import com.particity.zuptecnico.util.Utilities;
+import com.particity.zuptecnico.util.ViewUtils;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -115,8 +114,7 @@ public class CreateInventoryItemActivity extends AppCompatActivity {
       //                                          int[] grantResults)
       // to handle the case where the user grants the permission. See the documentation
       // for ActivityCompat#requestPermissions for more details.
-      return;
-    }
+      }
     if (ActivityCompat.checkSelfPermission(this, Manifest.permission.WRITE_EXTERNAL_STORAGE)
             != PackageManager.PERMISSION_GRANTED
             && ActivityCompat.checkSelfPermission(this, Manifest.permission.WRITE_EXTERNAL_STORAGE)
@@ -130,8 +128,8 @@ public class CreateInventoryItemActivity extends AppCompatActivity {
       //                                          int[] grantResults)
       // to handle the case where the user grants the permission. See the documentation
       // for ActivityCompat#requestPermissions for more details.
-      return;
-    }
+
+      }
     return;
   }
 

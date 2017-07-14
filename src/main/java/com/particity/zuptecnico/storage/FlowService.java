@@ -1,6 +1,6 @@
-package com.ntxdev.zuptecnico.storage;
+package com.particity.zuptecnico.storage;
 
-import com.ntxdev.zuptecnico.entities.Flow;
+import com.particity.zuptecnico.entities.Flow;
 
 import java.util.ArrayList;
 import java.util.List;

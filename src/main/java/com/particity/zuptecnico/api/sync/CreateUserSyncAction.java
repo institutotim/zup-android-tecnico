@@ -1,4 +1,4 @@
-package com.ntxdev.zuptecnico.api.sync;
+package com.particity.zuptecnico.api.sync;
 
 import android.os.Parcel;
 

@@ -1,4 +1,4 @@
-package com.ntxdev.zuptecnico.entities;
+package com.particity.zuptecnico.entities;
 
 /**
  * Created by Igor on 8/10/2015.

@@ -1,7 +1,7 @@
-package com.ntxdev.zuptecnico.api;
+package com.particity.zuptecnico.api;
 
-import com.ntxdev.zuptecnico.entities.Group;
-import com.ntxdev.zuptecnico.entities.User;
+import com.particity.zuptecnico.entities.Group;
+import com.particity.zuptecnico.entities.User;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;

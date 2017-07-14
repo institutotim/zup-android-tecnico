@@ -1,12 +1,11 @@
-package com.ntxdev.zuptecnico.entities.originalcase;
+package com.particity.zuptecnico.entities.originalcase;
 
 import android.os.Parcel;
 import android.os.Parcelable;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.ntxdev.zuptecnico.api.Zup;
-import com.ntxdev.zuptecnico.entities.User;
+import com.particity.zuptecnico.entities.User;
 
 import java.util.HashMap;
 import java.util.LinkedHashMap;

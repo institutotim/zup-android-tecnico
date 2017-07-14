@@ -1,12 +1,12 @@
-package com.ntxdev.zuptecnico.adapters;
+package com.particity.zuptecnico.adapters;
 
 import android.content.Context;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.CheckBox;
 
-import com.ntxdev.zuptecnico.R;
-import com.ntxdev.zuptecnico.entities.User;
+import com.particity.zuptecnico.R;
+import com.particity.zuptecnico.entities.User;
 
 import java.util.ArrayList;
 import java.util.List;

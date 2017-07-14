@@ -1,14 +1,6 @@
-package com.ntxdev.zuptecnico.util;
+package com.particity.zuptecnico.util;
 
-import android.app.ProgressDialog;
-import android.content.Context;
-import android.os.IBinder;
-import android.util.DisplayMetrics;
-import android.view.inputmethod.InputMethodManager;
-import android.widget.TextView;
-
-import com.ntxdev.zuptecnico.R;
-import com.ntxdev.zuptecnico.config.InternalConstants;
+import com.particity.zuptecnico.config.InternalConstants;
 
 public class QueryChecker extends Thread {
 	public interface UpdatableQuery {

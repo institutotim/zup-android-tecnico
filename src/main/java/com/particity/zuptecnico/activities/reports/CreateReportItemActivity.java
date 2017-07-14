@@ -1,4 +1,4 @@
-package com.ntxdev.zuptecnico.activities.reports;
+package com.particity.zuptecnico.activities.reports;
 
 import android.Manifest;
 import android.content.DialogInterface;
@@ -16,36 +16,34 @@ import android.support.v7.view.ContextThemeWrapper;
 import android.text.Editable;
 import android.text.TextUtils;
 import android.text.TextWatcher;
-import android.util.TypedValue;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import com.ntxdev.zuptecnico.BuildConfig;
-import com.ntxdev.zuptecnico.R;
-import com.ntxdev.zuptecnico.ZupApplication;
-import com.ntxdev.zuptecnico.api.Zup;
-import com.ntxdev.zuptecnico.api.sync.ChangeReportStatusSyncAction;
-import com.ntxdev.zuptecnico.api.sync.EditReportItemSyncAction;
-import com.ntxdev.zuptecnico.api.sync.PublishReportItemSyncAction;
-import com.ntxdev.zuptecnico.api.sync.SyncAction;
-import com.ntxdev.zuptecnico.config.Constants;
-import com.ntxdev.zuptecnico.entities.ImageItem;
-import com.ntxdev.zuptecnico.entities.Position;
-import com.ntxdev.zuptecnico.entities.ReportCategory;
-import com.ntxdev.zuptecnico.entities.ReportItem;
-import com.ntxdev.zuptecnico.entities.User;
-import com.ntxdev.zuptecnico.fragments.CreateUserDialog;
-import com.ntxdev.zuptecnico.fragments.PickLocationDialog;
-import com.ntxdev.zuptecnico.fragments.UserPickerDialog;
-import com.ntxdev.zuptecnico.fragments.reports.CreateReportImagesFragment;
-import com.ntxdev.zuptecnico.fragments.reports.ReportCategorySelectorDialog;
-import com.ntxdev.zuptecnico.fragments.reports.ReportStatusPickerDialog;
-import com.ntxdev.zuptecnico.util.GPSUtils;
-import com.ntxdev.zuptecnico.util.Utilities;
+import com.particity.zuptecnico.BuildConfig;
+import com.particity.zuptecnico.R;
+import com.particity.zuptecnico.ZupApplication;
+import com.particity.zuptecnico.api.Zup;
+import com.particity.zuptecnico.api.sync.ChangeReportStatusSyncAction;
+import com.particity.zuptecnico.api.sync.EditReportItemSyncAction;
+import com.particity.zuptecnico.api.sync.PublishReportItemSyncAction;
+import com.particity.zuptecnico.api.sync.SyncAction;
+import com.particity.zuptecnico.config.Constants;
+import com.particity.zuptecnico.entities.ImageItem;
+import com.particity.zuptecnico.entities.Position;
+import com.particity.zuptecnico.entities.ReportCategory;
+import com.particity.zuptecnico.entities.ReportItem;
+import com.particity.zuptecnico.entities.User;
+import com.particity.zuptecnico.fragments.CreateUserDialog;
+import com.particity.zuptecnico.fragments.PickLocationDialog;
+import com.particity.zuptecnico.fragments.UserPickerDialog;
+import com.particity.zuptecnico.fragments.reports.CreateReportImagesFragment;
+import com.particity.zuptecnico.fragments.reports.ReportCategorySelectorDialog;
+import com.particity.zuptecnico.fragments.reports.ReportStatusPickerDialog;
+import com.particity.zuptecnico.util.GPSUtils;
+import com.particity.zuptecnico.util.Utilities;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -420,23 +418,37 @@ public class CreateReportItemActivity extends AppCompatActivity
   }
 
   private void getPermissions() {
-    if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION)
-        != PackageManager.PERMISSION_GRANTED
-        && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION)
-        != PackageManager.PERMISSION_GRANTED) {
-      ActivityCompat.requestPermissions(this,
-          new String[] { Manifest.permission.ACCESS_FINE_LOCATION }, 231);
-      // TODO: Consider calling
-      //    ActivityCompat#requestPermissions
-      // here to request the missing permissions, and then overriding
-      //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
-      //                                          int[] grantResults)
-      // to handle the case where the user grants the permission. See the documentation
-      // for ActivityCompat#requestPermissions for more details.
-      return;
+  if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION)
+      != PackageManager.PERMISSION_GRANTED
+      && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION)
+      != PackageManager.PERMISSION_GRANTED) {
+    ActivityCompat.requestPermissions(this,
+        new String[] { Manifest.permission.ACCESS_FINE_LOCATION }, 231);
+    // TODO: Consider calling
+    //    ActivityCompat#requestPermissions
+    // here to request the missing permissions, and then overriding
+    //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
+    //                                          int[] grantResults)
+    // to handle the case where the user grants the permission. See the documentation
+    // for ActivityCompat#requestPermissions for more details.
     }
-    return;
-  }
+  if (ActivityCompat.checkSelfPermission(this, Manifest.permission.WRITE_EXTERNAL_STORAGE)
+          != PackageManager.PERMISSION_GRANTED
+          && ActivityCompat.checkSelfPermission(this, Manifest.permission.WRITE_EXTERNAL_STORAGE)
+          != PackageManager.PERMISSION_GRANTED) {
+    ActivityCompat.requestPermissions(this,
+            new String[] { Manifest.permission.WRITE_EXTERNAL_STORAGE }, 231);
+    // TODO: Consider calling
+    //    ActivityCompat#requestPermissions
+    // here to request the missing permissions, and then overriding
+    //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
+    //                                          int[] grantResults)
+    // to handle the case where the user grants the permission. See the documentation
+    // for ActivityCompat#requestPermissions for more details.
+
+    }
+  return;
+}
 
   void updateDescriptionView() {
     TextWatcher watcher = new TextWatcher() {

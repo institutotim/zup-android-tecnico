@@ -1,4 +1,4 @@
-package com.ntxdev.zuptecnico;
+package com.particity.zuptecnico;
 
 import android.content.Intent;
 import android.content.pm.PackageInfo;
@@ -14,11 +14,11 @@ import android.widget.TextView;
 
 import com.crashlytics.android.Crashlytics;
 import com.crashlytics.android.core.CrashlyticsCore;
-import com.ntxdev.zuptecnico.api.Zup;
-import com.ntxdev.zuptecnico.entities.Group;
-import com.ntxdev.zuptecnico.entities.Session;
-import com.ntxdev.zuptecnico.entities.User;
-import com.ntxdev.zuptecnico.util.ViewUtils;
+import com.particity.zuptecnico.api.Zup;
+import com.particity.zuptecnico.entities.Group;
+import com.particity.zuptecnico.entities.Session;
+import com.particity.zuptecnico.entities.User;
+import com.particity.zuptecnico.util.ViewUtils;
 
 import io.fabric.sdk.android.Fabric;
 import retrofit.Callback;
@@ -32,11 +32,7 @@ public class LoginActivity extends AppCompatActivity implements Callback<Session
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         CrashlyticsCore core = new CrashlyticsCore.Builder().disabled(BuildConfig.DEBUG).build();
-        if (!BuildConfig.DEBUG) {
-            Fabric.with(this, new Crashlytics.Builder().core(core).build(), new Crashlytics());
-        } else {
-            Fabric.with(this, new Crashlytics.Builder().core(core).build());
-        }
+
         setContentView(R.layout.activity_login);
         Zup.getInstance().initStorage(this.getApplicationContext());
         boolean isExpired = getIntent().getBooleanExtra(EXPIRED_TOKEN, false);

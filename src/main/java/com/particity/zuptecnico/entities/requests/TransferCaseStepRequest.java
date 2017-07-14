@@ -1,4 +1,4 @@
-package com.ntxdev.zuptecnico.entities.requests;
+package com.particity.zuptecnico.entities.requests;
 
 /**
  * Created by igorlira on 8/8/14.

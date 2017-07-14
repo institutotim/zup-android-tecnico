@@ -1,10 +1,6 @@
-package com.ntxdev.zuptecnico.fragments.reports;
+package com.particity.zuptecnico.fragments.reports;
 
-import android.support.v7.app.AlertDialog;
-import android.app.Dialog;
-import android.content.DialogInterface;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.DialogFragment;
 import android.text.Editable;
@@ -13,18 +9,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.Window;
-import android.widget.AdapterView;
 import android.widget.EditText;
-import android.widget.ListView;
 import android.widget.RadioButton;
 import android.widget.TextView;
 
-import com.ntxdev.zuptecnico.R;
-import com.ntxdev.zuptecnico.adapters.ReportCategoriesAdapter;
-import com.ntxdev.zuptecnico.entities.ReportCategory;
-import com.ntxdev.zuptecnico.entities.ReportItem;
-
-import org.w3c.dom.Text;
+import com.particity.zuptecnico.R;
+import com.particity.zuptecnico.entities.ReportItem;
 
 /**
  * Created by igorlira on 7/20/15.

@@ -1,4 +1,4 @@
-package com.ntxdev.zuptecnico.ui;
+package com.particity.zuptecnico.ui;
 
 import android.graphics.Bitmap;
 import android.graphics.drawable.Drawable;

@@ -1,4 +1,4 @@
-package com.ntxdev.zuptecnico.ui;
+package com.particity.zuptecnico.ui;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -8,7 +8,7 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.ntxdev.zuptecnico.R;
+import com.particity.zuptecnico.R;
 
 public class FlowLayout extends ViewGroup {
     private int mHorizontalSpacing;

@@ -1,4 +1,4 @@
-package com.ntxdev.zuptecnico.entities.requests;
+package com.particity.zuptecnico.entities.requests;
 
 import com.fasterxml.jackson.annotation.JsonGetter;
 import com.fasterxml.jackson.annotation.JsonProperty;

@@ -1,14 +1,13 @@
-package com.ntxdev.zuptecnico.storage;
+package com.particity.zuptecnico.storage;
 
-import com.ntxdev.zuptecnico.api.sync.CaseSyncAction;
-import com.ntxdev.zuptecnico.api.sync.DeleteInventoryItemSyncAction;
-import com.ntxdev.zuptecnico.api.sync.EditReportItemSyncAction;
-import com.ntxdev.zuptecnico.api.sync.FillCaseStepSyncAction;
-import com.ntxdev.zuptecnico.api.sync.FinishCaseSyncAction;
-import com.ntxdev.zuptecnico.api.sync.InventorySyncAction;
-import com.ntxdev.zuptecnico.api.sync.PublishOrEditInventorySyncAction;
-import com.ntxdev.zuptecnico.api.sync.ReportSyncAction;
-import com.ntxdev.zuptecnico.api.sync.SyncAction;
+import com.particity.zuptecnico.api.sync.CaseSyncAction;
+import com.particity.zuptecnico.api.sync.EditReportItemSyncAction;
+import com.particity.zuptecnico.api.sync.FillCaseStepSyncAction;
+import com.particity.zuptecnico.api.sync.FinishCaseSyncAction;
+import com.particity.zuptecnico.api.sync.InventorySyncAction;
+import com.particity.zuptecnico.api.sync.PublishOrEditInventorySyncAction;
+import com.particity.zuptecnico.api.sync.ReportSyncAction;
+import com.particity.zuptecnico.api.sync.SyncAction;
 
 import java.util.ArrayList;
 import java.util.List;

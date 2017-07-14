@@ -1,19 +1,18 @@
-package com.ntxdev.zuptecnico.activities.cases;
+package com.particity.zuptecnico.activities.cases;
 
 import android.os.Bundle;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
-import android.widget.Toast;
 
-import com.ntxdev.zuptecnico.R;
-import com.ntxdev.zuptecnico.ZupApplication;
-import com.ntxdev.zuptecnico.api.Zup;
-import com.ntxdev.zuptecnico.entities.collections.CaseHistoryCollection;
-import com.ntxdev.zuptecnico.entities.collections.CaseHistoryItem;
-import com.ntxdev.zuptecnico.fragments.reports.ReportItemHistoryFragment;
-import com.ntxdev.zuptecnico.ui.UIHelper;
+import com.particity.zuptecnico.R;
+import com.particity.zuptecnico.ZupApplication;
+import com.particity.zuptecnico.api.Zup;
+import com.particity.zuptecnico.entities.collections.CaseHistoryCollection;
+import com.particity.zuptecnico.entities.collections.CaseHistoryItem;
+import com.particity.zuptecnico.fragments.reports.ReportItemHistoryFragment;
+import com.particity.zuptecnico.ui.UIHelper;
 
 import retrofit.Callback;
 import retrofit.RetrofitError;

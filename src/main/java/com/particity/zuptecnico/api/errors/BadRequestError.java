@@ -1,4 +1,4 @@
-package com.ntxdev.zuptecnico.api.errors;
+package com.particity.zuptecnico.api.errors;
 
 /**
  * Created by Renan on 10/03/2016.

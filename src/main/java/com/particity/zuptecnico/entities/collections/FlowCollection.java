@@ -1,7 +1,7 @@
-package com.ntxdev.zuptecnico.entities.collections;
+package com.particity.zuptecnico.entities.collections;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import com.ntxdev.zuptecnico.entities.Flow;
+import com.particity.zuptecnico.entities.Flow;
 
 /**
  * Created by igorlira on 7/26/14.

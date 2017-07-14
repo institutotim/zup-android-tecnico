@@ -1,21 +1,18 @@
-package com.ntxdev.zuptecnico.fragments;
+package com.particity.zuptecnico.fragments;
 
 import android.content.res.ColorStateList;
-import android.content.res.Resources;
-import android.content.res.XmlResourceParser;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.content.ContextCompat;
-import android.util.TypedValue;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.ntxdev.zuptecnico.R;
-import com.ntxdev.zuptecnico.adapters.UsersAdapter;
-import com.ntxdev.zuptecnico.adapters.UsersMultiSelectAdapter;
-import com.ntxdev.zuptecnico.entities.User;
+import com.particity.zuptecnico.R;
+import com.particity.zuptecnico.adapters.UsersAdapter;
+import com.particity.zuptecnico.adapters.UsersMultiSelectAdapter;
+import com.particity.zuptecnico.entities.User;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.ntxdev.zuptecnico.ui;
+package com.particity.zuptecnico.ui;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -12,7 +12,7 @@ import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;
 import android.widget.ImageView;
 
-import com.ntxdev.zuptecnico.R;
+import com.particity.zuptecnico.R;
 
 public class RoundedImageView  extends ImageView {
 

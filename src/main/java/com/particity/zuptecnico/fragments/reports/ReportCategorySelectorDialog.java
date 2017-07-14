@@ -1,19 +1,17 @@
-package com.ntxdev.zuptecnico.fragments.reports;
+package com.particity.zuptecnico.fragments.reports;
 
 import android.app.Dialog;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.app.DialogFragment;
 import android.support.v7.app.AlertDialog;
-import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
-import com.ntxdev.zuptecnico.R;
-import com.ntxdev.zuptecnico.adapters.ReportCategoriesAdapter;
-import com.ntxdev.zuptecnico.entities.ReportCategory;
+import com.particity.zuptecnico.R;
+import com.particity.zuptecnico.adapters.ReportCategoriesAdapter;
+import com.particity.zuptecnico.entities.ReportCategory;
 
 /**
  * Created by igorlira on 7/20/15.

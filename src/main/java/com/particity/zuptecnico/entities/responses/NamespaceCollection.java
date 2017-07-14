@@ -1,6 +1,6 @@
-package com.ntxdev.zuptecnico.entities.responses;
+package com.particity.zuptecnico.entities.responses;
 
-import com.ntxdev.zuptecnico.entities.Namespace;
+import com.particity.zuptecnico.entities.Namespace;
 
 /**
  * Created by WINDOWS on 31/08/2016.

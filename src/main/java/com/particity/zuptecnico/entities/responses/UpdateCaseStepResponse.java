@@ -1,8 +1,8 @@
-package com.ntxdev.zuptecnico.entities.responses;
+package com.particity.zuptecnico.entities.responses;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.ntxdev.zuptecnico.entities.Case;
+import com.particity.zuptecnico.entities.Case;
 
 /**
  * Created by igorlira on 8/8/14.

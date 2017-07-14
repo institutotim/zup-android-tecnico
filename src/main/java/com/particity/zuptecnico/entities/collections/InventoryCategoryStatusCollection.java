@@ -1,6 +1,6 @@
-package com.ntxdev.zuptecnico.entities.collections;
+package com.particity.zuptecnico.entities.collections;
 
-import com.ntxdev.zuptecnico.entities.InventoryCategoryStatus;
+import com.particity.zuptecnico.entities.InventoryCategoryStatus;
 
 /**
  * Created by igorlira on 4/19/14.

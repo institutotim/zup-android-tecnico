@@ -1,4 +1,4 @@
-package com.ntxdev.zuptecnico.fragments.cases;
+package com.particity.zuptecnico.fragments.cases;
 
 import android.content.Context;
 import android.content.DialogInterface;
@@ -19,11 +19,11 @@ import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.ntxdev.zuptecnico.R;
-import com.ntxdev.zuptecnico.activities.inventory.InventoryItemDetailsActivity;
-import com.ntxdev.zuptecnico.adapters.InventoriesPickerAdapter;
-import com.ntxdev.zuptecnico.entities.InventoryCategory;
-import com.ntxdev.zuptecnico.entities.InventoryItem;
+import com.particity.zuptecnico.R;
+import com.particity.zuptecnico.activities.inventory.InventoryItemDetailsActivity;
+import com.particity.zuptecnico.adapters.InventoriesPickerAdapter;
+import com.particity.zuptecnico.entities.InventoryCategory;
+import com.particity.zuptecnico.entities.InventoryItem;
 
 import java.util.ArrayList;
 import java.util.List;

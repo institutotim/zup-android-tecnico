@@ -1,8 +1,7 @@
-package com.ntxdev.zuptecnico.storage;
+package com.particity.zuptecnico.storage;
 
-import com.ntxdev.zuptecnico.entities.Namespace;
-import com.ntxdev.zuptecnico.entities.User;
-import com.ntxdev.zuptecnico.entities.responses.NamespaceCollection;
+import com.particity.zuptecnico.entities.Namespace;
+
 import java.util.ArrayList;
 import java.util.List;
 

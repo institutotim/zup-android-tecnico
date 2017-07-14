@@ -1,6 +1,4 @@
-package com.ntxdev.zuptecnico.ui;
-
-import android.graphics.Bitmap;
+package com.particity.zuptecnico.ui;
 
 /**
  * Created by igorlira on 7/18/15.

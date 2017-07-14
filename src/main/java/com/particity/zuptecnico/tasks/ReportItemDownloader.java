@@ -1,14 +1,13 @@
-package com.ntxdev.zuptecnico.tasks;
+package com.particity.zuptecnico.tasks;
 
 import android.content.Context;
 import android.os.AsyncTask;
-import android.widget.ListView;
 
-import com.ntxdev.zuptecnico.api.Zup;
-import com.ntxdev.zuptecnico.entities.ReportHistoryItem;
-import com.ntxdev.zuptecnico.entities.ReportItem;
-import com.ntxdev.zuptecnico.entities.collections.ReportHistoryItemCollection;
-import com.ntxdev.zuptecnico.entities.collections.SingleReportItemCollection;
+import com.particity.zuptecnico.api.Zup;
+import com.particity.zuptecnico.entities.ReportHistoryItem;
+import com.particity.zuptecnico.entities.ReportItem;
+import com.particity.zuptecnico.entities.collections.ReportHistoryItemCollection;
+import com.particity.zuptecnico.entities.collections.SingleReportItemCollection;
 import com.squareup.picasso.Picasso;
 
 /**

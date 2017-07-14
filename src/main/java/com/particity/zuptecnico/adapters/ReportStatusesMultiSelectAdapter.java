@@ -1,7 +1,7 @@
-package com.ntxdev.zuptecnico.adapters;
+package com.particity.zuptecnico.adapters;
 
-import com.ntxdev.zuptecnico.api.Zup;
-import com.ntxdev.zuptecnico.entities.ReportCategory;
+import com.particity.zuptecnico.api.Zup;
+import com.particity.zuptecnico.entities.ReportCategory;
 
 import java.util.ArrayList;
 import java.util.HashSet;

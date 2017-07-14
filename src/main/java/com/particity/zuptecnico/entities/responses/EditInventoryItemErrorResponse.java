@@ -1,4 +1,4 @@
-package com.ntxdev.zuptecnico.entities.responses;
+package com.particity.zuptecnico.entities.responses;
 
 /**
  * Created by Renan on 21/12/2015.

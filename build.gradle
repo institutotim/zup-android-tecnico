@@ -37,8 +37,8 @@ android {
     applicationId 'com.particity.zuptecnico'
     multiDexEnabled true
 
-    versionCode 10000
-    versionName '1.0'
+    versionCode 10001
+    versionName '1.0.1'
 
     buildConfigField 'boolean', 'CASE_ENABLED', 'false'
     buildConfigField 'boolean', 'REPORT_ENABLED', 'true'
@@ -81,6 +81,6 @@ dependencies {
   compile 'com.squareup.picasso:picasso:2.5.2'
   compile 'com.appyvet:materialrangebar:1'
   compile 'com.kbeanie:multipicker:1.0.10@aar'
-  compile 'com.theartofdev.edmodo:android-image-cropper:2.1.4'
+  compile 'com.theartofdev.edmodo:android-image-cropper:2.1.+'
   compile 'com.commit451:bypasses:1.0.1'
 }

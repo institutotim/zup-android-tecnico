@@ -1,8 +1,11 @@
 package com.particity.zuptecnico;
 
+import android.Manifest;
+import android.content.pm.PackageManager;
 import android.content.Intent;
 import android.content.pm.PackageInfo;
 import android.os.Bundle;
+import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -32,10 +35,10 @@ public class LoginActivity extends AppCompatActivity implements Callback<Session
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         CrashlyticsCore core = new CrashlyticsCore.Builder().disabled(BuildConfig.DEBUG).build();
-
         setContentView(R.layout.activity_login);
         Zup.getInstance().initStorage(this.getApplicationContext());
         boolean isExpired = getIntent().getBooleanExtra(EXPIRED_TOKEN, false);
+        getPermissions();
         if (isExpired) {
 			Zup.getInstance().clearSessionToken();
             EditText txtLogin = (EditText) findViewById(R.id.txt_login);
@@ -96,6 +99,7 @@ public class LoginActivity extends AppCompatActivity implements Callback<Session
         findViewById(R.id.login_progress).setVisibility(View.VISIBLE);
         txtLogin.setEnabled(false);
         txtSenha.setEnabled(false);
+
     }
 
     public void onLoginSuccess() {
@@ -109,6 +113,7 @@ public class LoginActivity extends AppCompatActivity implements Callback<Session
         ViewUtils.hideKeyboard(this, txtLogin.getWindowToken());
 
         goToLoadingDataActivity();
+
     }
 
     private void goToLoadingDataActivity() {
@@ -174,5 +179,13 @@ public class LoginActivity extends AppCompatActivity implements Callback<Session
         } catch (Exception e) {
             this.onLoginError(getString(R.string.error_network));
         }
+    }
+
+    private void getPermissions() {
+        requestPermissions(new String[]{
+                                Manifest.permission.WRITE_EXTERNAL_STORAGE,
+                                Manifest.permission.READ_EXTERNAL_STORAGE,
+                                Manifest.permission.ACCESS_FINE_LOCATION},
+                                261);
     }
 }

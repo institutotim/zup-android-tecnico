@@ -1,4 +1,4 @@
-package com.particity.zuptecnico.util;
+package com.lfdb.zuptecnico.util;
 
 import java.io.*;
 

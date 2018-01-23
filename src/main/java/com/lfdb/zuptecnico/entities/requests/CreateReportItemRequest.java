@@ -1,10 +1,10 @@
-package com.particity.zuptecnico.entities.requests;
+package com.lfdb.zuptecnico.entities.requests;
 
 import com.fasterxml.jackson.annotation.JsonGetter;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonSetter;
-import com.particity.zuptecnico.entities.ImageItem;
+import com.lfdb.zuptecnico.entities.ImageItem;
 
 import java.util.HashMap;
 

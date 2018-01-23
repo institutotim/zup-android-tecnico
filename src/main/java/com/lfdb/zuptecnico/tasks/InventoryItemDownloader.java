@@ -1,11 +1,11 @@
-package com.particity.zuptecnico.tasks;
+package com.lfdb.zuptecnico.tasks;
 
 import android.content.Context;
 import android.os.AsyncTask;
 
-import com.particity.zuptecnico.api.Zup;
-import com.particity.zuptecnico.entities.InventoryItem;
-import com.particity.zuptecnico.entities.collections.SingleInventoryItemCollection;
+import com.lfdb.zuptecnico.api.Zup;
+import com.lfdb.zuptecnico.entities.InventoryItem;
+import com.lfdb.zuptecnico.entities.collections.SingleInventoryItemCollection;
 
 import java.util.List;
 

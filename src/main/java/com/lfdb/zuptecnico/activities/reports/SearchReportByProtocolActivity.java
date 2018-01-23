@@ -1,4 +1,4 @@
-package com.particity.zuptecnico.activities.reports;
+package com.lfdb.zuptecnico.activities.reports;
 
 import android.annotation.TargetApi;
 import android.os.Build;
@@ -8,10 +8,10 @@ import android.support.v7.widget.SearchView;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.particity.zuptecnico.R;
-import com.particity.zuptecnico.adapters.ReportsAdapter;
-import com.particity.zuptecnico.ui.UIHelper;
-import com.particity.zuptecnico.util.QueryChecker;
+import com.lfdb.zuptecnico.R;
+import com.lfdb.zuptecnico.adapters.ReportsAdapter;
+import com.lfdb.zuptecnico.ui.UIHelper;
+import com.lfdb.zuptecnico.util.QueryChecker;
 
 public class SearchReportByProtocolActivity extends ReportsListActivity implements SearchView.OnCloseListener, MenuItemCompat.OnActionExpandListener, SearchView.OnQueryTextListener, QueryChecker.UpdatableQuery {
     private String query;

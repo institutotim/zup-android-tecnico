@@ -1,13 +1,13 @@
-package com.particity.zuptecnico.storage;
+package com.lfdb.zuptecnico.storage;
 
-import com.particity.zuptecnico.api.sync.CaseSyncAction;
-import com.particity.zuptecnico.api.sync.EditReportItemSyncAction;
-import com.particity.zuptecnico.api.sync.FillCaseStepSyncAction;
-import com.particity.zuptecnico.api.sync.FinishCaseSyncAction;
-import com.particity.zuptecnico.api.sync.InventorySyncAction;
-import com.particity.zuptecnico.api.sync.PublishOrEditInventorySyncAction;
-import com.particity.zuptecnico.api.sync.ReportSyncAction;
-import com.particity.zuptecnico.api.sync.SyncAction;
+import com.lfdb.zuptecnico.api.sync.CaseSyncAction;
+import com.lfdb.zuptecnico.api.sync.EditReportItemSyncAction;
+import com.lfdb.zuptecnico.api.sync.FillCaseStepSyncAction;
+import com.lfdb.zuptecnico.api.sync.FinishCaseSyncAction;
+import com.lfdb.zuptecnico.api.sync.InventorySyncAction;
+import com.lfdb.zuptecnico.api.sync.PublishOrEditInventorySyncAction;
+import com.lfdb.zuptecnico.api.sync.ReportSyncAction;
+import com.lfdb.zuptecnico.api.sync.SyncAction;
 
 import java.util.ArrayList;
 import java.util.List;

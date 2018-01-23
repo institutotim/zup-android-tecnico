@@ -1,4 +1,4 @@
-package com.particity.zuptecnico.api.sync;
+package com.lfdb.zuptecnico.api.sync;
 
 import android.content.Intent;
 import android.os.Parcel;
@@ -6,18 +6,18 @@ import android.os.Parcel;
 import com.crashlytics.android.Crashlytics;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.particity.zuptecnico.api.Zup;
-import com.particity.zuptecnico.api.errors.SyncErrors;
-import com.particity.zuptecnico.config.Constants;
-import com.particity.zuptecnico.entities.ImageItem;
-import com.particity.zuptecnico.entities.Position;
-import com.particity.zuptecnico.entities.ReportItem;
-import com.particity.zuptecnico.entities.User;
-import com.particity.zuptecnico.entities.collections.SingleReportItemCollection;
-import com.particity.zuptecnico.entities.requests.CreateArbitraryReportItemRequest;
-import com.particity.zuptecnico.entities.requests.CreateReportItemRequest;
-import com.particity.zuptecnico.entities.requests.CreateUserRequest;
-import com.particity.zuptecnico.entities.responses.PublishReportResponse;
+import com.lfdb.zuptecnico.api.Zup;
+import com.lfdb.zuptecnico.api.errors.SyncErrors;
+import com.lfdb.zuptecnico.config.Constants;
+import com.lfdb.zuptecnico.entities.ImageItem;
+import com.lfdb.zuptecnico.entities.Position;
+import com.lfdb.zuptecnico.entities.ReportItem;
+import com.lfdb.zuptecnico.entities.User;
+import com.lfdb.zuptecnico.entities.collections.SingleReportItemCollection;
+import com.lfdb.zuptecnico.entities.requests.CreateArbitraryReportItemRequest;
+import com.lfdb.zuptecnico.entities.requests.CreateReportItemRequest;
+import com.lfdb.zuptecnico.entities.requests.CreateUserRequest;
+import com.lfdb.zuptecnico.entities.responses.PublishReportResponse;
 
 import org.json.JSONObject;
 

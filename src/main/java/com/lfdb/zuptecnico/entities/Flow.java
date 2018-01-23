@@ -1,11 +1,11 @@
-package com.particity.zuptecnico.entities;
+package com.lfdb.zuptecnico.entities;
 
 import android.os.Parcel;
 import android.os.Parcelable;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.particity.zuptecnico.api.Zup;
+import com.lfdb.zuptecnico.api.Zup;
 
 import java.io.Serializable;
 import java.util.ArrayList;

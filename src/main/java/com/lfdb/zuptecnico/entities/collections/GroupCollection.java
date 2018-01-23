@@ -1,6 +1,6 @@
-package com.particity.zuptecnico.entities.collections;
+package com.lfdb.zuptecnico.entities.collections;
 
-import com.particity.zuptecnico.entities.Group;
+import com.lfdb.zuptecnico.entities.Group;
 
 public class GroupCollection {
     public Group[] groups;

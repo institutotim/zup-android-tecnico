@@ -1,4 +1,4 @@
-package com.particity.zuptecnico.fragments.reports;
+package com.lfdb.zuptecnico.fragments.reports;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -8,12 +8,12 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.particity.zuptecnico.R;
-import com.particity.zuptecnico.adapters.ReportItemCommentsAdapter;
-import com.particity.zuptecnico.api.sync.PublishReportCommentSyncAction;
-import com.particity.zuptecnico.api.Zup;
-import com.particity.zuptecnico.entities.ReportItem;
-import com.particity.zuptecnico.ui.ScrollLessListView;
+import com.lfdb.zuptecnico.R;
+import com.lfdb.zuptecnico.adapters.ReportItemCommentsAdapter;
+import com.lfdb.zuptecnico.api.sync.PublishReportCommentSyncAction;
+import com.lfdb.zuptecnico.api.Zup;
+import com.lfdb.zuptecnico.entities.ReportItem;
+import com.lfdb.zuptecnico.ui.ScrollLessListView;
 
 /**
  * Created by igorlira on 7/18/15.

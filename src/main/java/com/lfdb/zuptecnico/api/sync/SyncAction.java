@@ -1,4 +1,4 @@
-package com.particity.zuptecnico.api.sync;
+package com.lfdb.zuptecnico.api.sync;
 
 import android.content.ContentValues;
 import android.content.Intent;
@@ -14,8 +14,8 @@ import com.fasterxml.jackson.annotation.JsonSetter;
 import com.fasterxml.jackson.annotation.JsonSubTypes;
 import com.fasterxml.jackson.annotation.JsonTypeInfo;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.particity.zuptecnico.ZupApplication;
-import com.particity.zuptecnico.api.Zup;
+import com.lfdb.zuptecnico.ZupApplication;
+import com.lfdb.zuptecnico.api.Zup;
 
 import org.json.JSONObject;
 

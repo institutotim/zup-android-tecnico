@@ -1,4 +1,4 @@
-package com.particity.zuptecnico.fragments.reports;
+package com.lfdb.zuptecnico.fragments.reports;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -7,10 +7,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.particity.zuptecnico.R;
-import com.particity.zuptecnico.adapters.ReportItemNotificationsAdapter;
-import com.particity.zuptecnico.entities.ReportNotificationCollection.ReportNotificationItem;
-import com.particity.zuptecnico.ui.ScrollLessListView;
+import com.lfdb.zuptecnico.R;
+import com.lfdb.zuptecnico.adapters.ReportItemNotificationsAdapter;
+import com.lfdb.zuptecnico.entities.ReportNotificationCollection.ReportNotificationItem;
+import com.lfdb.zuptecnico.ui.ScrollLessListView;
 
 public class ReportItemNotificationFragment extends Fragment {
     ReportNotificationItem[] notifications;

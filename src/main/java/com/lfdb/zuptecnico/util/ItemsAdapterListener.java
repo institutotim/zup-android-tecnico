@@ -1,4 +1,4 @@
-package com.particity.zuptecnico.util;
+package com.lfdb.zuptecnico.util;
 
 /**
  * Created by Renan on 03/12/2015.

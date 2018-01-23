@@ -1,4 +1,4 @@
-package com.particity.zuptecnico.adapters;
+package com.lfdb.zuptecnico.adapters;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -7,10 +7,10 @@ import android.widget.BaseAdapter;
 import android.widget.CheckBox;
 import android.widget.TextView;
 
-import com.particity.zuptecnico.R;
-import com.particity.zuptecnico.api.Zup;
-import com.particity.zuptecnico.entities.ReportCategory;
-import com.particity.zuptecnico.entities.ReportCategory.Status;
+import com.lfdb.zuptecnico.R;
+import com.lfdb.zuptecnico.api.Zup;
+import com.lfdb.zuptecnico.entities.ReportCategory;
+import com.lfdb.zuptecnico.entities.ReportCategory.Status;
 
 import java.util.HashSet;
 import java.util.Iterator;

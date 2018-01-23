@@ -1,4 +1,4 @@
-package com.particity.zuptecnico.util;
+package com.lfdb.zuptecnico.util;
 
 import android.location.Address;
 import android.location.Geocoder;
@@ -8,9 +8,9 @@ import com.crashlytics.android.Crashlytics;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.VisibleRegion;
-import com.particity.zuptecnico.ZupApplication;
-import com.particity.zuptecnico.config.Constants;
-import com.particity.zuptecnico.entities.Place;
+import com.lfdb.zuptecnico.ZupApplication;
+import com.lfdb.zuptecnico.config.Constants;
+import com.lfdb.zuptecnico.entities.Place;
 
 import org.json.JSONException;
 import org.json.JSONObject;

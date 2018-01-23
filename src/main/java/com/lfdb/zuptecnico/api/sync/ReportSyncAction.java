@@ -1,4 +1,4 @@
-package com.particity.zuptecnico.api.sync;
+package com.lfdb.zuptecnico.api.sync;
 
 /**
  * Created by Renan on 23/01/2016.

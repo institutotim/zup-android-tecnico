@@ -1,4 +1,4 @@
-package com.particity.zuptecnico.activities.cases;
+package com.lfdb.zuptecnico.activities.cases;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -21,21 +21,21 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import android.widget.Toast;
-import com.particity.zuptecnico.R;
-import com.particity.zuptecnico.ZupApplication;
-import com.particity.zuptecnico.adapters.CaseStepsAdapter;
-import com.particity.zuptecnico.api.Zup;
-import com.particity.zuptecnico.api.sync.DeleteCaseSyncAction;
-import com.particity.zuptecnico.api.sync.FillCaseStepSyncAction;
-import com.particity.zuptecnico.api.sync.FinishCaseSyncAction;
-import com.particity.zuptecnico.api.sync.SyncAction;
-import com.particity.zuptecnico.entities.Case;
-import com.particity.zuptecnico.entities.Flow;
-import com.particity.zuptecnico.entities.collections.SingleCaseCollection;
-import com.particity.zuptecnico.fragments.cases.CaseItemStepsListFragment;
-import com.particity.zuptecnico.fragments.cases.RelatedReportsSectionFragment;
-import com.particity.zuptecnico.ui.UIHelper;
-import com.particity.zuptecnico.util.Utilities;
+import com.lfdb.zuptecnico.R;
+import com.lfdb.zuptecnico.ZupApplication;
+import com.lfdb.zuptecnico.adapters.CaseStepsAdapter;
+import com.lfdb.zuptecnico.api.Zup;
+import com.lfdb.zuptecnico.api.sync.DeleteCaseSyncAction;
+import com.lfdb.zuptecnico.api.sync.FillCaseStepSyncAction;
+import com.lfdb.zuptecnico.api.sync.FinishCaseSyncAction;
+import com.lfdb.zuptecnico.api.sync.SyncAction;
+import com.lfdb.zuptecnico.entities.Case;
+import com.lfdb.zuptecnico.entities.Flow;
+import com.lfdb.zuptecnico.entities.collections.SingleCaseCollection;
+import com.lfdb.zuptecnico.fragments.cases.CaseItemStepsListFragment;
+import com.lfdb.zuptecnico.fragments.cases.RelatedReportsSectionFragment;
+import com.lfdb.zuptecnico.ui.UIHelper;
+import com.lfdb.zuptecnico.util.Utilities;
 
 import retrofit.Callback;
 import retrofit.RetrofitError;

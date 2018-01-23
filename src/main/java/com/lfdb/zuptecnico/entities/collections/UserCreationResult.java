@@ -1,7 +1,7 @@
-package com.particity.zuptecnico.entities.collections;
+package com.lfdb.zuptecnico.entities.collections;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import com.particity.zuptecnico.entities.User;
+import com.lfdb.zuptecnico.entities.User;
 
 import java.util.Map;
 

@@ -1,4 +1,4 @@
-package com.particity.zuptecnico.fragments.reports;
+package com.lfdb.zuptecnico.fragments.reports;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -13,8 +13,8 @@ import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.TextView;
 
-import com.particity.zuptecnico.R;
-import com.particity.zuptecnico.entities.ReportItem;
+import com.lfdb.zuptecnico.R;
+import com.lfdb.zuptecnico.entities.ReportItem;
 
 /**
  * Created by igorlira on 7/20/15.

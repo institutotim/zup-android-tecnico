@@ -1,4 +1,4 @@
-package com.particity.zuptecnico.fragments;
+package com.lfdb.zuptecnico.fragments;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -10,10 +10,10 @@ import android.view.WindowManager;
 import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.Toast;
-import com.particity.zuptecnico.R;
-import com.particity.zuptecnico.adapters.GroupAdapter;
-import com.particity.zuptecnico.entities.Flow;
-import com.particity.zuptecnico.entities.Group;
+import com.lfdb.zuptecnico.R;
+import com.lfdb.zuptecnico.adapters.GroupAdapter;
+import com.lfdb.zuptecnico.entities.Flow;
+import com.lfdb.zuptecnico.entities.Group;
 
 /**
  * Created by Renan on 20/10/2015.

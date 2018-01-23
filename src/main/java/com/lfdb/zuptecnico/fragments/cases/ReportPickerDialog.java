@@ -1,4 +1,4 @@
-package com.particity.zuptecnico.fragments.cases;
+package com.lfdb.zuptecnico.fragments.cases;
 
 import android.content.Context;
 import android.content.DialogInterface;
@@ -18,9 +18,9 @@ import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.particity.zuptecnico.R;
-import com.particity.zuptecnico.adapters.ReportsPickerAdapter;
-import com.particity.zuptecnico.entities.ReportItem;
+import com.lfdb.zuptecnico.R;
+import com.lfdb.zuptecnico.adapters.ReportsPickerAdapter;
+import com.lfdb.zuptecnico.entities.ReportItem;
 
 import java.util.ArrayList;
 import java.util.List;

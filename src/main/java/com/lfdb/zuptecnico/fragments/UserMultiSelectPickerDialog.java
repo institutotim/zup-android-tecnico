@@ -1,4 +1,4 @@
-package com.particity.zuptecnico.fragments;
+package com.lfdb.zuptecnico.fragments;
 
 import android.content.res.ColorStateList;
 import android.os.Bundle;
@@ -9,10 +9,10 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.particity.zuptecnico.R;
-import com.particity.zuptecnico.adapters.UsersAdapter;
-import com.particity.zuptecnico.adapters.UsersMultiSelectAdapter;
-import com.particity.zuptecnico.entities.User;
+import com.lfdb.zuptecnico.R;
+import com.lfdb.zuptecnico.adapters.UsersAdapter;
+import com.lfdb.zuptecnico.adapters.UsersMultiSelectAdapter;
+import com.lfdb.zuptecnico.entities.User;
 
 import java.util.ArrayList;
 import java.util.List;

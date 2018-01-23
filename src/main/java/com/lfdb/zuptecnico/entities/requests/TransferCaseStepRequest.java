@@ -1,4 +1,4 @@
-package com.particity.zuptecnico.entities.requests;
+package com.lfdb.zuptecnico.entities.requests;
 
 /**
  * Created by igorlira on 8/8/14.

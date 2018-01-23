@@ -1,4 +1,4 @@
-package com.particity.zuptecnico.fragments.reports;
+package com.lfdb.zuptecnico.fragments.reports;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -11,10 +11,10 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.particity.zuptecnico.R;
-import com.particity.zuptecnico.api.Zup;
-import com.particity.zuptecnico.entities.ReportCategory;
-import com.particity.zuptecnico.entities.ReportItem;
+import com.lfdb.zuptecnico.R;
+import com.lfdb.zuptecnico.api.Zup;
+import com.lfdb.zuptecnico.entities.ReportCategory;
+import com.lfdb.zuptecnico.entities.ReportItem;
 
 /**
  * Created by Renan on 10/02/2016.

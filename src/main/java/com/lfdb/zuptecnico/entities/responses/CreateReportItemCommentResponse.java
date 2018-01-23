@@ -1,6 +1,6 @@
-package com.particity.zuptecnico.entities.responses;
+package com.lfdb.zuptecnico.entities.responses;
 
-import com.particity.zuptecnico.entities.ReportItem;
+import com.lfdb.zuptecnico.entities.ReportItem;
 
 /**
  * Created by igorlira on 7/28/15.

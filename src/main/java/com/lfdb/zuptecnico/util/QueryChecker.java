@@ -1,6 +1,6 @@
-package com.particity.zuptecnico.util;
+package com.lfdb.zuptecnico.util;
 
-import com.particity.zuptecnico.config.InternalConstants;
+import com.lfdb.zuptecnico.config.InternalConstants;
 
 public class QueryChecker extends Thread {
 	public interface UpdatableQuery {

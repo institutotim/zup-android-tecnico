@@ -1,4 +1,4 @@
-package com.particity.zuptecnico.fragments.reports;
+package com.lfdb.zuptecnico.fragments.reports;
 
 import android.app.DatePickerDialog;
 import android.content.DialogInterface;
@@ -15,10 +15,10 @@ import android.widget.CompoundButton;
 import android.widget.DatePicker;
 import android.widget.TextView;
 
-import com.particity.zuptecnico.R;
-import com.particity.zuptecnico.entities.ReportCategory;
-import com.particity.zuptecnico.entities.User;
-import com.particity.zuptecnico.fragments.UserMultiSelectPickerDialog;
+import com.lfdb.zuptecnico.R;
+import com.lfdb.zuptecnico.entities.ReportCategory;
+import com.lfdb.zuptecnico.entities.User;
+import com.lfdb.zuptecnico.fragments.UserMultiSelectPickerDialog;
 
 import java.io.Serializable;
 import java.text.SimpleDateFormat;

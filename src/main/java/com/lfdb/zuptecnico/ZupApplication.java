@@ -1,4 +1,4 @@
-package com.particity.zuptecnico;
+package com.lfdb.zuptecnico;
 
 import android.app.Application;
 import android.content.Context;
@@ -6,7 +6,7 @@ import android.support.design.widget.Snackbar;
 import android.util.Log;
 import android.view.View;
 
-import com.particity.zuptecnico.api.Zup;
+import com.lfdb.zuptecnico.api.Zup;
 import com.crashlytics.android.Crashlytics;
 import io.fabric.sdk.android.Fabric;
 

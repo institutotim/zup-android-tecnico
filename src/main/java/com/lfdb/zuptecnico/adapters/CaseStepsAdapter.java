@@ -1,4 +1,4 @@
-package com.particity.zuptecnico.adapters;
+package com.lfdb.zuptecnico.adapters;
 
 import android.content.Context;
 import android.support.v4.content.ContextCompat;
@@ -11,10 +11,10 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.particity.zuptecnico.R;
-import com.particity.zuptecnico.api.Zup;
-import com.particity.zuptecnico.entities.Case;
-import com.particity.zuptecnico.entities.Flow;
+import com.lfdb.zuptecnico.R;
+import com.lfdb.zuptecnico.api.Zup;
+import com.lfdb.zuptecnico.entities.Case;
+import com.lfdb.zuptecnico.entities.Flow;
 
 import java.util.ArrayList;
 import java.util.List;

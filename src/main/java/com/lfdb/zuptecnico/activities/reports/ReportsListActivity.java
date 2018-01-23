@@ -1,7 +1,5 @@
-package com.particity.zuptecnico.activities.reports;
+package com.lfdb.zuptecnico.activities.reports;
 
-import android.Manifest;
-import android.content.pm.PackageManager;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -12,7 +10,6 @@ import android.location.LocationManager;
 import android.os.Bundle;
 import android.provider.Settings;
 import android.support.design.widget.Snackbar;
-import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v4.content.LocalBroadcastManager;
 import android.support.v7.app.AlertDialog;
@@ -24,22 +21,22 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.particity.zuptecnico.R;
-import com.particity.zuptecnico.SyncActivity;
-import com.particity.zuptecnico.ZupApplication;
-import com.particity.zuptecnico.activities.RootActivity;
-import com.particity.zuptecnico.adapters.OfflineReportsAdapter;
-import com.particity.zuptecnico.adapters.ReportsAdapter;
-import com.particity.zuptecnico.api.Zup;
-import com.particity.zuptecnico.api.sync.DeleteReportItemSyncAction;
-import com.particity.zuptecnico.api.sync.EditReportItemSyncAction;
-import com.particity.zuptecnico.api.sync.PublishReportItemSyncAction;
-import com.particity.zuptecnico.entities.ReportItem;
-import com.particity.zuptecnico.fragments.reports.FilterReportsFragment;
-import com.particity.zuptecnico.fragments.reports.ReportCategorySelectorDialog;
-import com.particity.zuptecnico.fragments.reports.ReportsMapFragment;
-import com.particity.zuptecnico.ui.UIHelper;
-import com.particity.zuptecnico.util.ItemsAdapterListener;
+import com.lfdb.zuptecnico.R;
+import com.lfdb.zuptecnico.SyncActivity;
+import com.lfdb.zuptecnico.ZupApplication;
+import com.lfdb.zuptecnico.activities.RootActivity;
+import com.lfdb.zuptecnico.adapters.OfflineReportsAdapter;
+import com.lfdb.zuptecnico.adapters.ReportsAdapter;
+import com.lfdb.zuptecnico.api.Zup;
+import com.lfdb.zuptecnico.api.sync.DeleteReportItemSyncAction;
+import com.lfdb.zuptecnico.api.sync.EditReportItemSyncAction;
+import com.lfdb.zuptecnico.api.sync.PublishReportItemSyncAction;
+import com.lfdb.zuptecnico.entities.ReportItem;
+import com.lfdb.zuptecnico.fragments.reports.FilterReportsFragment;
+import com.lfdb.zuptecnico.fragments.reports.ReportCategorySelectorDialog;
+import com.lfdb.zuptecnico.fragments.reports.ReportsMapFragment;
+import com.lfdb.zuptecnico.ui.UIHelper;
+import com.lfdb.zuptecnico.util.ItemsAdapterListener;
 
 
 

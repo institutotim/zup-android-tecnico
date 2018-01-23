@@ -1,4 +1,4 @@
-package com.particity.zuptecnico;
+package com.lfdb.zuptecnico;
 
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -10,12 +10,12 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 
-import com.particity.zuptecnico.activities.RootActivity;
-import com.particity.zuptecnico.adapters.NamespaceAdapter;
-import com.particity.zuptecnico.api.Zup;
-import com.particity.zuptecnico.entities.Namespace;
-import com.particity.zuptecnico.entities.User;
-import com.particity.zuptecnico.ui.UIHelper;
+import com.lfdb.zuptecnico.activities.RootActivity;
+import com.lfdb.zuptecnico.adapters.NamespaceAdapter;
+import com.lfdb.zuptecnico.api.Zup;
+import com.lfdb.zuptecnico.entities.Namespace;
+import com.lfdb.zuptecnico.entities.User;
+import com.lfdb.zuptecnico.ui.UIHelper;
 
 public class ProfileActivity extends RootActivity {
 

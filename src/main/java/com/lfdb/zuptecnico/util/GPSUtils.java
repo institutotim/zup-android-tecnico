@@ -1,4 +1,4 @@
-package com.particity.zuptecnico.util;
+package com.lfdb.zuptecnico.util;
 
 import android.content.Context;
 import android.location.Address;
@@ -10,9 +10,9 @@ import android.text.TextUtils;
 import android.util.Log;
 
 import com.crashlytics.android.Crashlytics;
-import com.particity.zuptecnico.ZupApplication;
-import com.particity.zuptecnico.api.Zup;
-import com.particity.zuptecnico.entities.responses.PositionValidationResponse;
+import com.lfdb.zuptecnico.ZupApplication;
+import com.lfdb.zuptecnico.api.Zup;
+import com.lfdb.zuptecnico.entities.responses.PositionValidationResponse;
 
 import java.io.IOException;
 import java.util.ArrayList;

@@ -1,6 +1,6 @@
-package com.particity.zuptecnico.entities.collections;
+package com.lfdb.zuptecnico.entities.collections;
 
-import com.particity.zuptecnico.entities.ReportHistoryItem;
+import com.lfdb.zuptecnico.entities.ReportHistoryItem;
 
 /**
  * Created by igorlira on 7/30/15.

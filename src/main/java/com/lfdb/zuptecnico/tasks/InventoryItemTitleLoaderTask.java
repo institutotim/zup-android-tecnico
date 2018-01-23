@@ -1,10 +1,10 @@
-package com.particity.zuptecnico.tasks;
+package com.lfdb.zuptecnico.tasks;
 
 import android.os.AsyncTask;
 import android.widget.TextView;
 
-import com.particity.zuptecnico.api.Zup;
-import com.particity.zuptecnico.entities.InventoryItem;
+import com.lfdb.zuptecnico.api.Zup;
+import com.lfdb.zuptecnico.entities.InventoryItem;
 
 import java.util.ArrayList;
 import java.util.List;

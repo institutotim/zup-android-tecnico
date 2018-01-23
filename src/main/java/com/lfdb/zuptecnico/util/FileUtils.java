@@ -1,4 +1,4 @@
-package com.particity.zuptecnico.util;
+package com.lfdb.zuptecnico.util;
 
 import android.content.Context;
 import android.os.Environment;

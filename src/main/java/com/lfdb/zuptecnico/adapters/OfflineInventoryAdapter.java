@@ -1,9 +1,9 @@
-package com.particity.zuptecnico.adapters;
+package com.lfdb.zuptecnico.adapters;
 
 import android.content.Context;
 
-import com.particity.zuptecnico.api.Zup;
-import com.particity.zuptecnico.entities.InventoryItem;
+import com.lfdb.zuptecnico.api.Zup;
+import com.lfdb.zuptecnico.entities.InventoryItem;
 
 import java.util.List;
 

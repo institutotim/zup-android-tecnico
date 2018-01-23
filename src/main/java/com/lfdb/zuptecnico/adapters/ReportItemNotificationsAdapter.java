@@ -1,4 +1,4 @@
-package com.particity.zuptecnico.adapters;
+package com.lfdb.zuptecnico.adapters;
 
 import android.content.Context;
 import android.content.DialogInterface;
@@ -14,9 +14,9 @@ import android.webkit.WebViewClient;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
-import com.particity.zuptecnico.R;
-import com.particity.zuptecnico.entities.ReportNotificationCollection.ReportNotificationItem;
-import com.particity.zuptecnico.util.Utilities;
+import com.lfdb.zuptecnico.R;
+import com.lfdb.zuptecnico.entities.ReportNotificationCollection.ReportNotificationItem;
+import com.lfdb.zuptecnico.util.Utilities;
 
 import java.util.Arrays;
 import java.util.Comparator;

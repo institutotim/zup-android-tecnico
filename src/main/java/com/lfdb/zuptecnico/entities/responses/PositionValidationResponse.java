@@ -1,4 +1,4 @@
-package com.particity.zuptecnico.entities.responses;
+package com.lfdb.zuptecnico.entities.responses;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 

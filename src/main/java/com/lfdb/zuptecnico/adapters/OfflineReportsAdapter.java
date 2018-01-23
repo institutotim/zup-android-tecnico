@@ -1,4 +1,4 @@
-package com.particity.zuptecnico.adapters;
+package com.lfdb.zuptecnico.adapters;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -6,9 +6,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.particity.zuptecnico.R;
-import com.particity.zuptecnico.api.Zup;
-import com.particity.zuptecnico.entities.ReportItem;
+import com.lfdb.zuptecnico.R;
+import com.lfdb.zuptecnico.api.Zup;
+import com.lfdb.zuptecnico.entities.ReportItem;
 
 /**
  * Created by Igor on 8/3/2015.

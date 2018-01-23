@@ -1,4 +1,4 @@
-package com.particity.zuptecnico.fragments.reports;
+package com.lfdb.zuptecnico.fragments.reports;
 
 import android.content.res.ColorStateList;
 import android.os.Bundle;
@@ -7,9 +7,9 @@ import android.support.v4.content.ContextCompat;
 import android.view.View;
 import android.widget.AdapterView;
 
-import com.particity.zuptecnico.R;
-import com.particity.zuptecnico.adapters.ReportStatusesMultiSelectAdapter;
-import com.particity.zuptecnico.entities.ReportCategory;
+import com.lfdb.zuptecnico.R;
+import com.lfdb.zuptecnico.adapters.ReportStatusesMultiSelectAdapter;
+import com.lfdb.zuptecnico.entities.ReportCategory;
 
 import java.util.ArrayList;
 import java.util.List;

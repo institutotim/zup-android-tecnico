@@ -1,4 +1,4 @@
-package com.particity.zuptecnico.fragments.reports;
+package com.lfdb.zuptecnico.fragments.reports;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -10,18 +10,18 @@ import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.particity.zuptecnico.R;
-import com.particity.zuptecnico.ZupApplication;
-import com.particity.zuptecnico.api.Zup;
-import com.particity.zuptecnico.api.sync.ChangeReportResponsableGroupSyncAction;
-import com.particity.zuptecnico.api.sync.ChangeReportResponsableUserSyncAction;
-import com.particity.zuptecnico.entities.Group;
-import com.particity.zuptecnico.entities.ReportCategory;
-import com.particity.zuptecnico.entities.ReportItem;
-import com.particity.zuptecnico.entities.User;
-import com.particity.zuptecnico.fragments.GroupPickerDialog;
-import com.particity.zuptecnico.fragments.UserPickerDialog;
-import com.particity.zuptecnico.util.Utilities;
+import com.lfdb.zuptecnico.R;
+import com.lfdb.zuptecnico.ZupApplication;
+import com.lfdb.zuptecnico.api.Zup;
+import com.lfdb.zuptecnico.api.sync.ChangeReportResponsableGroupSyncAction;
+import com.lfdb.zuptecnico.api.sync.ChangeReportResponsableUserSyncAction;
+import com.lfdb.zuptecnico.entities.Group;
+import com.lfdb.zuptecnico.entities.ReportCategory;
+import com.lfdb.zuptecnico.entities.ReportItem;
+import com.lfdb.zuptecnico.entities.User;
+import com.lfdb.zuptecnico.fragments.GroupPickerDialog;
+import com.lfdb.zuptecnico.fragments.UserPickerDialog;
+import com.lfdb.zuptecnico.util.Utilities;
 
 /**
  * Created by igorlira on 7/18/15.

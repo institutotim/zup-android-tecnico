@@ -1,4 +1,4 @@
-package com.particity.zuptecnico.entities;
+package com.lfdb.zuptecnico.entities;
 
 import java.io.Serializable;
 import java.util.Map;

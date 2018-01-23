@@ -1,4 +1,4 @@
-package com.particity.zuptecnico.fragments.reports;
+package com.lfdb.zuptecnico.fragments.reports;
 
 import android.app.Dialog;
 import android.os.Bundle;
@@ -9,9 +9,9 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
-import com.particity.zuptecnico.R;
-import com.particity.zuptecnico.adapters.ReportCategoriesAdapter;
-import com.particity.zuptecnico.entities.ReportCategory;
+import com.lfdb.zuptecnico.R;
+import com.lfdb.zuptecnico.adapters.ReportCategoriesAdapter;
+import com.lfdb.zuptecnico.entities.ReportCategory;
 
 /**
  * Created by igorlira on 7/20/15.

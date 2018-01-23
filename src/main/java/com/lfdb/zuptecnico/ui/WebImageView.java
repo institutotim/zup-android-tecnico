@@ -1,4 +1,4 @@
-package com.particity.zuptecnico.ui;
+package com.lfdb.zuptecnico.ui;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -6,7 +6,7 @@ import android.os.Build;
 import android.util.AttributeSet;
 import android.widget.ImageView;
 
-import com.particity.zuptecnico.api.Zup;
+import com.lfdb.zuptecnico.api.Zup;
 
 /**
  * Created by igorlira on 7/18/15.

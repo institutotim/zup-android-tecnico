@@ -1,7 +1,7 @@
-package com.particity.zuptecnico.api;
+package com.lfdb.zuptecnico.api;
 
-import com.particity.zuptecnico.entities.Group;
-import com.particity.zuptecnico.entities.User;
+import com.lfdb.zuptecnico.entities.Group;
+import com.lfdb.zuptecnico.entities.User;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;

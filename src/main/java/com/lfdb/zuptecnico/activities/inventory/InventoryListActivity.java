@@ -1,4 +1,4 @@
-package com.particity.zuptecnico.activities.inventory;
+package com.lfdb.zuptecnico.activities.inventory;
 
 import android.app.ProgressDialog;
 import android.content.BroadcastReceiver;
@@ -21,22 +21,22 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.particity.zuptecnico.R;
-import com.particity.zuptecnico.ZupApplication;
-import com.particity.zuptecnico.activities.RootActivity;
-import com.particity.zuptecnico.adapters.InventoryItemsAdapter;
-import com.particity.zuptecnico.adapters.OfflineInventoryAdapter;
-import com.particity.zuptecnico.api.Zup;
-import com.particity.zuptecnico.api.sync.EditInventoryItemSyncAction;
-import com.particity.zuptecnico.api.sync.PublishInventoryItemSyncAction;
-import com.particity.zuptecnico.entities.InventoryCategory;
-import com.particity.zuptecnico.entities.InventoryItem;
-import com.particity.zuptecnico.fragments.inventory.FilterInventoryFragment;
-import com.particity.zuptecnico.fragments.inventory.InventoriesMapFragment;
-import com.particity.zuptecnico.tasks.InventoryItemDownloader;
-import com.particity.zuptecnico.ui.UIHelper;
-import com.particity.zuptecnico.util.ItemsAdapterListener;
-import com.particity.zuptecnico.util.ViewUtils;
+import com.lfdb.zuptecnico.R;
+import com.lfdb.zuptecnico.ZupApplication;
+import com.lfdb.zuptecnico.activities.RootActivity;
+import com.lfdb.zuptecnico.adapters.InventoryItemsAdapter;
+import com.lfdb.zuptecnico.adapters.OfflineInventoryAdapter;
+import com.lfdb.zuptecnico.api.Zup;
+import com.lfdb.zuptecnico.api.sync.EditInventoryItemSyncAction;
+import com.lfdb.zuptecnico.api.sync.PublishInventoryItemSyncAction;
+import com.lfdb.zuptecnico.entities.InventoryCategory;
+import com.lfdb.zuptecnico.entities.InventoryItem;
+import com.lfdb.zuptecnico.fragments.inventory.FilterInventoryFragment;
+import com.lfdb.zuptecnico.fragments.inventory.InventoriesMapFragment;
+import com.lfdb.zuptecnico.tasks.InventoryItemDownloader;
+import com.lfdb.zuptecnico.ui.UIHelper;
+import com.lfdb.zuptecnico.util.ItemsAdapterListener;
+import com.lfdb.zuptecnico.util.ViewUtils;
 
 import java.util.ArrayList;
 import java.util.List;

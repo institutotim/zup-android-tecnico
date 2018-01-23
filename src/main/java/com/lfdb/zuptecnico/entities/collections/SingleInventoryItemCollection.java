@@ -1,6 +1,6 @@
-package com.particity.zuptecnico.entities.collections;
+package com.lfdb.zuptecnico.entities.collections;
 
-import com.particity.zuptecnico.entities.InventoryItem;
+import com.lfdb.zuptecnico.entities.InventoryItem;
 
 /**
  * Created by igorlira on 3/3/14.

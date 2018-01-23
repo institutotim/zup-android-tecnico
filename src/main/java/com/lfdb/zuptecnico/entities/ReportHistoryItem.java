@@ -1,13 +1,13 @@
-package com.particity.zuptecnico.entities;
+package com.lfdb.zuptecnico.entities;
 
 import android.content.Context;
 import android.os.Parcel;
 import android.os.Parcelable;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.particity.zuptecnico.R;
-import com.particity.zuptecnico.ZupApplication;
-import com.particity.zuptecnico.api.Zup;
+import com.lfdb.zuptecnico.R;
+import com.lfdb.zuptecnico.ZupApplication;
+import com.lfdb.zuptecnico.api.Zup;
 
 import java.util.Map;
 

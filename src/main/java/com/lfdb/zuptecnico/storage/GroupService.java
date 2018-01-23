@@ -1,6 +1,6 @@
-package com.particity.zuptecnico.storage;
+package com.lfdb.zuptecnico.storage;
 
-import com.particity.zuptecnico.entities.Group;
+import com.lfdb.zuptecnico.entities.Group;
 
 import java.util.ArrayList;
 import java.util.List;

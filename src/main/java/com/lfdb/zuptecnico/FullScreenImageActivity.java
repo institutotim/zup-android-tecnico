@@ -1,4 +1,4 @@
-package com.particity.zuptecnico;
+package com.lfdb.zuptecnico;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -16,8 +16,8 @@ import android.view.ViewGroup;
 import android.view.animation.AlphaAnimation;
 import android.view.animation.Animation;
 import android.widget.ImageView;
-import com.particity.zuptecnico.api.Zup;
-import com.particity.zuptecnico.entities.InventoryItemImage;
+import com.lfdb.zuptecnico.api.Zup;
+import com.lfdb.zuptecnico.entities.InventoryItemImage;
 import com.squareup.picasso.Callback;
 import com.squareup.picasso.Picasso;
 import uk.co.senab.photoview.PhotoViewAttacher;

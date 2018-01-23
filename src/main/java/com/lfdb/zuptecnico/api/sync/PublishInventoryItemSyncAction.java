@@ -1,19 +1,19 @@
-package com.particity.zuptecnico.api.sync;
+package com.lfdb.zuptecnico.api.sync;
 
 import android.content.Intent;
 import android.os.Parcel;
 
 import com.crashlytics.android.Crashlytics;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.particity.zuptecnico.api.Zup;
-import com.particity.zuptecnico.api.errors.SyncErrors;
-import com.particity.zuptecnico.entities.InventoryCategory;
-import com.particity.zuptecnico.entities.InventoryItem;
-import com.particity.zuptecnico.entities.InventoryItemImage;
-import com.particity.zuptecnico.entities.requests.PublishInventoryItemRequest;
-import com.particity.zuptecnico.entities.responses.PublishInventoryItemResponse;
+import com.lfdb.zuptecnico.api.Zup;
+import com.lfdb.zuptecnico.api.errors.SyncErrors;
+import com.lfdb.zuptecnico.entities.InventoryCategory;
+import com.lfdb.zuptecnico.entities.InventoryItem;
+import com.lfdb.zuptecnico.entities.InventoryItemImage;
+import com.lfdb.zuptecnico.entities.requests.PublishInventoryItemRequest;
+import com.lfdb.zuptecnico.entities.responses.PublishInventoryItemResponse;
 
-import com.particity.zuptecnico.util.Utilities;
+import com.lfdb.zuptecnico.util.Utilities;
 import java.util.ArrayList;
 import org.json.JSONObject;
 

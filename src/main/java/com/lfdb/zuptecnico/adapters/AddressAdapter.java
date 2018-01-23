@@ -1,4 +1,4 @@
-package com.particity.zuptecnico.adapters;
+package com.lfdb.zuptecnico.adapters;
 
 import android.content.Context;
 import android.util.Log;
@@ -6,7 +6,7 @@ import android.widget.ArrayAdapter;
 import android.widget.Filter;
 import android.widget.Filterable;
 
-import com.particity.zuptecnico.util.GeoUtils;
+import com.lfdb.zuptecnico.util.GeoUtils;
 
 import org.json.JSONArray;
 import org.json.JSONException;

@@ -1,4 +1,4 @@
-package com.particity.zuptecnico.fragments.inventory;
+package com.lfdb.zuptecnico.fragments.inventory;
 
 import android.content.Intent;
 import android.graphics.Bitmap;
@@ -16,12 +16,12 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.particity.zuptecnico.FullScreenImageActivity;
-import com.particity.zuptecnico.R;
-import com.particity.zuptecnico.api.Zup;
-import com.particity.zuptecnico.entities.InventoryCategory;
-import com.particity.zuptecnico.entities.InventoryItem;
-import com.particity.zuptecnico.entities.InventoryItemImage;
+import com.lfdb.zuptecnico.FullScreenImageActivity;
+import com.lfdb.zuptecnico.R;
+import com.lfdb.zuptecnico.api.Zup;
+import com.lfdb.zuptecnico.entities.InventoryCategory;
+import com.lfdb.zuptecnico.entities.InventoryItem;
+import com.lfdb.zuptecnico.entities.InventoryItemImage;
 import com.squareup.picasso.Picasso;
 import java.util.ArrayList;
 import java.util.Arrays;

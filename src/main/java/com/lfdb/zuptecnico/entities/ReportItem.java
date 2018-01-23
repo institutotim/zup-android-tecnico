@@ -1,4 +1,4 @@
-package com.particity.zuptecnico.entities;
+package com.lfdb.zuptecnico.entities;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -11,7 +11,7 @@ import android.widget.ImageView;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.particity.zuptecnico.R;
+import com.lfdb.zuptecnico.R;
 import com.squareup.picasso.Picasso;
 import java.util.ArrayList;
 import java.util.Arrays;

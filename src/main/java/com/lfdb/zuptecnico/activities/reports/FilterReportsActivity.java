@@ -1,4 +1,4 @@
-package com.particity.zuptecnico.activities.reports;
+package com.lfdb.zuptecnico.activities.reports;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,9 +6,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.particity.zuptecnico.R;
-import com.particity.zuptecnico.fragments.reports.FilterReportsFragment;
-import com.particity.zuptecnico.ui.UIHelper;
+import com.lfdb.zuptecnico.R;
+import com.lfdb.zuptecnico.fragments.reports.FilterReportsFragment;
+import com.lfdb.zuptecnico.ui.UIHelper;
 
 /**
  * Created by Renan on 21/08/2015.

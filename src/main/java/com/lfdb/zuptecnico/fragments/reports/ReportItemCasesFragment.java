@@ -1,4 +1,4 @@
-package com.particity.zuptecnico.fragments.reports;
+package com.lfdb.zuptecnico.fragments.reports;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -7,10 +7,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.particity.zuptecnico.R;
-import com.particity.zuptecnico.adapters.ReportItemCasesAdapter;
-import com.particity.zuptecnico.entities.Case;
-import com.particity.zuptecnico.ui.ScrollLessListView;
+import com.lfdb.zuptecnico.R;
+import com.lfdb.zuptecnico.adapters.ReportItemCasesAdapter;
+import com.lfdb.zuptecnico.entities.Case;
+import com.lfdb.zuptecnico.ui.ScrollLessListView;
 
 /**
  * Created by Renan on 02/03/2016.

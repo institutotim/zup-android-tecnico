@@ -1,4 +1,4 @@
-package com.particity.zuptecnico.fragments.cases;
+package com.lfdb.zuptecnico.fragments.cases;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -7,12 +7,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.particity.zuptecnico.R;
-import com.particity.zuptecnico.activities.cases.CaseItemDetailsActivity;
-import com.particity.zuptecnico.adapters.CaseStepsAdapter;
-import com.particity.zuptecnico.entities.Case;
-import com.particity.zuptecnico.entities.Flow;
-import com.particity.zuptecnico.ui.ScrollLessListView;
+import com.lfdb.zuptecnico.R;
+import com.lfdb.zuptecnico.activities.cases.CaseItemDetailsActivity;
+import com.lfdb.zuptecnico.adapters.CaseStepsAdapter;
+import com.lfdb.zuptecnico.entities.Case;
+import com.lfdb.zuptecnico.entities.Flow;
+import com.lfdb.zuptecnico.ui.ScrollLessListView;
 
 public class CaseItemStepsListFragment extends Fragment {
     CaseStepsAdapter adapter;

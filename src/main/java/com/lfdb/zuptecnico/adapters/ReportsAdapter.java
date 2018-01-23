@@ -1,4 +1,4 @@
-package com.particity.zuptecnico.adapters;
+package com.lfdb.zuptecnico.adapters;
 
 import android.content.Context;
 import android.text.TextUtils;
@@ -11,15 +11,15 @@ import android.widget.AbsListView;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
-import com.particity.zuptecnico.R;
-import com.particity.zuptecnico.api.Zup;
-import com.particity.zuptecnico.entities.Case;
-import com.particity.zuptecnico.entities.ReportCategory;
-import com.particity.zuptecnico.entities.ReportItem;
-import com.particity.zuptecnico.entities.collections.ReportItemCollection;
-import com.particity.zuptecnico.ui.WebImageView;
-import com.particity.zuptecnico.util.ItemsAdapterListener;
-import com.particity.zuptecnico.util.Utilities;
+import com.lfdb.zuptecnico.R;
+import com.lfdb.zuptecnico.api.Zup;
+import com.lfdb.zuptecnico.entities.Case;
+import com.lfdb.zuptecnico.entities.ReportCategory;
+import com.lfdb.zuptecnico.entities.ReportItem;
+import com.lfdb.zuptecnico.entities.collections.ReportItemCollection;
+import com.lfdb.zuptecnico.ui.WebImageView;
+import com.lfdb.zuptecnico.util.ItemsAdapterListener;
+import com.lfdb.zuptecnico.util.Utilities;
 
 import java.io.UnsupportedEncodingException;
 import java.net.URLDecoder;

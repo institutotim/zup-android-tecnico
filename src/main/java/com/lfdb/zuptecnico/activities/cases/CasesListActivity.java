@@ -1,4 +1,4 @@
-package com.particity.zuptecnico.activities.cases;
+package com.lfdb.zuptecnico.activities.cases;
 
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -15,12 +15,12 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.particity.zuptecnico.R;
-import com.particity.zuptecnico.ZupApplication;
-import com.particity.zuptecnico.activities.RootActivity;
-import com.particity.zuptecnico.adapters.CasesAdapter;
-import com.particity.zuptecnico.adapters.OfflineCasesAdapter;
-import com.particity.zuptecnico.ui.UIHelper;
+import com.lfdb.zuptecnico.R;
+import com.lfdb.zuptecnico.ZupApplication;
+import com.lfdb.zuptecnico.activities.RootActivity;
+import com.lfdb.zuptecnico.adapters.CasesAdapter;
+import com.lfdb.zuptecnico.adapters.OfflineCasesAdapter;
+import com.lfdb.zuptecnico.ui.UIHelper;
 
 public class CasesListActivity extends RootActivity implements AdapterView.OnItemClickListener,
         CasesAdapter.CasesAdapterListener {

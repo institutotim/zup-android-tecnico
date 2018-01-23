@@ -1,7 +1,7 @@
-package com.particity.zuptecnico.adapters;
+package com.lfdb.zuptecnico.adapters;
 
-import com.particity.zuptecnico.api.Zup;
-import com.particity.zuptecnico.entities.ReportCategory;
+import com.lfdb.zuptecnico.api.Zup;
+import com.lfdb.zuptecnico.entities.ReportCategory;
 
 import java.util.ArrayList;
 import java.util.HashSet;

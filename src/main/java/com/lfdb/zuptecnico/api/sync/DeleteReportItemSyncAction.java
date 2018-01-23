@@ -1,14 +1,14 @@
-package com.particity.zuptecnico.api.sync;
+package com.lfdb.zuptecnico.api.sync;
 
 import android.content.Intent;
 import android.os.Parcel;
 
 import com.crashlytics.android.Crashlytics;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.particity.zuptecnico.R;
-import com.particity.zuptecnico.ZupApplication;
-import com.particity.zuptecnico.api.Zup;
-import com.particity.zuptecnico.api.errors.SyncErrors;
+import com.lfdb.zuptecnico.R;
+import com.lfdb.zuptecnico.ZupApplication;
+import com.lfdb.zuptecnico.api.Zup;
+import com.lfdb.zuptecnico.api.errors.SyncErrors;
 
 import org.json.JSONException;
 import org.json.JSONObject;

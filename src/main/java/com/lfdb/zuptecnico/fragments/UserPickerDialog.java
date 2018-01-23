@@ -1,4 +1,4 @@
-package com.particity.zuptecnico.fragments;
+package com.lfdb.zuptecnico.fragments;
 
 import android.content.Context;
 import android.content.DialogInterface;
@@ -17,9 +17,9 @@ import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.particity.zuptecnico.R;
-import com.particity.zuptecnico.adapters.UsersAdapter;
-import com.particity.zuptecnico.entities.User;
+import com.lfdb.zuptecnico.R;
+import com.lfdb.zuptecnico.adapters.UsersAdapter;
+import com.lfdb.zuptecnico.entities.User;
 
 /**
  * Created by igorlira on 7/23/15.

@@ -1,4 +1,4 @@
-package com.particity.zuptecnico.util;
+package com.lfdb.zuptecnico.util;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -14,7 +14,7 @@ import android.util.Log;
 import android.view.View;
 import com.crashlytics.android.Crashlytics;
 import com.fasterxml.jackson.databind.util.ISO8601DateFormat;
-import com.particity.zuptecnico.R;
+import com.lfdb.zuptecnico.R;
 import java.io.File;
 import java.io.FileInputStream;
 import java.text.ParseException;

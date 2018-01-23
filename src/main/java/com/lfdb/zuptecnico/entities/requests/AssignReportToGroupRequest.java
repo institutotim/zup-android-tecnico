@@ -1,4 +1,4 @@
-package com.particity.zuptecnico.entities.requests;
+package com.lfdb.zuptecnico.entities.requests;
 
 import com.fasterxml.jackson.annotation.JsonGetter;
 import com.fasterxml.jackson.annotation.JsonProperty;

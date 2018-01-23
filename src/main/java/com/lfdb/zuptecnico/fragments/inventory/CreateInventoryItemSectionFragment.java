@@ -1,4 +1,4 @@
-package com.particity.zuptecnico.fragments.inventory;
+package com.lfdb.zuptecnico.fragments.inventory;
 
 import android.app.Activity;
 import android.content.DialogInterface;
@@ -28,13 +28,13 @@ import com.kbeanie.multipicker.api.ImagePicker;
 import com.kbeanie.multipicker.api.Picker;
 import com.kbeanie.multipicker.api.callbacks.ImagePickerCallback;
 import com.kbeanie.multipicker.api.entity.ChosenImage;
-import com.particity.zuptecnico.R;
-import com.particity.zuptecnico.ZupApplication;
-import com.particity.zuptecnico.entities.InventoryCategory;
-import com.particity.zuptecnico.entities.InventoryItem;
-import com.particity.zuptecnico.entities.InventoryItemImage;
-import com.particity.zuptecnico.fragments.PickLocationDialog;
-import com.particity.zuptecnico.util.FieldUtils;
+import com.lfdb.zuptecnico.R;
+import com.lfdb.zuptecnico.ZupApplication;
+import com.lfdb.zuptecnico.entities.InventoryCategory;
+import com.lfdb.zuptecnico.entities.InventoryItem;
+import com.lfdb.zuptecnico.entities.InventoryItemImage;
+import com.lfdb.zuptecnico.fragments.PickLocationDialog;
+import com.lfdb.zuptecnico.util.FieldUtils;
 import com.theartofdev.edmodo.cropper.CropImage;
 import java.io.File;
 import java.util.List;

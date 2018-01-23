@@ -1,4 +1,4 @@
-package com.particity.zuptecnico.fragments;
+package com.lfdb.zuptecnico.fragments;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -13,12 +13,12 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 
-import com.particity.zuptecnico.R;
-import com.particity.zuptecnico.api.Zup;
-import com.particity.zuptecnico.entities.User;
-import com.particity.zuptecnico.entities.collections.UserCreationResult;
-import com.particity.zuptecnico.entities.requests.CreateUserRequest;
-import com.particity.zuptecnico.util.Strings;
+import com.lfdb.zuptecnico.R;
+import com.lfdb.zuptecnico.api.Zup;
+import com.lfdb.zuptecnico.entities.User;
+import com.lfdb.zuptecnico.entities.collections.UserCreationResult;
+import com.lfdb.zuptecnico.entities.requests.CreateUserRequest;
+import com.lfdb.zuptecnico.util.Strings;
 
 import br.com.rezende.mascaras.Mask;
 import retrofit.Callback;

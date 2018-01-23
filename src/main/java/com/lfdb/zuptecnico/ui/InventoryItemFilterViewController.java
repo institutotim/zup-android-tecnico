@@ -1,4 +1,4 @@
-package com.particity.zuptecnico.ui;
+package com.lfdb.zuptecnico.ui;
 
 import android.app.Activity;
 import android.support.v7.app.AlertDialog;
@@ -10,8 +10,8 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.particity.zuptecnico.R;
-import com.particity.zuptecnico.entities.InventoryCategory;
+import com.lfdb.zuptecnico.R;
+import com.lfdb.zuptecnico.entities.InventoryCategory;
 
 /**
  * Created by igorlira on 3/15/15.

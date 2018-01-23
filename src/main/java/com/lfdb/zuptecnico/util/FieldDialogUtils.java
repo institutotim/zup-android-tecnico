@@ -1,4 +1,4 @@
-package com.particity.zuptecnico.util;
+package com.lfdb.zuptecnico.util;
 
 import android.app.DatePickerDialog;
 import android.app.TimePickerDialog;
@@ -17,8 +17,8 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.TimePicker;
 
-import com.particity.zuptecnico.R;
-import com.particity.zuptecnico.entities.InventoryCategory;
+import com.lfdb.zuptecnico.R;
+import com.lfdb.zuptecnico.entities.InventoryCategory;
 
 import java.util.ArrayList;
 import java.util.Calendar;

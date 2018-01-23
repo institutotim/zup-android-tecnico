@@ -1,4 +1,4 @@
-package com.particity.zuptecnico.api.sync;
+package com.lfdb.zuptecnico.api.sync;
 
 import android.content.Intent;
 import android.os.Parcel;
@@ -14,12 +14,12 @@ import com.fasterxml.jackson.core.JsonToken;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.google.gson.Gson;
-import com.particity.zuptecnico.api.Zup;
-import com.particity.zuptecnico.api.errors.SyncErrors;
-import com.particity.zuptecnico.entities.Case;
-import com.particity.zuptecnico.entities.collections.SingleCaseCollection;
-import com.particity.zuptecnico.entities.requests.UpdateCaseStepRequest;
-import com.particity.zuptecnico.entities.responses.FillCaseStepErrorResponse;
+import com.lfdb.zuptecnico.api.Zup;
+import com.lfdb.zuptecnico.api.errors.SyncErrors;
+import com.lfdb.zuptecnico.entities.Case;
+import com.lfdb.zuptecnico.entities.collections.SingleCaseCollection;
+import com.lfdb.zuptecnico.entities.requests.UpdateCaseStepRequest;
+import com.lfdb.zuptecnico.entities.responses.FillCaseStepErrorResponse;
 
 import org.json.JSONObject;
 

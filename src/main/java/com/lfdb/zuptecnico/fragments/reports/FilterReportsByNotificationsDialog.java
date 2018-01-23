@@ -1,4 +1,4 @@
-package com.particity.zuptecnico.fragments.reports;
+package com.lfdb.zuptecnico.fragments.reports;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -9,8 +9,8 @@ import android.view.ViewGroup;
 import android.widget.EditText;
 
 import com.appyvet.rangebar.RangeBar;
-import com.particity.zuptecnico.R;
-import com.particity.zuptecnico.fragments.reports.FilterReportsFragment.FilterOptions.Range;
+import com.lfdb.zuptecnico.R;
+import com.lfdb.zuptecnico.fragments.reports.FilterReportsFragment.FilterOptions.Range;
 
 /**
  * Created by Renan on 25/08/2015.

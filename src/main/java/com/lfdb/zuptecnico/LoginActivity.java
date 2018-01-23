@@ -1,11 +1,9 @@
-package com.particity.zuptecnico;
+package com.lfdb.zuptecnico;
 
 import android.Manifest;
-import android.content.pm.PackageManager;
 import android.content.Intent;
 import android.content.pm.PackageInfo;
 import android.os.Bundle;
-import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -17,13 +15,12 @@ import android.widget.TextView;
 
 import com.crashlytics.android.Crashlytics;
 import com.crashlytics.android.core.CrashlyticsCore;
-import com.particity.zuptecnico.api.Zup;
-import com.particity.zuptecnico.entities.Group;
-import com.particity.zuptecnico.entities.Session;
-import com.particity.zuptecnico.entities.User;
-import com.particity.zuptecnico.util.ViewUtils;
+import com.lfdb.zuptecnico.api.Zup;
+import com.lfdb.zuptecnico.entities.Group;
+import com.lfdb.zuptecnico.entities.Session;
+import com.lfdb.zuptecnico.entities.User;
+import com.lfdb.zuptecnico.util.ViewUtils;
 
-import io.fabric.sdk.android.Fabric;
 import retrofit.Callback;
 import retrofit.RetrofitError;
 import retrofit.client.Response;
@@ -185,7 +182,8 @@ public class LoginActivity extends AppCompatActivity implements Callback<Session
         requestPermissions(new String[]{
                                 Manifest.permission.WRITE_EXTERNAL_STORAGE,
                                 Manifest.permission.READ_EXTERNAL_STORAGE,
-                                Manifest.permission.ACCESS_FINE_LOCATION},
+                                Manifest.permission.ACCESS_FINE_LOCATION,
+                                Manifest.permission.CAMERA},
                                 261);
     }
 }

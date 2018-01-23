@@ -1,7 +1,7 @@
-package com.particity.zuptecnico.entities.responses;
+package com.lfdb.zuptecnico.entities.responses;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import com.particity.zuptecnico.entities.ReportItem;
+import com.lfdb.zuptecnico.entities.ReportItem;
 
 /**
  * Created by Renan on 06/01/2016.

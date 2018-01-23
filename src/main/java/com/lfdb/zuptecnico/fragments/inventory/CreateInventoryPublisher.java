@@ -1,8 +1,8 @@
-package com.particity.zuptecnico.fragments.inventory;
+package com.lfdb.zuptecnico.fragments.inventory;
 
 import android.view.View;
 
-import com.particity.zuptecnico.entities.InventoryItem;
+import com.lfdb.zuptecnico.entities.InventoryItem;
 
 /**
  * Created by Renan on 14/01/2016.

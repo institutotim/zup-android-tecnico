@@ -1,8 +1,8 @@
-package com.particity.zuptecnico.storage;
+package com.lfdb.zuptecnico.storage;
 
-import com.particity.zuptecnico.entities.Case;
-import com.particity.zuptecnico.entities.collections.CaseHistoryCollection;
-import com.particity.zuptecnico.entities.collections.CaseHistoryItem;
+import com.lfdb.zuptecnico.entities.Case;
+import com.lfdb.zuptecnico.entities.collections.CaseHistoryCollection;
+import com.lfdb.zuptecnico.entities.collections.CaseHistoryItem;
 
 import java.util.ArrayList;
 import java.util.List;

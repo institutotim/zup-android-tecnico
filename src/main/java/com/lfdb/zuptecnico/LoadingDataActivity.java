@@ -1,4 +1,4 @@
-package com.particity.zuptecnico;
+package com.lfdb.zuptecnico;
 
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -12,18 +12,18 @@ import android.view.WindowManager;
 import android.widget.TextView;
 
 import com.crashlytics.android.Crashlytics;
-import com.particity.zuptecnico.activities.RootActivity;
-import com.particity.zuptecnico.activities.cases.CasesListActivity;
-import com.particity.zuptecnico.activities.inventory.InventoryListActivity;
-import com.particity.zuptecnico.activities.reports.ReportsListActivity;
-import com.particity.zuptecnico.api.Zup;
-import com.particity.zuptecnico.entities.Flow;
-import com.particity.zuptecnico.entities.collections.GroupCollection;
-import com.particity.zuptecnico.entities.collections.InventoryCategoryCollection;
-import com.particity.zuptecnico.entities.collections.ReportCategoryCollection;
-import com.particity.zuptecnico.entities.collections.SingleUserCollection;
-import com.particity.zuptecnico.entities.responses.NamespaceCollection;
-import com.particity.zuptecnico.util.Utilities;
+import com.lfdb.zuptecnico.activities.RootActivity;
+import com.lfdb.zuptecnico.activities.cases.CasesListActivity;
+import com.lfdb.zuptecnico.activities.inventory.InventoryListActivity;
+import com.lfdb.zuptecnico.activities.reports.ReportsListActivity;
+import com.lfdb.zuptecnico.api.Zup;
+import com.lfdb.zuptecnico.entities.Flow;
+import com.lfdb.zuptecnico.entities.collections.GroupCollection;
+import com.lfdb.zuptecnico.entities.collections.InventoryCategoryCollection;
+import com.lfdb.zuptecnico.entities.collections.ReportCategoryCollection;
+import com.lfdb.zuptecnico.entities.collections.SingleUserCollection;
+import com.lfdb.zuptecnico.entities.responses.NamespaceCollection;
+import com.lfdb.zuptecnico.util.Utilities;
 
 import retrofit.RetrofitError;
 

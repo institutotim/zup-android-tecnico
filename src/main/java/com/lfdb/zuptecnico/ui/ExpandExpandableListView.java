@@ -1,4 +1,4 @@
-package com.particity.zuptecnico.ui;
+package com.lfdb.zuptecnico.ui;
 
 import android.content.Context;
 import android.util.AttributeSet;

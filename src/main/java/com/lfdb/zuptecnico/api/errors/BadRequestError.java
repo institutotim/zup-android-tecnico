@@ -1,4 +1,4 @@
-package com.particity.zuptecnico.api.errors;
+package com.lfdb.zuptecnico.api.errors;
 
 /**
  * Created by Renan on 10/03/2016.

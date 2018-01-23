@@ -1,4 +1,4 @@
-package com.particity.zuptecnico;
+package com.lfdb.zuptecnico;
 
 import android.content.pm.PackageInfo;
 import android.os.Bundle;
@@ -9,8 +9,8 @@ import android.view.View;
 import android.widget.EditText;
 
 import android.widget.TextView;
-import com.particity.zuptecnico.api.Zup;
-import com.particity.zuptecnico.entities.Message;
+import com.lfdb.zuptecnico.api.Zup;
+import com.lfdb.zuptecnico.entities.Message;
 
 import retrofit.Callback;
 import retrofit.RetrofitError;

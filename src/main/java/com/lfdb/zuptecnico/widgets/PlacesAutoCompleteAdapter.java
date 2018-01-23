@@ -1,4 +1,4 @@
-package com.particity.zuptecnico.widgets;
+package com.lfdb.zuptecnico.widgets;
 
 import android.content.Context;
 import android.util.Log;
@@ -6,8 +6,8 @@ import android.widget.ArrayAdapter;
 import android.widget.Filter;
 import android.widget.Filterable;
 
-import com.particity.zuptecnico.config.Constants;
-import com.particity.zuptecnico.entities.Place;
+import com.lfdb.zuptecnico.config.Constants;
+import com.lfdb.zuptecnico.entities.Place;
 
 import org.json.JSONArray;
 import org.json.JSONException;

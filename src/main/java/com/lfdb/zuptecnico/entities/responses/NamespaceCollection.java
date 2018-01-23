@@ -1,6 +1,6 @@
-package com.particity.zuptecnico.entities.responses;
+package com.lfdb.zuptecnico.entities.responses;
 
-import com.particity.zuptecnico.entities.Namespace;
+import com.lfdb.zuptecnico.entities.Namespace;
 
 /**
  * Created by WINDOWS on 31/08/2016.

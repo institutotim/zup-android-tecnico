@@ -1,7 +1,7 @@
-package com.particity.zuptecnico.entities.collections;
+package com.lfdb.zuptecnico.entities.collections;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.particity.zuptecnico.entities.InventoryCategory;
+import com.lfdb.zuptecnico.entities.InventoryCategory;
 
 /**
  * Created by igorlira on 3/3/14.

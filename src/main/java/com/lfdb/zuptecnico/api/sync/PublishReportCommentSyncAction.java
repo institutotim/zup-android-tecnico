@@ -1,16 +1,16 @@
-package com.particity.zuptecnico.api.sync;
+package com.lfdb.zuptecnico.api.sync;
 
 import android.content.Intent;
 import android.os.Parcel;
 
 import com.crashlytics.android.Crashlytics;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.particity.zuptecnico.api.Zup;
-import com.particity.zuptecnico.api.errors.SyncErrors;
-import com.particity.zuptecnico.entities.ReportItem;
-import com.particity.zuptecnico.entities.requests.CreateReportItemCommentRequest;
-import com.particity.zuptecnico.entities.responses.CreateReportItemCommentResponse;
-import com.particity.zuptecnico.entities.responses.PublishReportResponse;
+import com.lfdb.zuptecnico.api.Zup;
+import com.lfdb.zuptecnico.api.errors.SyncErrors;
+import com.lfdb.zuptecnico.entities.ReportItem;
+import com.lfdb.zuptecnico.entities.requests.CreateReportItemCommentRequest;
+import com.lfdb.zuptecnico.entities.responses.CreateReportItemCommentResponse;
+import com.lfdb.zuptecnico.entities.responses.PublishReportResponse;
 
 import org.json.JSONObject;
 

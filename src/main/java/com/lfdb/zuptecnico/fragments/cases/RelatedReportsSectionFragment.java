@@ -1,4 +1,4 @@
-package com.particity.zuptecnico.fragments.cases;
+package com.lfdb.zuptecnico.fragments.cases;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -7,12 +7,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.particity.zuptecnico.R;
-import com.particity.zuptecnico.activities.cases.CaseItemDetailsActivity;
-import com.particity.zuptecnico.adapters.CaseRelatedReportsAdapter;
-import com.particity.zuptecnico.entities.Case;
-import com.particity.zuptecnico.entities.ReportItem;
-import com.particity.zuptecnico.ui.ExpandExpandableListView;
+import com.lfdb.zuptecnico.R;
+import com.lfdb.zuptecnico.activities.cases.CaseItemDetailsActivity;
+import com.lfdb.zuptecnico.adapters.CaseRelatedReportsAdapter;
+import com.lfdb.zuptecnico.entities.Case;
+import com.lfdb.zuptecnico.entities.ReportItem;
+import com.lfdb.zuptecnico.ui.ExpandExpandableListView;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;

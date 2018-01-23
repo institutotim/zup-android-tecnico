@@ -1,4 +1,4 @@
-package com.particity.zuptecnico.config;
+package com.lfdb.zuptecnico.config;
 
 public class InternalConstants {
     public static final String INVENTORY_CATEGORY_LISTING_RETURN_FIELDS = "id,marker,pin,plot_format,require_item_status,statuses,title,sections.id,sections.title,sections.disabled,sections.required,sections.location,sections.position,sections.fields.id,sections.fields.disabled,sections.fields.title,sections.fields.kind,sections.fields.label,sections.fields.available_values,sections.fields.field_options,sections.fields.position,sections.fields.maximum,sections.fields.minimum,sections.fields.required,sections.fields.location,color";

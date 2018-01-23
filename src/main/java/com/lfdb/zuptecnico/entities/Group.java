@@ -1,8 +1,8 @@
-package com.particity.zuptecnico.entities;
+package com.lfdb.zuptecnico.entities;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.particity.zuptecnico.util.Utilities;
+import com.lfdb.zuptecnico.util.Utilities;
 import java.io.Serializable;
 
 /**

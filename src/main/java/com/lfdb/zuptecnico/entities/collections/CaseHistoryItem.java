@@ -1,4 +1,4 @@
-package com.particity.zuptecnico.entities.collections;
+package com.lfdb.zuptecnico.entities.collections;
 
 import android.content.Context;
 import android.os.Parcel;

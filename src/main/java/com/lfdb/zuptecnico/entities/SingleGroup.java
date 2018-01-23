@@ -1,4 +1,4 @@
-package com.particity.zuptecnico.entities;
+package com.lfdb.zuptecnico.entities;
 
 /**
  * Created by Renan on 20/10/2015.

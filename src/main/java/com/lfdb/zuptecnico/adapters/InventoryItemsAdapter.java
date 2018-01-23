@@ -1,4 +1,4 @@
-package com.particity.zuptecnico.adapters;
+package com.lfdb.zuptecnico.adapters;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -14,15 +14,15 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.particity.zuptecnico.R;
-import com.particity.zuptecnico.api.Zup;
-import com.particity.zuptecnico.entities.Case;
-import com.particity.zuptecnico.entities.InventoryCategory;
-import com.particity.zuptecnico.entities.InventoryCategoryStatus;
-import com.particity.zuptecnico.entities.InventoryItem;
-import com.particity.zuptecnico.entities.collections.InventoryItemCollection;
-import com.particity.zuptecnico.util.ItemsAdapterListener;
-import com.particity.zuptecnico.util.Utilities;
+import com.lfdb.zuptecnico.R;
+import com.lfdb.zuptecnico.api.Zup;
+import com.lfdb.zuptecnico.entities.Case;
+import com.lfdb.zuptecnico.entities.InventoryCategory;
+import com.lfdb.zuptecnico.entities.InventoryCategoryStatus;
+import com.lfdb.zuptecnico.entities.InventoryItem;
+import com.lfdb.zuptecnico.entities.collections.InventoryItemCollection;
+import com.lfdb.zuptecnico.util.ItemsAdapterListener;
+import com.lfdb.zuptecnico.util.Utilities;
 
 import java.io.UnsupportedEncodingException;
 import java.net.URLDecoder;

@@ -42,7 +42,7 @@
             android:paddingRight="10dp"
             android:layout_toLeftOf="@+id/selected">
 
-            <com.ntxdev.zuptecnico.ui.WebImageView
+            <com.particity.zuptecnico.ui.WebImageView
                 android:layout_width="35dp"
                 android:layout_height="35dp"
                 android:id="@+id/category_icon" />

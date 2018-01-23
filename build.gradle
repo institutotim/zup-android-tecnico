@@ -6,8 +6,8 @@ buildscript {
   }
 
   dependencies {
-    classpath 'io.fabric.tools:gradle:1.19.2'
-    classpath 'com.android.tools.build:gradle:2.1.3'
+    classpath 'com.android.tools.build:gradle:2.3.2'
+        classpath 'io.fabric.tools:gradle:1.+'
   }
 }
 
@@ -25,7 +25,7 @@ repositories {
 
 android {
   compileSdkVersion 24
-  buildToolsVersion '24.0.2'
+  buildToolsVersion '25.0.0'
   useLibrary 'org.apache.http.legacy'
   lintOptions {
     checkReleaseBuilds false
@@ -34,23 +34,20 @@ android {
   defaultConfig {
     minSdkVersion 14
     targetSdkVersion 24
-    applicationId 'com.cognita.zuptecnico'
+    applicationId 'com.particity.zuptecnico'
+    multiDexEnabled true
 
-    versionCode props['NUMBER'].toInteger()
-    versionName props['VERSION']
+    versionCode 10001
+    versionName '1.0.1'
 
     buildConfigField 'boolean', 'CASE_ENABLED', 'false'
     buildConfigField 'boolean', 'REPORT_ENABLED', 'true'
     buildConfigField 'boolean', 'INVENTORY_ENABLED', 'true'
 
-    ext.betaDistributionEmails = FABRIC_EMAILS
   }
   buildTypes {
     release {
       proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
-    }
-    debug {
-      ext.enableCrashlytics = false
     }
   }
   packagingOptions {
@@ -65,7 +62,7 @@ dependencies {
     exclude module: 'gson'
   }
   compile 'com.obsez.android.lib.filechooser:filechooser:1.1.2'
-  compile('com.crashlytics.sdk.android:crashlytics:2.5.5@aar') {
+  compile('com.crashlytics.sdk.android:crashlytics:2.6.8@aar') {
     transitive = true;
   }
   testCompile 'junit:junit:4.12'
@@ -84,6 +81,6 @@ dependencies {
   compile 'com.squareup.picasso:picasso:2.5.2'
   compile 'com.appyvet:materialrangebar:1'
   compile 'com.kbeanie:multipicker:1.0.10@aar'
-  compile 'com.theartofdev.edmodo:android-image-cropper:2.1.4'
+  compile 'com.theartofdev.edmodo:android-image-cropper:2.1.+'
   compile 'com.commit451:bypasses:1.0.1'
 }

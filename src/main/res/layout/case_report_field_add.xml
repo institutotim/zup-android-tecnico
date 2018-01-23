@@ -10,7 +10,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
-    <com.ntxdev.zuptecnico.ui.ScrollLessListView
+    <com.particity.zuptecnico.ui.ScrollLessListView
         android:id="@+id/report_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

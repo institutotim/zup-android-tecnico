@@ -235,7 +235,7 @@
 
             <fragment
                 android:id="@+id/images"
-                android:name="com.ntxdev.zuptecnico.fragments.reports.CreateReportImagesFragment"
+                android:name="com.particity.zuptecnico.fragments.reports.CreateReportImagesFragment"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/report_card_padding_item_left"

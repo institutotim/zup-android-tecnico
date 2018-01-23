@@ -5,7 +5,7 @@
     android:background="@drawable/report_item_background"
     >
 
-  <com.ntxdev.zuptecnico.ui.RoundedImageView
+  <com.particity.zuptecnico.ui.RoundedImageView
       android:id="@+id/inventory_category_image"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"

@@ -61,7 +61,7 @@
           style="?android:attr/progressBarStyleSmall"
           />
 
-      <com.ntxdev.zuptecnico.ui.ScrollLessListView
+      <com.particity.zuptecnico.ui.ScrollLessListView
           android:id="@+id/report_comments_listview"
           android:layout_width="match_parent"
           android:layout_height="wrap_content"

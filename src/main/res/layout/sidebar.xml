@@ -33,7 +33,7 @@
           android:paddingBottom="@dimen/report_card_padding_x"
           >
 
-        <com.ntxdev.zuptecnico.ui.RoundedImageView
+        <com.particity.zuptecnico.ui.RoundedImageView
             android:id="@+id/pickmap_pin"
             android:layout_width="@dimen/sidebar_item_height"
             android:layout_height="@dimen/sidebar_item_height"

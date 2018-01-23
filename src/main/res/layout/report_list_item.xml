@@ -5,7 +5,7 @@
     android:background="@drawable/report_item_background"
     >
 
-  <com.particity.zuptecnico.ui.WebImageView
+  <com.ntxdev.zuptecnico.ui.WebImageView
       android:id="@+id/report_category_image"
       android:layout_width="@dimen/report_list_item_icon"
       android:layout_height="@dimen/report_list_item_icon"

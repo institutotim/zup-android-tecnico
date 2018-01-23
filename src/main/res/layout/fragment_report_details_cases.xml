@@ -30,7 +30,7 @@
                 android:indeterminate="true"
                 android:visibility="gone" />
 
-            <com.particity.zuptecnico.ui.ScrollLessListView
+            <com.ntxdev.zuptecnico.ui.ScrollLessListView
                 android:id="@+id/notification_listview"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/notificationinfo_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/transparent">
+
+
+    <TextView
+        android:id="@+id/notification_name"
+        android:textSize="@dimen/report_card_title_property_text_size"
+        android:textStyle="bold"
+        android:paddingTop="@dimen/report_card_margin_between_items"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/report_list_item_margin_between"
+        android:textColor="@drawable/button_dialog_title"
+        />
+
+    <TextView
+        android:id="@+id/notification_created_at"
+        style="@style/ReportCardPropertyValue"
+        android:layout_marginBottom="@dimen/report_list_item_margin_between"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/notification_created_at_title" />
+
+    <TextView
+        android:id="@+id/notification_status"
+        style="@style/ReportCardPropertyValue"
+        android:layout_marginBottom="@dimen/report_list_item_margin_between"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/notification_status_title" />
+
+    <TextView
+        android:id="@+id/notification_days_to_deadline"
+        style="@style/ReportCardPropertyValue"
+        android:layout_marginBottom="@dimen/report_list_item_margin_between"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/notification_days_to_deadline" />
+
+
+    <TextView
+        android:id="@+id/notification_deadline_in_days"
+        style="@style/ReportCardPropertyValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/report_list_item_margin_between"
+        android:text="@string/notification_deadline_in_days" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divider_height"
+        android:layout_marginTop="@dimen/report_list_item_padding"
+        android:background="@color/divider_color"
+        />
+</LinearLayout>

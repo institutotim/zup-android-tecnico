@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/inventory_item_create_field_button_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/find_on_map_button"
+        android:textSize="@dimen/report_card_label_property_text_size" />
+
+    <Button
+        android:id="@+id/inventory_item_fill_pos_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fill_text"
+        android:textSize="@dimen/report_card_label_property_text_size" />
+</LinearLayout>

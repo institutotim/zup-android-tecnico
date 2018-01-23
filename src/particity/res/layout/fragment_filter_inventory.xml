@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:keepScreenOn="true"
+    >
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      >
+
+    <LinearLayout
+        android:id="@+id/layout_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_background"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/report_list_item_padding"
+        android:paddingRight="@dimen/report_list_item_padding"
+        android:paddingTop="@dimen/report_list_item_padding"
+        >>
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="@dimen/report_list_item_margin_between"
+          android:text="@string/with_categories_filter_inventory"
+          android:textColor="@color/report_item_text_default"
+          android:textSize="@dimen/report_list_item_subtitle"
+          android:textStyle="bold"
+          />
+
+      <TextView
+          android:id="@+id/cateogies_selected"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="@dimen/report_list_item_margin_between"
+          android:text="@string/all_categories_filter_inventory"
+          android:textColor="@color/report_item_text_default"
+          android:textSize="@dimen/report_list_item_subtitle"
+          />
+
+      <View
+          android:layout_width="match_parent"
+          android:layout_height="@dimen/divider_height"
+          android:layout_marginTop="@dimen/report_list_item_padding"
+          android:background="@color/document_list_selecting"
+          />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_category"
+        android:background="@drawable/selector_background"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/report_list_item_padding"
+        android:paddingRight="@dimen/report_list_item_padding"
+        android:paddingTop="@dimen/report_list_item_padding"
+        >
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="@dimen/report_list_item_margin_between"
+          android:text="@string/with_status_filter_inventory_title"
+          android:textColor="@color/report_item_text_default"
+          android:textSize="@dimen/report_list_item_subtitle"
+          android:textStyle="bold"
+          />
+
+      <TextView
+          android:id="@+id/status_selected"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="@dimen/report_list_item_margin_between"
+          android:text="@string/all_status_filter_inventory"
+          android:textColor="@color/report_item_text_default"
+          android:textSize="@dimen/report_list_item_subtitle"
+          />
+
+      <View
+          android:layout_width="match_parent"
+          android:layout_height="@dimen/divider_height"
+          android:layout_marginTop="@dimen/report_list_item_padding"
+          android:background="@color/document_list_selecting"
+          />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_dates"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_status"
+        android:background="@drawable/selector_background"
+        >
+
+      <LinearLayout
+          android:id="@+id/layout_created_from_date"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:orientation="vertical"
+          android:paddingBottom="@dimen/report_list_item_padding"
+          android:paddingLeft="@dimen/report_list_item_padding"
+          android:paddingRight="50dp"
+          android:paddingTop="@dimen/report_list_item_padding"
+          >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/report_list_item_margin_between"
+            android:text="@string/created_from_date_filter"
+            android:textColor="@color/report_item_text_default"
+            android:textSize="@dimen/report_list_item_subtitle"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/created_from_date_selected"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/report_list_item_margin_between"
+            android:text="@string/define_date_filter"
+            android:textColor="@color/document_list_pending_selecting"
+            android:textSize="@dimen/report_list_item_subtitle"
+            />
+      </LinearLayout>
+
+      <LinearLayout
+          android:id="@+id/layout_created_to_date"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_alignTop="@id/layout_created_from_date"
+          android:layout_toRightOf="@id/layout_created_from_date"
+          android:background="@drawable/selector_background"
+          android:orientation="vertical"
+          android:paddingBottom="@dimen/report_list_item_padding"
+          android:paddingLeft="50dp"
+          android:paddingRight="@dimen/report_list_item_padding"
+          android:paddingTop="@dimen/report_list_item_padding"
+          >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/report_list_item_margin_between"
+            android:text="@string/until_text"
+            android:textColor="@color/report_item_text_default"
+            android:textSize="@dimen/report_list_item_subtitle"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/created_to_date_selected"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/report_list_item_margin_between"
+            android:text="@string/define_date_filter"
+            android:textColor="@color/document_list_pending_selecting"
+            android:textSize="@dimen/report_list_item_subtitle"
+            />
+      </LinearLayout>
+
+
+      <View
+          android:layout_width="match_parent"
+          android:layout_height="@dimen/divider_height"
+          android:layout_below="@id/layout_created_from_date"
+          android:background="@color/document_list_selecting"
+          />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_created_by"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_dates"
+        android:background="@drawable/selector_background"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/report_list_item_padding"
+        android:paddingRight="@dimen/report_list_item_padding"
+        android:paddingTop="@dimen/report_list_item_padding"
+        >
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="@dimen/report_list_item_margin_between"
+          android:text="@string/created_by_filter"
+          android:textColor="@color/report_item_text_default"
+          android:textSize="@dimen/report_list_item_subtitle"
+          android:textStyle="bold"
+          />
+
+      <TextView
+          android:id="@+id/users_created_selected"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="@dimen/report_list_item_margin_between"
+          android:text="@string/all_users"
+          android:textColor="@color/report_item_text_default"
+          android:textSize="@dimen/report_list_item_subtitle"
+          />
+
+      <View
+          android:layout_width="match_parent"
+          android:layout_height="@dimen/divider_height"
+          android:layout_marginTop="@dimen/report_list_item_padding"
+          android:background="@color/document_list_selecting"
+          />
+    </LinearLayout>
+  </RelativeLayout>
+</ScrollView>

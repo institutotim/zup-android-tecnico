@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="zupblue">#006841</color>
-    <color name="zupblue_half">#37A47B</color>
-    <color name="zupblue_light">#004B2F</color>
+    <color name="zupblue">#2ab4dc</color>
+    <color name="zupblue_half">#7f2ab4dc</color>
+    <color name="zupblue_light">#4FBCDB</color>
     <color name="tabhostbg">#dddddd</color>
     <color name="tabborder">#bbbbbb</color>
     <color name="tabtext">#666666</color>

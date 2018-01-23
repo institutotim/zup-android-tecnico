@@ -20,7 +20,7 @@
             android:id="@+id/comments_title"
             style="@style/ReportCardTitle" />
 
-        <com.particity.zuptecnico.ui.ScrollLessListView
+        <com.ntxdev.zuptecnico.ui.ScrollLessListView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/report_history_listview"

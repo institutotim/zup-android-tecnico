@@ -1,7 +1,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:ntxdev="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.particity.zuptecnico.activities.inventory.InventoryItemDetailsActivity" >
+    tools:context="com.ntxdev.zuptecnico.activities.inventory.InventoryItemDetailsActivity" >
 
     <item android:id="@+id/action_items_edit"
         android:icon="@drawable/ic_action_edit"

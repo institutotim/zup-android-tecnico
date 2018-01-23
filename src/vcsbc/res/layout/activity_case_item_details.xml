@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/case_item_cell_selecting"
+    android:keepScreenOn="true"
+    >
+
+  <ScrollView
+      android:id="@+id/container"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      style="@style/ReportCardContainer"
+      >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+      <FrameLayout
+          android:id="@+id/related_reports"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:visibility="gone"
+          />
+
+      <android.support.v7.widget.CardView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="10dp"
+          >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            style="@style/ReportCard"
+            >
+
+          <include
+              layout="@layout/case_step_header"
+              android:id="@+id/case_container"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              />
+
+          <LinearLayout
+              android:id="@+id/listView"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              />
+
+          <Button
+              android:id="@+id/finish_case_button"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginBottom="@dimen/report_card_padding_x"
+              android:layout_marginTop="@dimen/report_card_padding_x"
+              android:theme="@style/ZupButton"
+              android:onClick="finishCase"
+              android:text="@string/finish_case_title"
+              android:textAllCaps="true"
+              android:textColor="@color/case_item_cell_notselected_new"
+              android:textStyle="bold"
+              />
+        </LinearLayout>
+      </android.support.v7.widget.CardView>
+    </LinearLayout>
+  </ScrollView>
+
+  <ProgressBar
+      android:id="@+id/report_loading"
+      android:layout_width="@dimen/loading_bar_width"
+      android:layout_height="wrap_content"
+      android:layout_centerInParent="true"
+      android:indeterminate="true"
+      style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
+      />
+
+  <TextView
+      android:id="@+id/wait_sync_standard_message"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:layout_above="@+id/report_loading"
+      android:layout_centerHorizontal="true"
+      android:text="@string/loading_item_message"
+      />
+</RelativeLayout>

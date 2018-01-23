@@ -5,7 +5,7 @@
     android:background="@color/tabhostbg"
     android:fillViewport="true"
     android:keepScreenOn="true"
-    tools:context="com.particity.zuptecnico.LoginActivity"
+    tools:context="com.ntxdev.zuptecnico.LoginActivity"
     tools:ignore="MergeRootFrame"
     >
 
@@ -143,7 +143,12 @@
           android:layout_marginBottom="@dimen/report_card_padding_y"
           android:orientation="vertical"
           >
-
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/report_card_padding_item_left"
+            />
 
         <TextView
             android:id="@+id/version"

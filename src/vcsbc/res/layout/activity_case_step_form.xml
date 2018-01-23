@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/case_item_cell_selecting"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        style="@style/ReportCardCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/divider_color">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/textview_empty"
+            android:background="@drawable/button_toolbar_light"
+            android:drawableLeft="@drawable/ic_action_accept_blue"
+            android:onClick="finishEditing"
+            android:paddingLeft="@dimen/report_card_padding_item_left"
+            android:paddingRight="@dimen/report_list_item_padding"
+            android:text="@string/save_continue_later_case_form"
+            android:textAllCaps="true" />
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/offline_warning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:text="@string/fill_case_offline"
+        android:theme="@style/OfflineWarning"
+        android:visibility="gone" />
+
+    <ScrollView
+        android:id="@+id/case_step_form_editbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:foreground="?android:windowContentOverlay">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/report_card_padding_y"
+            android:background="@color/editscreen_button"
+            android:padding="@dimen/report_card_padding_y">
+
+            <LinearLayout
+                style="@style/ReportCard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/case_step_form_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@color/editscreen_button"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/report_list_item_subtitle" />
+
+                <Button
+                    android:id="@+id/finish_step_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/report_card_padding_x"
+                    android:layout_marginTop="@dimen/report_card_padding_x"
+                    android:theme="@style/ZupButton"
+                    android:onClick="finishStep"
+                    android:text="@string/finis_step"
+                    android:textAllCaps="true"
+                    android:textColor="@color/case_item_cell_notselected_new"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+    </ScrollView>
+</LinearLayout>

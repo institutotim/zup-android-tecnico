@@ -1,0 +1,159 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tabhostbg"
+    android:fillViewport="true"
+    android:keepScreenOn="true"
+    tools:context="com.lfdb.zuptecnico.LoginActivity"
+    tools:ignore="MergeRootFrame"
+    >
+
+  <RelativeLayout
+      android:id="@+id/container"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      >
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/login_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/report_card_padding_y"
+        android:layout_marginLeft="@dimen/report_card_padding_item_left"
+        android:layout_marginRight="@dimen/report_card_padding_item_left"
+        android:layout_marginTop="@dimen/report_card_padding_y"
+        android:orientation="vertical"
+        >
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:layout_marginBottom="@dimen/report_list_item_icon"
+          android:layout_marginLeft="@dimen/report_card_padding_y"
+          android:layout_marginRight="@dimen/report_card_padding_y"
+          android:layout_marginTop="@dimen/report_list_item_icon"
+          android:orientation="vertical"
+          >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:minWidth="@dimen/sidebar_size"
+            android:orientation="vertical"
+            >
+
+          <ImageView
+              android:id="@+id/pickmap_pin"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:layout_marginLeft="@dimen/report_card_padding_x"
+              android:layout_marginRight="@dimen/report_card_padding_x"
+              android:src="@drawable/loginscreen_logo_zup"
+              />
+
+          <EditText
+              android:id="@+id/txt_login"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginBottom="@dimen/report_card_padding_item_left"
+              android:drawablePadding="@dimen/report_card_padding_y"
+              android:hint="@string/email_login_hint"
+              android:inputType="textEmailAddress"
+              android:paddingBottom="@dimen/report_list_item_padding"
+              android:paddingLeft="@dimen/report_card_padding_y"
+
+              android:textColor="@color/report_item_text_default"
+              />
+
+          <EditText
+              android:id="@+id/txt_senha"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginBottom="@dimen/report_card_padding_y"
+              android:drawablePadding="@dimen/report_card_padding_y"
+              android:ems="10"
+              android:hint="@string/password_hint"
+              android:inputType="textPassword"
+              android:paddingBottom="@dimen/report_list_item_padding"
+              android:paddingLeft="@dimen/report_card_padding_y"
+
+              android:textColor="@color/report_item_text_default"
+              />
+
+          <ProgressBar
+              android:id="@+id/login_progress"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center_horizontal"
+              android:indeterminate="true"
+              android:visibility="gone"
+              style="?android:attr/progressBarStyleLarge"
+              />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            >
+
+          <Button
+              android:id="@+id/forgot_password"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:background="@android:color/transparent"
+              android:onClick="forgotPassword"
+              android:padding="@dimen/report_list_item_padding"
+              android:text="@string/forgot_password_button"
+              android:textAllCaps="false"
+              android:textColor="@color/zupblue"
+              />
+
+          <Button
+              android:id="@+id/login_button"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@drawable/loginbutton"
+              android:onClick="login"
+              android:text="@string/submit_login_button"
+              android:textColor="@color/document_list_pending"
+              />
+
+        </LinearLayout>
+      </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/login_container"
+        >
+
+      <LinearLayout
+          android:id="@+id/footer_layout"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_alignParentBottom="true"
+          android:layout_marginBottom="@dimen/report_card_padding_y"
+          android:orientation="vertical"
+          >
+
+
+        <TextView
+            android:id="@+id/version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/report_card_padding_item_left"
+            android:text="1.2.4"
+            />
+      </LinearLayout>
+    </RelativeLayout>
+  </RelativeLayout>
+</ScrollView>

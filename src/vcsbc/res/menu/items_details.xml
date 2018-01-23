@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ntxdev="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.lfdb.zuptecnico.activities.inventory.InventoryItemDetailsActivity" >
+
+    <item android:id="@+id/action_items_edit"
+        android:icon="@drawable/ic_action_edit"
+        android:title="Editar"
+        android:orderInCategory="100"
+        ntxdev:showAsAction="always" />
+
+    <item android:id="@+id/action_items_download"
+        android:icon="@drawable/ic_action_download"
+        android:title="Armazenar offline"
+        ntxdev:showAsAction="always" />
+
+    <item android:id="@+id/action_items_delete_download"
+        android:icon="@drawable/ic_action_delete_download"
+        android:title="Exclur cópia local"
+        android:visible="false"
+        ntxdev:showAsAction="always"
+        />
+
+    <item android:id="@+id/action_items_discard"
+        android:icon="@drawable/ic_action_discard"
+        android:title="Excluir"
+        android:orderInCategory="100"
+        ntxdev:showAsAction="always" />
+</menu>

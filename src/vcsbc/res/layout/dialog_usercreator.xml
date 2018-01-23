@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Novo usuário"
+            android:id="@+id/textView31"
+            android:textSize="16dp"
+            android:textColor="#000"
+            android:layout_marginLeft="20dp"
+            android:layout_centerVertical="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SALVAR"
+            android:id="@+id/confirm"
+            android:layout_alignParentRight="true"
+            android:textColor="@drawable/button_dialog_title"
+            android:padding="20dp"
+            android:layout_alignParentBottom="false"
+            android:layout_marginTop="3dp"
+            android:textStyle="bold"
+            android:visibility="visible"
+            android:clickable="true" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#eee" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/dialog_createuser_form"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nome completo*"
+                    android:id="@+id/createuser_label_name"
+                    android:textSize="14dp"
+                    android:layout_marginLeft="3dp"
+                    android:textColor="#aaa" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:ems="10"
+                    android:id="@+id/user_name" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Email*"
+                    android:id="@+id/createuser_label_email"
+                    android:textSize="14dp"
+                    android:layout_marginLeft="3dp"
+                    android:textColor="#aaa" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:id="@+id/user_email"
+                    android:inputType="textEmailAddress" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Endereço*"
+                    android:id="@+id/createuser_label_address"
+                    android:textSize="14dp"
+                    android:layout_marginLeft="3dp"
+                    android:textColor="#aaa" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:id="@+id/user_address"
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Complemento"
+                    android:id="@+id/createuser_label_address_extra"
+                    android:textSize="14dp"
+                    android:layout_marginLeft="3dp"
+                    android:textColor="#aaa" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:id="@+id/user_address_extra"
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bairro*"
+                    android:id="@+id/createuser_label_district"
+                    android:textSize="14dp"
+                    android:layout_marginLeft="3dp"
+                    android:textColor="#aaa" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:id="@+id/user_district"
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cidade*"
+                    android:id="@+id/createuser_label_city"
+                    android:textSize="14dp"
+                    android:layout_marginLeft="3dp"
+                    android:textColor="#aaa" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:id="@+id/user_city"
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CEP*"
+                    android:id="@+id/createuser_label_postal"
+                    android:textSize="14dp"
+                    android:layout_marginLeft="3dp"
+                    android:textColor="#aaa" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:id="@+id/user_postalcode"
+                    android:inputType="number"
+                    android:maxLength="9" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Telefone*"
+                    android:id="@+id/createuser_label_phone"
+                    android:textSize="14dp"
+                    android:layout_marginLeft="3dp"
+                    android:textColor="#aaa" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:id="@+id/user_phone"
+                    android:inputType="number"
+                    android:maxLength="15" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CPF*"
+                    android:id="@+id/createuser_label_document"
+                    android:textSize="14dp"
+                    android:layout_marginLeft="3dp"
+                    android:textColor="#aaa" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:id="@+id/user_document"
+                    android:inputType="number"
+                    android:maxLength="14" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A senha do usuário será enviada para o email de cadastro."
+                android:id="@+id/textView50"
+                android:layout_marginTop="30dp"
+                android:textColor="#666" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:id="@+id/loading_view"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aguarde..."
+            android:id="@+id/textView51"
+            android:layout_centerHorizontal="true" />
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressBar4"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/textView51"
+            android:indeterminate="true"
+            android:layout_marginTop="5dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:id="@+id/create_user_error_container"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Não foi possível criar o usuário no momento:"
+            android:id="@+id/textView52"
+            android:layout_centerHorizontal="true"
+            android:textColor="#666" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/create_user_error"
+            android:layout_below="@+id/textView52"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:textColor="#000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deseja agendar a criação desse usuário para a próxima sincronização? Caso contrário, não será possível salvar o relato com esse usuário"
+            android:id="@+id/textView54"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/create_user_error"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+            android:textColor="#666" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/textView54"
+            android:layout_centerHorizontal="true">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Voltar"
+                android:id="@+id/create_user_error_back" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cancelar"
+                android:id="@+id/create_user_error_cancel" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Agendar"
+                android:id="@+id/create_user_error_schedule" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

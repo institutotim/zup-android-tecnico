@@ -1,0 +1,142 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lfdb.zup.DocumentsActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:visibility="visible">
+
+        <com.lfdb.zuptecnico.ui.InfinityScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/items_scroll"
+            android:background="#f2f2f2"
+            android:visibility="visible"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/inventory_items_container"></LinearLayout>
+
+                <ProgressBar
+                    style="?android:attr/progressBarStyleLarge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/activity_items_loading"
+                    android:layout_gravity="center_horizontal"
+                    android:indeterminate="true"
+                    android:visibility="gone" />
+            </LinearLayout>
+        </com.lfdb.zuptecnico.ui.InfinityScrollView>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ddd"
+            android:padding="7dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Selecione os itens que deseja transferir (armazenar offline)"
+                android:id="@+id/textView"
+                android:gravity="center_horizontal"
+                android:layout_marginBottom="7dp" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Cancelar"
+                    android:id="@+id/textView2"
+                    android:layout_marginRight="7dp"
+                    android:layout_weight="1"
+                    android:background="#bababa"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:textColor="#fff"
+                    android:onClick="cancel"
+                    android:clickable="true" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Transferir"
+                    android:id="@+id/textView3"
+                    android:layout_weight="1"
+                    android:background="@color/zupblue"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textColor="#fff"
+                    android:onClick="transfer"
+                    android:clickable="true" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/activity_transfer_items_overlay"
+        android:background="#000"
+        android:visibility="gone"
+        android:clickable="true">
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:layout_centerInParent="true"
+        android:padding="15dp"
+        android:id="@+id/activity_transfer_items_popup"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aguarde enquanto os itens são transferidos..."
+            android:id="@+id/textView4"
+            android:layout_marginBottom="15dp" />
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressBar"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0 itens transferidos de 0"
+            android:id="@+id/activity_transfer_items_popup_progress"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+
+</RelativeLayout>

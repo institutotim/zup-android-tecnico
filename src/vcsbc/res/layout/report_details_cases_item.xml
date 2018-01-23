@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/caseinfo_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:orientation="vertical"
+    >
+
+
+  <TextView
+      android:id="@+id/case_name"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:paddingBottom="@dimen/report_list_item_margin_between"
+      android:paddingTop="@dimen/report_card_margin_between_items"
+      android:textColor="@drawable/button_dialog_title"
+      android:textSize="@dimen/report_card_title_property_text_size"
+      android:textStyle="bold"
+      />
+
+  <TextView
+      android:id="@+id/case_created_at"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="@dimen/report_list_item_margin_between"
+      android:text="@string/created_at"
+      style="@style/ReportCardPropertyValue"
+      />
+
+  <TextView
+      android:id="@+id/case_updated_at"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="@dimen/report_list_item_margin_between"
+      android:text="@string/updated_at"
+      style="@style/ReportCardPropertyValue"
+      />
+
+  <TextView
+      android:id="@+id/case_status"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="@dimen/report_list_item_margin_between"
+      android:text="@string/current_status"
+      style="@style/ReportCardPropertyValue"
+      />
+
+  <TextView
+      android:id="@+id/case_step_title"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="@dimen/report_list_item_margin_between"
+      android:visibility="gone"
+      style="@style/ReportCardPropertyValue"
+      />
+
+  <TextView
+      android:id="@+id/case_step_responsible"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="@dimen/report_list_item_margin_between"
+      android:visibility="gone"
+      style="@style/ReportCardPropertyValue"
+      />
+
+  <Button
+      android:id="@+id/access_case"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center_horizontal"
+      android:layout_marginBottom="@dimen/report_list_item_margin_between"
+      android:layout_marginTop="@dimen/report_card_margin_between_items"
+      android:paddingLeft="@dimen/report_list_item_subtitle"
+      android:paddingRight="@dimen/report_list_item_subtitle"
+      android:text="@string/access_case"
+      android:textColor="@color/report_item_default"
+      android:theme="@style/ZupButton"
+      />
+
+  <View
+      android:id="@+id/list_divider"
+      android:layout_width="match_parent"
+      android:layout_height="@dimen/divider_height"
+      android:layout_marginTop="@dimen/report_list_item_padding"
+      android:background="@color/divider_color"
+      />
+</LinearLayout>

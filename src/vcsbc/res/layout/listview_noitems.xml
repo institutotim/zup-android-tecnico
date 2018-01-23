@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:padding="15dp"
+    android:background="@color/report_item_default">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/listview_noitems"
+        android:id="@+id/textView47"
+        android:textColor="#333"
+        android:gravity="center" />
+</FrameLayout>

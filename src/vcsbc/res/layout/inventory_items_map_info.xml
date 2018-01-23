@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingBottom="15dp"
+    android:background="#fff">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/inventory_item_map_info_image"
+        android:src="@drawable/documento_detalhes_status_icon_sync"
+        android:visibility="visible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/inventory_item_map_info_status"
+        android:layout_alignParentRight="true"
+        android:layout_alignBottom="@+id/document_details_divider"
+        android:paddingLeft="15dp"
+        android:paddingTop="2dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="2dp"
+        android:textColor="#fff"
+        android:background="#999"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" />
+
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="Bocas de Lobo 56"
+        android:id="@+id/inventory_item_map_info_title"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="7dp"
+        android:textColor="#222"
+        android:textSize="17dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:maxLines="100"
+        android:ellipsize="none"
+        android:layout_weight="1"
+        android:scrollHorizontally="false"
+        android:singleLine="false"/>
+</LinearLayout>

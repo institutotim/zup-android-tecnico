@@ -1,0 +1,50 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="report_list_item_padding">15dp</dimen>
+    <dimen name="report_list_item_margin_between">3dp</dimen>
+    <dimen name="report_list_item_icon">40dp</dimen>
+    <dimen name="report_list_item_title">14dp</dimen>
+    <dimen name="report_list_item_subtitle">12dp</dimen>
+
+    <dimen name="activity_logout_button_margin">27dp</dimen>
+
+    <dimen name="report_card_container_margin">15dp</dimen>
+    <dimen name="divider_height">1dp</dimen>
+    <dimen name="double_divider_height">2dp</dimen>
+    <dimen name="textview_padding">3dp</dimen>
+
+
+    <dimen name="inventory_padding">7dp</dimen>
+    <dimen name="margin_map_warning">50dp</dimen>
+    <dimen name="textview_empty">0dp</dimen>
+    <dimen name="tabhost_height">44dp</dimen>
+
+    <dimen name="sidebar_item_height">65dp</dimen>
+
+    <dimen name="report_card_padding_x">30dp</dimen>
+    <dimen name="report_card_padding_y">20dp</dimen>
+    <dimen name="report_card_padding_item_left">10dp</dimen>
+    <dimen name="negative_report_card_padding_item_left">-10dp</dimen>
+    <dimen name="report_card_margin_between_items">20sp</dimen>
+    <dimen name="report_card_title_text_size">20sp</dimen>
+    <dimen name="report_card_title_property_text_size">14sp</dimen>
+    <dimen name="report_card_label_property_text_size">12sp</dimen>
+    <dimen name="report_custom_fields">10sp</dimen>
+    <dimen name="loading_bar_width">200dp</dimen>
+    <dimen name="form_icon_width">15dp</dimen>
+    <dimen name="step_item_height">20dp</dimen>
+    <dimen name="flow_icon_width">18dp</dimen>
+    <dimen name="sidebar_width">240dp</dimen>
+    <dimen name="sidebar_size">300dp</dimen>
+    <dimen name="report_image_size">120dp</dimen>
+    <dimen name="login_footer_size">150dp</dimen>
+    <dimen name="clear_filter_padding">35dp</dimen>
+    <dimen name="case_title_size">16sp</dimen>
+    <dimen name="webimageview_map_padding">-25dp</dimen>
+
+    <dimen name="footer_margin">20dp</dimen>
+    <dimen name="profile_name_width">100dp</dimen>
+</resources>

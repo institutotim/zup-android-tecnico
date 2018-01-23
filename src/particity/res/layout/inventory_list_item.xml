@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/report_item_background"
+    >
+
+  <com.lfdb.zuptecnico.ui.RoundedImageView
+      android:id="@+id/inventory_category_image"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerVertical="true"
+      android:layout_marginLeft="@dimen/report_list_item_padding"
+      android:background="@android:color/transparent"
+      android:maxHeight="@dimen/report_list_item_icon"
+      android:maxWidth="@dimen/report_list_item_icon"
+      android:scaleType="fitXY"
+      android:src="@drawable/ic_marker"
+      />
+
+  <TextView
+      android:id="@+id/fragment_inventory_item_title"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="@dimen/report_list_item_padding"
+      android:layout_marginRight="@dimen/report_list_item_padding"
+      android:layout_marginTop="@dimen/report_list_item_padding"
+      android:layout_toLeftOf="@+id/fragment_inventory_item_download_icon"
+      android:layout_toRightOf="@+id/inventory_category_image"
+      android:textColor="@color/report_item_text_default"
+      android:textSize="@dimen/report_list_item_title"
+      android:textStyle="bold"
+      />
+
+  <TextView
+      android:id="@+id/inventory_item_address"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignLeft="@+id/fragment_inventory_item_title"
+      android:layout_alignStart="@+id/fragment_inventory_item_title"
+      android:layout_below="@+id/fragment_inventory_item_title"
+      android:layout_marginRight="@dimen/report_list_item_padding"
+      android:layout_marginTop="@dimen/report_list_item_margin_between"
+      android:textColor="@color/pending_action_color"
+      android:textSize="@dimen/report_list_item_subtitle"
+      />
+
+  <TextView
+      android:id="@+id/fragment_inventory_item_desc"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignLeft="@+id/inventory_item_address"
+      android:layout_alignStart="@+id/inventory_item_address"
+      android:layout_below="@+id/inventory_item_address"
+      android:layout_marginRight="15dp"
+      android:layout_marginTop="@dimen/report_list_item_margin_between"
+      android:layout_toLeftOf="@+id/fragment_inventory_item_statedesc"
+      android:textColor="@color/pending_action_color"
+      android:textSize="@dimen/report_list_item_subtitle"
+      />
+
+  <TextView
+      android:id="@+id/related_case_user"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignLeft="@+id/fragment_inventory_item_desc"
+      android:layout_alignStart="@+id/fragment_inventory_item_desc"
+      android:layout_below="@+id/fragment_inventory_item_desc"
+      android:layout_marginRight="15dp"
+      android:layout_marginTop="@dimen/report_list_item_margin_between"
+      android:textColor="@color/pending_action_color"
+      android:textSize="@dimen/report_list_item_subtitle"
+      />
+
+  <View
+      android:layout_width="match_parent"
+      android:layout_height="@dimen/divider_height"
+      android:layout_alignLeft="@+id/user_name"
+      android:layout_alignParentLeft="false"
+      android:layout_alignParentRight="true"
+      android:layout_below="@+id/related_case_user"
+      android:layout_marginTop="@dimen/report_list_item_padding"
+      android:background="@color/divider_color"
+      />
+
+  <TextView
+      android:id="@+id/fragment_inventory_item_statedesc"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentEnd="true"
+      android:layout_alignParentRight="true"
+      android:layout_alignTop="@+id/fragment_inventory_item_desc"
+      android:layout_marginRight="@dimen/report_list_item_padding"
+      android:textColor="#ddaa00"
+      android:textSize="@dimen/report_list_item_subtitle"
+      />
+
+  <ImageView
+      android:id="@+id/fragment_inventory_item_download_icon"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentEnd="true"
+      android:layout_alignParentRight="true"
+      android:layout_alignTop="@id/fragment_inventory_item_title"
+      android:layout_centerVertical="true"
+      android:layout_marginLeft="@dimen/report_list_item_padding"
+      android:layout_marginRight="@dimen/report_list_item_padding"
+      android:src="@drawable/list_offline_icon"
+      android:visibility="gone"
+      />
+</RelativeLayout>

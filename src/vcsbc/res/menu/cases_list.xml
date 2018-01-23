@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ntxdev="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.lfdb.zup.DocumentsActivity" >
+
+    <item android:id="@+id/action_search"
+        android:icon="@drawable/ic_action_search"
+        android:title="Procurar"
+        ntxdev:showAsAction="always"/>
+
+    <item android:id="@+id/action_refresh"
+        android:icon="@drawable/ic_action_refresh"
+        android:title="Sincronizar"
+        ntxdev:showAsAction="always"/>
+
+    <item android:id="@+id/action_items_filter"
+        android:icon="@drawable/actionbar_filter"
+        android:title="Filtrar por status"
+        ntxdev:showAsAction="never"/>
+
+    <item android:id="@+id/action_order_modification"
+        android:title="Ordenar por última modificação"
+        android:orderInCategory="100"
+        ntxdev:showAsAction="never" />
+
+    <item android:id="@+id/action_order_creation"
+        android:title="Ordenar por data de criação"
+        android:orderInCategory="100"
+        ntxdev:showAsAction="never" />
+
+    <item android:id="@+id/action_order_name"
+        android:title="Ordenar por nome"
+        android:orderInCategory="100"
+        ntxdev:showAsAction="never" />
+</menu>

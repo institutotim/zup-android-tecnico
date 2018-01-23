@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/report_image_size"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/textview_padding">
+
+    <com.lfdb.zuptecnico.ui.WebImageView
+        android:id="@+id/photo_content"
+        android:layout_width="@dimen/report_image_size"
+        android:layout_height="@dimen/report_image_size"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/photo_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/textview_padding"
+        android:text="@string/photo_date_title"
+        android:textSize="@dimen/report_card_padding_item_left"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/photo_subtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/textview_padding"
+        android:textSize="@dimen/report_card_padding_item_left" />
+
+</LinearLayout>

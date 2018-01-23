@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/selector_background"
+    android:paddingTop="@dimen/report_card_container_margin">
+
+    <ImageView
+        android:id="@+id/case_step_item_icon"
+        android:layout_width="@dimen/flow_icon_width"
+        android:layout_height="@dimen/step_item_height"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="@dimen/report_list_item_padding"
+        android:layout_marginTop="@dimen/report_list_item_padding"
+        android:src="@drawable/ic_casos_fluxo" />
+
+    <TextView
+        android:id="@+id/case_step_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/case_step_item_icon"
+        android:layout_marginLeft="@dimen/report_list_item_title"
+        android:layout_toEndOf="@id/case_step_item_icon"
+        android:layout_toRightOf="@id/case_step_item_icon"
+        android:textColor="@color/report_item_text_default"
+        android:textSize="@dimen/report_card_title_property_text_size" />
+
+
+
+    <TextView
+        android:id="@+id/case_step_item_owner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/case_step_item_name"
+        android:layout_below="@id/case_step_item_name"
+        android:layout_toLeftOf="@+id/case_step_item_status"
+        android:layout_marginTop="@dimen/textview_padding"
+        android:ellipsize="end"
+        android:textColor="@color/report_item_text_default"
+        android:textSize="@dimen/report_card_label_property_text_size" />
+
+    <TextView
+        android:id="@id/case_step_item_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/case_step_item_owner"
+        android:alpha="0.6"
+        android:gravity="right"
+        android:textColor="@color/pick_map_location_text"
+        android:textSize="@dimen/report_card_label_property_text_size" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divider_height"
+        android:layout_below="@+id/case_step_item_owner"
+        android:layout_marginTop="@dimen/report_card_container_margin"
+        android:background="@color/divider_color" />
+
+</RelativeLayout>

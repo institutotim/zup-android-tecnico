@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="0dp"
+    android:paddingLeft="15dp"
+    android:paddingTop="15dp"
+    android:paddingRight="15dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NOME"
+        android:id="@+id/inventory_item_text_name"
+        android:textSize="11dp"
+        android:textColor="#666"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="3dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adicionar filtro"
+        android:id="@+id/inventory_item_filter_add_button"
+        android:textColor="#444"
+        android:layout_marginLeft="5dp"
+        android:singleLine="false"
+        android:textSize="14dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/inventory_item_filter_fields">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Igual a"
+            android:id="@+id/inventory_item_filter_type_button"
+            android:textColor="#444"
+            android:layout_marginLeft="5dp"
+            android:singleLine="false"
+            android:textSize="14dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:id="@+id/imageView3"
+            android:src="@drawable/ic_more"
+            android:scaleType="fitEnd"
+            android:layout_marginRight="30dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent">
+
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/inventory_item_filter_first" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="e"
+                android:id="@+id/inventory_item_filter_between"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:id="@+id/inventory_item_filter_select_pointer"
+                android:src="@drawable/ic_more"
+                android:scaleType="fitEnd"
+                android:layout_marginRight="30dp"
+                android:visibility="gone" />
+
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/inventory_item_filter_second" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="m"
+                android:id="@+id/inventory_item_filter_extra"
+                android:layout_marginLeft="10dp" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="right">
+
+            <ImageView
+                android:layout_width="37dp"
+                android:layout_height="match_parent"
+                android:id="@+id/inventory_item_filter_remove"
+                android:src="@drawable/abc_ic_clear_holo_light"
+                android:scaleType="center"
+                android:layout_gravity="right"
+                android:adjustViewBounds="false"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="false"
+                android:layout_alignParentStart="false"
+                android:layout_alignParentEnd="false"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#ccc"
+        android:layout_marginTop="15dp"></FrameLayout>
+
+</LinearLayout>

@@ -26,7 +26,7 @@
                 android:layout_height="wrap_content"
                 />
 
-            <com.particity.zuptecnico.ui.ScrollLessListView
+            <com.ntxdev.zuptecnico.ui.ScrollLessListView
                 android:id="@+id/case_steps_list"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

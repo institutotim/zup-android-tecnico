@@ -1,0 +1,78 @@
+<resources>
+
+  <style name="ZupTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="actionBarStyle">@style/ZupActionBar</item>
+    <item name="colorControlActivated">@color/document_list_pending_selecting</item>
+    <item name="colorControlHighlight">@color/zupblue</item>
+    <item name="colorAccent">@color/zupblue</item>
+  </style>
+
+  <style name="AppTheme.NoActionBar" parent="ZupTheme">
+    <item name="windowActionBar">false</item>
+    <item name="windowNoTitle">true</item>
+  </style>
+
+  <style name="AppTheme.EditTextStyle" parent="Widget.AppCompat.EditText"/>
+
+  <style name="ZupActionBar" parent="Widget.AppCompat.ActionBar">
+    <item name="contentInsetStart">0dp</item>
+    <item name="contentInsetEnd">0dp</item>
+    <item name="colorControlActivated">@color/editscreen_button</item>
+    <item name="android:background">@color/zupblue</item>
+    <item name="background">@color/zupblue</item>
+  </style>
+
+  <style name="ZupLoginButton" parent="android:Widget.Button">
+    <item name="android:background">@color/zupblue</item>
+  </style>
+
+  <style name="ZupButton" parent="Theme.AppCompat.Light">
+    <item name="colorControlHighlight">@color/document_list_pending_selecting</item>
+    <item name="colorButtonNormal">@color/zupblue</item>
+  </style>
+
+  <style name="ReportCardContainer">
+    <item name="android:padding">@dimen/report_card_container_margin</item>
+  </style>
+
+  <style name="ReportCardCard">
+    <item name="android:elevation">5dp</item>
+  </style>
+
+  <style name="ReportCard">
+    <item name="android:paddingLeft">@dimen/report_card_padding_x</item>
+    <item name="android:paddingTop">@dimen/report_card_padding_y</item>
+    <item name="android:paddingRight">@dimen/report_card_padding_x</item>
+    <item name="android:paddingBottom">@dimen/report_card_padding_y</item>
+    <item name="android:background">#fff</item>
+  </style>
+
+  <style name="ReportCardTitle">
+    <item name="android:textSize">@dimen/report_card_title_text_size</item>
+    <item name="android:textColor">#000</item>
+  </style>
+
+  <style name="ReportCardPropertyTitle">
+    <item name="android:textSize">@dimen/report_card_title_property_text_size</item>
+    <item name="android:textColor">#000</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:layout_marginTop">@dimen/report_card_margin_between_items</item>
+  </style>
+
+  <style name="ReportCardPropertyValue">
+    <item name="android:textSize">@dimen/report_card_title_property_text_size</item>
+    <item name="android:textColor">#000</item>
+    <item name="android:layout_marginTop">3dp</item>
+  </style>
+
+  <style name="ReportCommentItemHeader">
+    <item name="android:orientation">vertical</item>
+  </style>
+
+  <style name="OfflineWarning">
+    <item name="android:padding">10dp</item>
+    <item name="android:gravity">center_horizontal</item>
+    <item name="android:background">@drawable/offline_warning_bg</item>
+    <item name="android:textColor">@color/offline_warning_text</item>
+  </style>
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/report_item_default"
+    android:orientation="horizontal"
+    >
+
+  <View
+      android:id="@+id/fake_comment_indicator"
+      android:layout_width="@dimen/inventory_padding"
+      android:layout_height="match_parent"
+      android:layout_marginRight="@dimen/report_card_padding_item_left"
+      android:layout_marginTop="@dimen/report_card_padding_y"
+      android:background="@color/fake_comment_bg"
+      />
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@color/report_item_default"
+      android:orientation="vertical"
+      >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/report_card_padding_y"
+        style="@style/ReportCommentItemHeader"
+        >
+
+      <TextView
+          android:id="@+id/comment_username"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginRight="@dimen/report_card_padding_item_left"
+          android:textColor="@color/comment_item_text"
+          android:textSize="@dimen/activity_vertical_margin"
+          android:textStyle="bold"
+          />
+
+      <TextView
+          android:id="@+id/comment_date"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textColor="@color/comment_item_subtext"
+          android:textSize="@dimen/report_list_item_subtitle"
+          />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/comment_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/report_card_padding_item_left"
+        android:textColor="@color/comment_item_text"
+        android:textSize="@dimen/activity_vertical_margin"
+        />
+  </LinearLayout>
+
+</LinearLayout>

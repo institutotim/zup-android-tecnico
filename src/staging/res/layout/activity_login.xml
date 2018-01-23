@@ -5,7 +5,7 @@
     android:background="@color/tabhostbg"
     android:fillViewport="true"
     android:keepScreenOn="true"
-    tools:context="com.particity.zuptecnico.LoginActivity"
+    tools:context="com.lfdb.zuptecnico.LoginActivity"
     tools:ignore="MergeRootFrame">
 
     <RelativeLayout

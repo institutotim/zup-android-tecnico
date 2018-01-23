@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:background="@color/report_item_default">
+
+<RelativeLayout
+    android:layout_width="wrap_content" android:layout_height="@dimen/login_footer_size"
+    android:background="@color/report_item_selecting"
+    android:id="@+id/content">
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar6"
+        android:layout_centerInParent="true"
+        android:indeterminate="true" />
+
+    <com.lfdb.zuptecnico.ui.WebImageView
+        android:layout_width="@dimen/login_footer_size"
+        android:layout_height="match_parent"
+        android:id="@+id/report_image"
+        android:scaleType="centerCrop"
+        android:visibility="visible" />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/textview_padding"
+        android:background="@color/report_item_text_default"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/report_image"
+        android:id="@+id/report_image_remove">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/ic_action_remove" />
+    </FrameLayout>
+
+</RelativeLayout>
+    </FrameLayout>

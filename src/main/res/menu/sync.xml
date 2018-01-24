@@ -1,7 +1,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:ntxdev="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.ntxdev.zuptecnico.SyncActivity" >
+    tools:context="com.lfdb.zuptecnico.SyncActivity" >
 
     <item android:id="@+id/action_clear"
         android:icon="@drawable/ic_action_content_clear"

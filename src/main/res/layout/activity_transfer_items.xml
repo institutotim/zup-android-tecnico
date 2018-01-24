@@ -3,7 +3,7 @@
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.ntxdev.zup.DocumentsActivity"
+    tools:context="com.lfdb.zup.DocumentsActivity"
     tools:ignore="MergeRootFrame" >
 
     <LinearLayout
@@ -13,7 +13,7 @@
         android:layout_gravity="center"
         android:visibility="visible">
 
-        <com.ntxdev.zuptecnico.ui.InfinityScrollView
+        <com.lfdb.zuptecnico.ui.InfinityScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/items_scroll"
@@ -41,7 +41,7 @@
                     android:indeterminate="true"
                     android:visibility="gone" />
             </LinearLayout>
-        </com.ntxdev.zuptecnico.ui.InfinityScrollView>
+        </com.lfdb.zuptecnico.ui.InfinityScrollView>
 
         <LinearLayout
             android:orientation="vertical"

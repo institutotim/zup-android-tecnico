@@ -37,6 +37,7 @@ public class ReportItemMapFragment extends Fragment implements OnMapReadyCallbac
   Marker marker;
   private GoogleMap mMap;
 
+
   ReportItem getItem() {
     return (ReportItem) getArguments().getParcelable("item");
   }

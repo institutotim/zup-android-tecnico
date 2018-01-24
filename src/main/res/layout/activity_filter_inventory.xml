@@ -10,7 +10,7 @@
 
     <fragment
         android:id="@+id/filter_inventory_fragment"
-        android:name="com.ntxdev.zuptecnico.fragments.inventory.FilterInventoryFragment"
+        android:name="com.lfdb.zuptecnico.fragments.inventory.FilterInventoryFragment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 

@@ -1,7 +1,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:ntxdev="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.ntxdev.zup.DocumentsActivity" >
+    tools:context="com.lfdb.zup.DocumentsActivity" >
 
     <item android:id="@+id/action_search"
         android:icon="@drawable/ic_action_search"

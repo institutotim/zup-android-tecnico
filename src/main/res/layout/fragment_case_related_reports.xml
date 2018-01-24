@@ -25,7 +25,7 @@
           style="@style/ReportCardTitle"
           />
 
-      <com.ntxdev.zuptecnico.ui.ExpandExpandableListView
+      <com.lfdb.zuptecnico.ui.ExpandExpandableListView
           android:id="@+id/related_reports"
           android:layout_width="match_parent"
           android:layout_height="wrap_content"

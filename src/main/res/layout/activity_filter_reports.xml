@@ -10,7 +10,7 @@
 
     <fragment
         android:id="@+id/filter_reports_fragment"
-        android:name="com.ntxdev.zuptecnico.fragments.reports.FilterReportsFragment"
+        android:name="com.lfdb.zuptecnico.fragments.reports.FilterReportsFragment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 

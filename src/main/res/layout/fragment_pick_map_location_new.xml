@@ -254,7 +254,7 @@
         android:layout_height="match_parent"
         />
 
-    <com.ntxdev.zuptecnico.ui.WebImageView
+    <com.lfdb.zuptecnico.ui.WebImageView
         android:id="@+id/address_marker"
         android:layout_width="@dimen/margin_map_warning"
         android:layout_height="@dimen/margin_map_warning"

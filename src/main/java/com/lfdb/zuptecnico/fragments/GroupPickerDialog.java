@@ -120,13 +120,13 @@ public class GroupPickerDialog extends DialogFragment
     if (getArguments() == null) {
       return;
     }
-    if (getArguments().containsKey("group")) {
-      selectedGroup = (Group) getArguments().getSerializable("group");
-      adapter.setSelectedGroupId(selectedGroup.getId());
-      showConfirmButton();
-    } else {
-      hideConfirmButton();
-    }
+//    if (getArguments().containsKey("group")) {
+//      selectedGroup = (Group) getArguments().getSerializable("group");
+//      adapter.setSelectedGroupId(selectedGroup.getId());
+//      showConfirmButton();
+//    } else {
+//      hideConfirmButton();
+//    }
     category = getArguments().getInt("category", -1);
     stepId = getArguments().getInt("step", -1);
     flowId = getArguments().getInt("flow", -1);
